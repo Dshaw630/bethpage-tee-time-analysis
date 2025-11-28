@@ -13,4 +13,4 @@
     ipykernel \
     python-dotenv \
     openpyxl \
-
+-added local Pycharm kernel to jupyter, made first jupyter nb
