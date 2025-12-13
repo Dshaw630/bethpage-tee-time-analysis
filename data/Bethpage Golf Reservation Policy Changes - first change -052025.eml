@@ -1,0 +1,250 @@
+Delivered-To: danielshaw630@gmail.com
+Received: by 2002:a17:907:7e9c:b0:acb:31a6:8af7 with SMTP id qb28csp3611623ejc;
+        Sat, 26 Apr 2025 08:39:14 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFzZt7qFWNZqdIGmckJJTsmmnpp47C6wU+N2g315RHUziyoTz3AqRWbGe/9AdsOk0FVEZ9t
+X-Received: by 2002:a05:6a21:1509:b0:1fd:f4df:96ed with SMTP id adf61e73a8af0-2045b99e31cmr8774526637.26.1745681954451;
+        Sat, 26 Apr 2025 08:39:14 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1745681954; cv=none;
+        d=google.com; s=arc-20240605;
+        b=JlFMO9e31yfXLerI0GxKmfCJIJv2k+iD3iSDrQkyZkusrM+rMV2uyiVnXNlhpf0R4B
+         bIe6U366qI7D3ctJiuxMY6MuDqmV0hbh3N+iews1gbc/z2s8O8G2Jxa11R/ahJM3JMes
+         1ftli2SuIlHaCyiPvU1IW49A1LSlVV7Nf7+69qSQGripJ/LW4KdVfmjYjedmK7f/JSGa
+         muH98c8GHrW10ozVsl5XdUnIGDuvwG62voLWg/RNtH0MIAeOQmj7mjkrNgR5cSE1A+vH
+         xe8fFmr/EJ+tEJ9JBIGNuufy3jpmHNKcZAV/C87YlLZqiBctv0Aap+MVNAHZOXPu7UeI
+         9iOA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:reply-to:subject:message-id:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature;
+        bh=UoMgouguGFjC1g9cJsOi5g2DRmevgzAjv8wL9Ac94bc=;
+        fh=tyxOz4Uid73EMe0y6+XuQXM1UfXmkHex998Bv3VqQ5k=;
+        b=KDZLpB6wmCCthJJrOLV+YsLG6C0kMeP0daKcvr6mI+miJSe78sbrpw1iADjTT8UOgY
+         OrNJ05Xor+eQwZAa86wciH1mAuaGgmW1a2l4aGGfQdnLDPL/M2wIXJzqeZjr8C+j5lSX
+         kSPPcnx1VrClODCtRfWeG8iDz3Ot6IKxaIyRtRYZBOkVe/720UPebW9T/SdBV+UAY+eM
+         k2Cbe2hT5ak1PGBr0RH6kD6yd4VjmqrcRjaXXr+2jRGqe70pzAVTDMaUD7Fo7vW0DzuA
+         dWejr2s39e4BQEJ62Ai9f4w3UXQN6e3E99o26QoPwIHkrkMlWaIMmo/5PRRQUR50lMJn
+         kj1w==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@foreupsoftware.com header.s=s1 header.b=GeJdRtRX;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=y9nWOfvS;
+       spf=pass (google.com: domain of bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com designates 168.245.61.118 as permitted sender) smtp.mailfrom="bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=foreupsoftware.com
+Return-Path: <bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com>
+Received: from o3.ip2.foreupsoftware.com (o3.ip2.foreupsoftware.com. [168.245.61.118])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-b15f81acc3dsi7679232a12.33.2025.04.26.08.39.13
+        for <danielshaw630@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 26 Apr 2025 08:39:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com designates 168.245.61.118 as permitted sender) client-ip=168.245.61.118;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@foreupsoftware.com header.s=s1 header.b=GeJdRtRX;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=y9nWOfvS;
+       spf=pass (google.com: domain of bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com designates 168.245.61.118 as permitted sender) smtp.mailfrom="bounces+210763-492e-danielshaw630=gmail.com@em7738.foreupsoftware.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=foreupsoftware.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=foreupsoftware.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:
+	reply-to:to:cc:content-type:feedback-id:from:subject:to;
+	s=s1; bh=UoMgouguGFjC1g9cJsOi5g2DRmevgzAjv8wL9Ac94bc=;
+	b=GeJdRtRXxssOFQ16O6dW4Lms1Cc9sRglYM4ipSPJEsdmHwBRKBOOvbP5zkAggvVcWsmO
+	Dkd0a7Vu1xqmfc2wJL8IDnY228ZTc54ECzaR0FyVrSy1DPJ0Z6V7o/HpMKEk8Y38KTNiJb
+	5+rSbxR2Y0wiU4GTpNHTOiI03ncfTcDx3rHAYT4KTPGWkWh07+OkP3ayxLG0//E3EHb7lk
+	rUkbk+aaEOfuIFkMFVhujFAl9VgtTrGVHFyfc+XtGZxvnXzbVGsfAJt2r/HmM7PhST7Dl8
+	NxK3eUCpzDpFOlAVte854/BjUbBRDmm/C2uGaaFUvC/sJFw42f8/JTeKGuiMTZuA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:
+	reply-to:to:cc:content-type:feedback-id:from:subject:to;
+	s=smtpapi; bh=UoMgouguGFjC1g9cJsOi5g2DRmevgzAjv8wL9Ac94bc=;
+	b=y9nWOfvSQiK9iy4kiAyRCKD57wn8ATTIK4ITXViP/uQNVV+o6k8nUbTs5oJbsF5RpUfx
+	0P05/M5fbF++8UMljhOFbYRTM03smSbXHPf3gf4eRPa6OeRCuTWZUfgV4N3EYmqTFiufAp
+	tqjsJYlRa1YHeLXvBUM8uMVFPNVRyaC+A=
+Received: by recvd-77d6774547-xrskf with SMTP id recvd-77d6774547-xrskf-1-680CFE1C-23
+	2025-04-26 15:39:08.260705289 +0000 UTC m=+1531833.081317690
+Received: from MjEwNzYz (unknown)
+	by geopod-ismtpd-1 (SG) with HTTP
+	id 77bDnzqlSw-hC4dG0C463w
+	Sat, 26 Apr 2025 15:39:08.188 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Date: Sat, 26 Apr 2025 15:39:12 +0000 (UTC)
+From: Bethpage <no-reply@foreupsoftware.com>
+Mime-Version: 1.0
+Message-ID: <77bDnzqlSw-hC4dG0C463w@geopod-ismtpd-1>
+Subject: Bethpage Golf Reservation Policy Changes
+Reply-To: Bethpage <BethpageSP@pakrs.ny.gov>
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EiFZtfqcvctSaWij4l4Wjq6jFoADpVXiLzQKMAcJJo9jkHh4vZok1kSqiV?=
+ =?us-ascii?Q?w1OoXrZT3QcQKGEMLHGqc22l0EOOPMN5y=2Frg3uB?=
+ =?us-ascii?Q?JXAfQPKb4mJvyxqumiVtc43wY3Jyv97Xh9quF6q?=
+ =?us-ascii?Q?3GroTheARNwb7WOP7M2lY0FqbUBDVwVo5zzHFmT?=
+ =?us-ascii?Q?DwFJX=2FzzJpdafr8a81hPQOl3sT+YSj2YUcPIOmM?=
+ =?us-ascii?Q?RIuzEfGtoZvUMW1T2tP42aYbPS63I7IVmCO+2Lf?= =?us-ascii?Q?0lD9?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprCO6himEDwkQWvEx?=
+ =?us-ascii?Q?ESwuJ4jX0+gaXrPUF1ZJfLpudJlDtOlBAFJ3zvq?=
+ =?us-ascii?Q?4Bl0OWzw3y++eGH3aK1A1ga6LnMdTW4L?=
+To: danielshaw630@gmail.com
+X-Entity-ID: u001.z+XuGQgZbS/fssUudRQL7g==
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]>
+<xml><w:WordDocument xmlns:w=3D"urn:schemas-microsoft-com:office:word"><w:D=
+ontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/=
+></o:OfficeDocumentSettings></xml>
+<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{c=
+olor:inherit!important;text-decoration:inherit!important}#MessageViewBody a=
+{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.de=
+sktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.im=
+age_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media =
+(max-width:520px){.social_block.desktop_hide .social-table{display:inline-b=
+lock!important}.mobile_hide{display:none}.row-content{width:100%!important}=
+.stack .column{width:100%;display:block}.mobile_hide{min-height:0;max-heigh=
+t:0;max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide tab=
+le{display:table!important;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup {=
+ mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></hea=
+d><body class=3D"body" style=3D"background-color:#fafbde;margin:0;padding:0=
+;-webkit-text-size-adjust:none;text-size-adjust:none"><table class=3D"nl-co=
+ntainer" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backgrou=
+nd-color:#fafbde"><tbody><tr><td>
+  <div class=3D"mk-preview-text" style=3D"display:none;font-size:1px;color:=
+#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hid=
+den;">Bethpage Golf Reservation Policy Changes</div><table class=3D"row row=
+-1"=20
+align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;background-color:#cedef2"><tbody><tr><td><table class=3D"row-content stack=
+" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;wi=
+dth:500px;margin:0 auto" width=3D"500"><tbody><tr><td class=3D"column colum=
+n-1" width=3D"100%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class=3D"=
+image_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspac=
+e:0"><tr><td class=3D"pad" style=3D"width:100%;padding-right:0;padding-left=
+:0"><div class=3D"alignment" align=3D"center"><div style=3D"max-width:175px=
+"><img=20
+src=3D"https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/c6242=
+3e2-3c7f-4e4d-9138-ff554a6caedc/19765/Bethpage%20State%20Park%20Logo-final%=
+20no%20white%20background.png" style=3D"display:block;height:auto;border:0;=
+width:100%" width=3D"175" alt title height=3D"auto"></div></div></td></tr><=
+/table></td></tr></tbody></table></td></tr></tbody></table><table class=3D"=
+row row-2" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#fcfff5"><t=
+body><tr><td><table class=3D"row-content stack" align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;color:#000;width:500px;margin:0 auto" widt=
+h=3D"500"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"=
+mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;verti=
+cal-align:top"><table class=3D"image_block block-1" width=3D"100%" border=
+=3D"0"=20
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:100%"><=
+div class=3D"alignment" align=3D"center"><div style=3D"max-width:500px"><im=
+g src=3D"https://d15k2d11r6t6rl.cloudfront.net/pub/d9n1/miarp72d/119/hxu/v0=
+s/050125-Bethpage-Golf-Reserve-Policy-Changes-Final-Edit-SM.jpg" style=3D"d=
+isplay:block;height:auto;border:0;width:100%" width=3D"500" alt title heigh=
+t=3D"auto"></div></div></td></tr></table></td></tr></tbody></table></td>
+</tr></tbody></table><table class=3D"row row-3" align=3D"center" width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#fcfff5"><=
+tbody><tr><td><table class=3D"row-content stack" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace:0;mso-table-rspace:0;color:#333;width:500px;margin:0 auto" wid=
+th=3D"500"><tbody><tr><td class=3D"column column-1" width=3D"100%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:30px;padding-top:30px;vertical-align:top"><table class=
+=3D"social_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"10" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center">=
+<table class=3D"social-table" width=3D"111px" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;display:inline-block"><tr><t=
+d style=3D"padding:0 5px 0 0"><a href=3D"https://email.foreupsoftware.com/l=
+s/click?upn=3Du001.b-2BUnyueXyGYNRJrEKrvhtJ9XZg7tilSRMBhkL24UnT3DxrK-2FiezW=
+EjpECbjcXYmfwEvi_E3jX7UdwUvWW16GmiaKN7AHw1rO6z5Hdl0wXczU75MQ4x80uliq50bsgJZ=
+W63ixnOS-2FKcP2RmHgud8brwqrL3iXT-2BP8YUT8ZnjhgDimWZpFtLJSuLR9XxTRCqzn-2FksP=
+jwF7IlrOUaN0n3NyHtd-2F14nwE7iSPUOsElsVdGphL-2FOge-2FkZZRy-2B6mi-2F1Fci-2Fiu=
+wuzN48aWtPkfNZzfnka8hiLB9yEE02l0CWw0k3KjsfmOK0kKKygdejVR99hjVnGaAHnGtVgXiRC=
+YgDw695hBAq-2FmpAoNMc4I-2BjKL10-2BrRYqZQ-3D" target=3D"_blank"><img src=3D"=
+https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circl=
+e-color/facebook.png" width=3D"32" height=3D"auto" alt=3D"Facebook" title=
+=3D"Facebook" style=3D"display:block;height:auto;border:0"></a></td><td sty=
+le=3D"padding:0 5px 0 0">
+<a href=3D"https://email.foreupsoftware.com/ls/click?upn=3Du001.6zFf31QQJx8=
+rqNEn12NEPqFRgM3158aHbjLfCBiBASqJRduMmuSNwm4ISVBAfEZ1byZ7_E3jX7UdwUvWW16Gmi=
+aKN7AHw1rO6z5Hdl0wXczU75MQ4x80uliq50bsgJZW63ixnOS-2FKcP2RmHgud8brwqrL3iXT-2=
+BP8YUT8ZnjhgDimWZpFtLJSuLR9XxTRCqzn-2FksPjwF7IlrOUaN0n3NyHtd-2F14nwE7iSPUOs=
+ElsVdGphL-2FOiEP3e8ymjfpv8RTTHkpkjtsn3oX1OaNanG-2BdBOYka6CCoWJFY00gc53uPAuI=
+wwtEpdasY4q8LxIwtcEySHovhu9-2B-2BDfaOcIWY8GGNJL-2BfRrGrZicEnYTq8rVrliEdWkb8=
+-3D" target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io/public/resour=
+ces/social-networks-icon-sets/circle-color/twitter.png" width=3D"32" height=
+=3D"auto" alt=3D"Twitter" title=3D"Twitter" style=3D"display:block;height:a=
+uto;border:0"></a></td><td style=3D"padding:0 5px 0 0"><a href=3D"https://e=
+mail.foreupsoftware.com/ls/click?upn=3Du001.b-2BUnyueXyGYNRJrEKrvhtCeWctEkx=
+Zs5bhTzJO-2BdzNiMCIUdKvRcDUCXJ4zdAFDk9pnL_E3jX7UdwUvWW16GmiaKN7AHw1rO6z5Hdl=
+0wXczU75MQ4x80uliq50bsgJZW63ixnOS-2FKcP2RmHgud8brwqrL3iXT-2BP8YUT8ZnjhgDimW=
+ZpFtLJSuLR9XxTRCqzn-2FksPjwF7IlrOUaN0n3NyHtd-2F14nwE7iSPUOsElsVdGphL-2FOgyu=
+4IhaEgJPfh-2BR1E2zGBkQJrM0iFUAXXQGhrdvOg9MBr4bANeO040WWlEkN4o1tI-2FuNzwNg0q=
+Yp1GSXLRWeDHZtg453F2Fd4ju2Onk2Us05KuQtingPdnw5R2KVe0MMY-3D" target=3D"_blan=
+k"><img=20
+src=3D"https://app-rsrc.getbee.io/public/resources/social-networks-icon-set=
+s/circle-color/instagram@2x.png" width=3D"32" height=3D"auto" alt=3D"Instag=
+ram" title=3D"Instagram" style=3D"display:block;height:auto;border:0"></a><=
+/td></tr></table></div></td></tr></table><table class=3D"divider_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td c=
+lass=3D"pad"><div class=3D"alignment" align=3D"center"><table border=3D"0"=20
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" st=
+yle=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_inne=
+r" style=3D"font-size:1px;line-height:1px;border-top:1px solid #bbb"><span =
+style=3D"word-break: break-word;">&#8202;</span></td></tr></table></div></t=
+d></tr></table><table class=3D"text_block block-3" width=3D"100%" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"p=
+ad"=20
+style=3D"padding-bottom:10px;padding-left:10px;padding-right:10px;padding-t=
+op:15px"><div style=3D"font-family:sans-serif"><div class style=3D"font-siz=
+e:12px;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;mso-line-hei=
+ght-alt:18px;color:#959595;line-height:1.5"><p style=3D"margin:0;font-size:=
+12px;text-align:center;mso-line-height-alt:21px"><span style=3D"word-break:=
+ break-word; font-size: 14px;">99 Quaker Meeting House Road</span></p><p=20
+style=3D"margin:0;font-size:12px;text-align:center;mso-line-height-alt:21px=
+"><span style=3D"word-break: break-word; font-size: 14px;">Farmingdale&nbsp=
+;NY,&nbsp;11735&nbsp;USA</span></p><p style=3D"margin:0;font-size:12px;text=
+-align:center;mso-line-height-alt:21px"><span style=3D"word-break: break-wo=
+rd; font-size: 14px;">516.249.0700</span></p></div></div></td></tr></table>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le>
+<!-- End --><p style=3D'display: inline-block; width: 100%; text-align: cen=
+ter;'><small><a href=3D'https://email.foreupsoftware.com/ls/click?upn=3Du00=
+1.ui2iODC5aMNlNcXU-2FqbFBTZVG6eVnTnpzEhfmn4sq1-2FvXEXiTmUO7Ufwhdk0S-2F1Dcld=
+wZFPciycAavwRSGXW1yva5UmkcVapsgVpuBUQFoZ4aNbxKSfBnhQhBWWpkUIe2IRMc2b-2Bg4bF=
+22C6JrTYl0hDOpVRzLSq5tnAIwS-2FCPKI3zC6WARKiupel9OA7A6O1QRSRQYaO0yuhFr9mwQhI=
+hQgyNRc-2BC4Vz6aKbEgvzWplTpfJyQz2aODqlPC8ffavC1zrbq2xL-2FMvKDD6vm21gQC02mpI=
+ZV-2BlvnYsHZN0U6l8z-2BxvCmLW7xetypXsg2CK4sxAJPn0maWl8gMwwZ7OdDem8XTAUPoiP40=
+gnc-2BsxZXDi3FFELhU1NZRrXwZXNCoCQHzbSdqVYEeVhd3oN3JhXzEsaEm82W6PoUmKA9yV28q=
+gA80YWSrYVDAVl-2Fxtt9JFLHlRX-2FJHoyPK5TYs6QtUlbVPj02KUZxjxB7tT4X1quq-2B8pnM=
+D6gpImcaW5JNiO5Gby42W-2FZnafJguxeadv0HQ-3D-3Dqm9V_E3jX7UdwUvWW16GmiaKN7AHw1=
+rO6z5Hdl0wXczU75MQ4x80uliq50bsgJZW63ixnOS-2FKcP2RmHgud8brwqrL3iXT-2BP8YUT8Z=
+njhgDimWZpFtLJSuLR9XxTRCqzn-2FksPjwF7IlrOUaN0n3NyHtd-2F14nwE7iSPUOsElsVdGph=
+L-2FOikTZYQR9MCKduHleVZnqZeI9ZaB5FTjNtZDp5gzlOTQlUQvfpKzuBJ-2FJFx7yucC7QcMd=
+OByzFRIrwLuZXsMck6FSVpx7CFVn6vu12FxQZGAoNfLECzNKyoHigYTqebxec-3D' target=3D=
+'_blank'>Manage Email Settings</a></small></p><img src=3D"https://email.for=
+eupsoftware.com/wf/open?upn=3Du001.hpozUjy7sb4j8thafHFolhosSoFUS2kvXhwGUs5J=
+fhSSodnkvYeGyLV2HOTC9vfrYZ1MR0fb5GgZOtX3ZiB6OiNlaLgH0lQm09EkpD8xvoxCmrZwEt2=
+OubEHCQhhRlnX-2F7OXKrm6mcOIMu-2Bvhx1ln1Ne1MQCiWedSVZsV9UyBdPA5ft1YEpj-2B6DE=
+dN54-2B6SH8lXzdffhwdUhDXpXhR7q1SD70loHVDBQ0NShiswyKY-2BiyMmbq5fGUpmGlciD9M-=
+2F-2BePMuGpfu5A92vv-2Bpu8Y86ydeyOnZ4rARgl04UIQ-2FIhY3jT1Zi5oTwOnx47gSjcg9" =
+alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !importa=
+nt;width:1px !important;border-width:0 !important;margin-top:0 !important;m=
+argin-bottom:0 !important;margin-right:0 !important;margin-left:0 !importan=
+t;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !imp=
+ortant;padding-left:0 !important;"/></body></html>
