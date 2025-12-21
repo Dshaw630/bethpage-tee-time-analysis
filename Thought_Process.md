@@ -4,15 +4,15 @@
 - learned more about using github desktop, git repo workflow and actions
 - added Python 3.11 and created a new venv in pycharm to organize project
 - added packages below:
-    numpy \
-    pandas \
-    matplotlib \
-    seaborn \
-    plotly \
-    jupyter \
-    ipykernel \
-    python-dotenv \
-    openpyxl \
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - plotly
+    - jupyter
+    - ipykernel
+    - python-dotenv
+    - openpyxl
 - added local Pycharm kernel to jupyter, made first jupyter nb
 
 ## Day 2 - README Work
@@ -32,13 +32,15 @@
 - stick all years into one master df
 - cleaned up initial attempt to improve readability and move some repeated actions to a function
 
-## Day 6 - data intake and cleaning
+## Day 6-9 - data intake and cleaning
 - finalized some intake and filtering tweaks, standardizing column name format, etc. 
 - started working on data cleaning
-  - need to convert start (tee time) to datetime
-  - need to extract booking time from details (will need year from start to complete datetime format)
+  - need to convert start (tee time) to datetime - complete
+  - need to extract booking time from details (will need year from start to complete datetime format) - complete
     - regex to strip out time info after "@", maybe some helper columns and then concat?
     - N.B.!!! need to be aware of tee times booked in dec for early jan when converting to datetime
+    - found 4 rows that do not extract as expected due to junk "details" entry, will be dropped to allow for better analysis
+      - will drop "details" at the conclusion of cleaning, this step extracted all the useful info
   - standardize status column to a binary(?) or at least more discrete set of values
   - drop booking source? seems useless
   - clean course and round length (9 or 18 holes) out of tee sheet
