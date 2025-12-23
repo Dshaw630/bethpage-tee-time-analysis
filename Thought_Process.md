@@ -43,11 +43,25 @@
       - log how many rows fail regex extraction and are dropped
       - check that all dates in booking time are in valid ranges
       - log now many rows fail booking time conversion to datetime
-
+  - standardize status column to a binary(?) or at least more discrete set of values
+    - "checked in" and "teed off" both seemingly represent a player showing up to the course and almost certainly playing.
+    "teed off" is much less frequent relative to "checked in" so it is possible this is an inconsistency in how staff use the 
+    booking software.
+      - The two statuses will be merged into "played"
+    - Seems likely that "NAN" values are no-shows given that they do not seem to occur on tee times that were cancelled. 
+    this can't be proven with the data at hand so "NAN" will be coerced to "unknown"
+    - reword "deleted" as "cancelled" for clarity
+    - QA checks
+      - confirm that the size of the df was not altered 
+      - confirm that no rows are both "played" and have a cancellation time,
+      nor "cancelled" without a time listed
 
 ## intake and cleaning todo  
-  - standardize status column to a binary(?) or at least more discrete set of values
+  
   - drop booking source? seems useless
   - clean course and round length (9 or 18 holes) out of tee sheet
     - some are specially formatted as "x course 9 hole early", early distinction may be relevant here
-  - clean up majority of NaT values from cancellation time
+  - clean up majority of NaT values from cancellation time, standardize format, and confirm all dates are within dataset 
+  time range
+    - NTS - there are 800 rows in the raw data with cancelled status, but no cancellation time
+    will need some flag to exclude them from cancellation analysis, still valid for booking work
