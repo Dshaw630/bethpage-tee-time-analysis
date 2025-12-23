@@ -32,16 +32,20 @@
 - stick all years into one master df
 - cleaned up initial attempt to improve readability and move some repeated actions to a function
 
-## Day 6-10 - data intake and cleaning
+## Day 6-10 - data intake and cleaning - details column 
 - finalized some intake and filtering tweaks, standardizing column name format, etc. 
 - started working on data cleaning
   - need to convert start (tee time) to datetime - complete
   - need to extract booking time from details (will need year from start to complete datetime format) - complete
     - regex to strip out time info after "@", maybe some helper columns and then concat?
     - N.B.!!! need to be aware of tee times booked in dec for early jan when converting to datetime
-    - found 4 rows that do not extract as expected due to junk "details" entry, will be dropped to allow for better analysis
-    - also found 20 rows with tee time occuring before booking time. No clear explanation why so they will be treated as noise and dropped 
-      - will drop "details" at the conclusion of cleaning, this step extracted all the useful info
+    - QA checks
+      - log how many rows fail regex extraction and are dropped
+      - check that all dates in booking time are in valid ranges
+      - log now many rows fail booking time conversion to datetime
+
+
+## intake and cleaning todo  
   - standardize status column to a binary(?) or at least more discrete set of values
   - drop booking source? seems useless
   - clean course and round length (9 or 18 holes) out of tee sheet
