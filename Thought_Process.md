@@ -32,9 +32,10 @@
 - stick all years into one master df
 - cleaned up initial attempt to improve readability and move some repeated actions to a function
 
-## Day 6-11 - data intake and cleaning - details column 
+## Day 6-12 - data intake and cleaning - details column 
 - finalized some intake and filtering tweaks, standardizing column name format, etc. 
 - started working on data cleaning
+- - dropped booking source as it only listed "online" which is not valuable here as the FOIL request only covered online data
   - need to convert start (tee time) to datetime - complete
   - need to extract booking time from details (will need year from start to complete datetime format) - complete
     - regex to strip out time info after "@", maybe some helper columns and then concat?
@@ -43,7 +44,7 @@
       - log how many rows fail regex extraction and are dropped
       - check that all dates in booking time are in valid ranges
       - log now many rows fail booking time conversion to datetime
-  - standardize status column to a binary(?) or at least more discrete set of values
+  - standardize status column to a binary(?) or at least more discrete set of values - complete
     - "checked in" and "teed off" both seemingly represent a player showing up to the course and almost certainly playing.
     "teed off" is much less frequent relative to "checked in" so it is possible this is an inconsistency in how staff use the 
     booking software.
@@ -55,13 +56,17 @@
       - confirm that the size of the df was not altered 
       - confirm that no rows are both "played" and have a cancellation time,
       nor "cancelled" without a time listed
-  - Clean number of players column, some values >4 exist
+  - Clean number of players column, some values >4 exist - complete
     - invalid values exist in raw data, but upon inspection the details column for each row has a valid player count 
     within the string. 
     - extracted correct values from details, compare to player_count, and reconcile valid data out of these two
-## intake and cleaning todo  
-  
-  - drop booking source? seems useless
+    - - dropped player_count and helper columns to clean up df
+    - QA checks
+      - count % of rows with mismatches and report how many were cleaned from raw data
+      - count % of rows with mismatches after cleaning which have no valid data to extract, decided to drop as only two 
+      were found
+       
+## intake and cleaning todo
   - clean course and round length (9 or 18 holes) out of tee sheet
     - some are specially formatted as "x course 9 hole early", early distinction may be relevant here
   - clean up majority of NaT values from cancellation time, standardize format, and confirm all dates are within dataset 
