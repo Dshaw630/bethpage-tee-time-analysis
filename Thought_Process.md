@@ -32,7 +32,7 @@
 - stick all years into one master df
 - cleaned up initial attempt to improve readability and move some repeated actions to a function
 
-## Day 6-10 - data intake and cleaning - details column 
+## Day 6-11 - data intake and cleaning - details column 
 - finalized some intake and filtering tweaks, standardizing column name format, etc. 
 - started working on data cleaning
   - need to convert start (tee time) to datetime - complete
@@ -55,7 +55,10 @@
       - confirm that the size of the df was not altered 
       - confirm that no rows are both "played" and have a cancellation time,
       nor "cancelled" without a time listed
-
+  - Clean number of players column, some values >4 exist
+    - invalid values exist in raw data, but upon inspection the details column for each row has a valid player count 
+    within the string. 
+    - extracted correct values from details, compare to player_count, and reconcile valid data out of these two
 ## intake and cleaning todo  
   
   - drop booking source? seems useless
@@ -65,3 +68,4 @@
   time range
     - NTS - there are 800 rows in the raw data with cancelled status, but no cancellation time
     will need some flag to exclude them from cancellation analysis, still valid for booking work
+  
