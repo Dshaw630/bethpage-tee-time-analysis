@@ -32,7 +32,7 @@
 - stick all years into one master df
 - cleaned up initial attempt to improve readability and move some repeated actions to a function
 
-## Day 6-12 - data intake and cleaning - details column 
+## Day 6-13 - data intake and cleaning - details column 
 - finalized some intake and filtering tweaks, standardizing column name format, etc. 
 - started working on data cleaning
 - - dropped booking source as it only listed "online" which is not valuable here as the FOIL request only covered online data
@@ -68,7 +68,9 @@
        
 ## intake and cleaning todo
   - clean course and round length (9 or 18 holes) out of tee sheet
-    - some are specially formatted as "x course 9 hole early", early distinction may be relevant here
+    - will clean 9/18 holes and course name out of tee_sheet via regex
+    - will ignore "early am", etc. and define a more global schema to categorize all records based on time of day and 
+    weekday/weekend
   - clean up majority of NaT values from cancellation time, standardize format, and confirm all dates are within dataset 
   time range
     - NTS - there are 800 rows in the raw data with cancelled status, but no cancellation time
