@@ -65,14 +65,18 @@
       - count % of rows with mismatches and report how many were cleaned from raw data
       - count % of rows with mismatches after cleaning which have no valid data to extract, decided to drop as only two 
       were found
-       
-## intake and cleaning todo
   - clean course and round length (9 or 18 holes) out of tee sheet
     - will clean 9/18 holes and course name out of tee_sheet via regex
     - will ignore "early am", etc. and define a more global schema to categorize all records based on time of day and 
     weekday/weekend
-  - clean up majority of NaT values from cancellation time, standardize format, and confirm all dates are within dataset 
-  time range
-    - NTS - there are 800 rows in the raw data with cancelled status, but no cancellation time
-    will need some flag to exclude them from cancellation analysis, still valid for booking work
+    - QA checks
+      - count % of rows with no course in raw data, correspond to Bethpage 9 Holes Midday Front 9 / Bethpage 9 Holes Midday Back 9
+      - count % of rows were 18 holes was assumed in the absence of an explicit value in raw data
+      - count % of rows with invalid tee times 5AM or after 8PM
+      - print crosstab table to verify time of day bins are working right
+  - Exported to parquet for analysis, and a 50k row random sample to CSV for documentation and github readability
+  - converted time_of_day, time_of_week, and status to categorical columns to save memory
+
+  
+
   
