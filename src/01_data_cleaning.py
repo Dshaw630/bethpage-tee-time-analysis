@@ -95,6 +95,7 @@ def clean_data(master_raw):
 
     #drop any rows where booking time occurs after tee time. No clear explanation for this upon analysis so it will be treated as noise
     bad_time_order = master_df.index[master_df["booking_time"] > master_df["tee_time"]]
+    qa_bad_time_order_count = len(bad_time_order)
     master_df.drop(bad_time_order,inplace=True)
 
     #Adjust and collapse status_text values based to a discrete set. collapse "checked in" and "teed off" to "played",
@@ -105,6 +106,7 @@ def clean_data(master_raw):
 
     #flag cancelled rows w/o a cancellation time listed
     master_df["invalid_cancellation"] = (master_df["status_text"]=="cancelled")&(master_df["date_cancelled"].isna())
+    qa_bad_cancellation_count = len(master_df.loc[master_df["invalid_cancellation"] == True])
 
     #extract player counts from details column and reconcile extracted player count and player_count to yield 1-4 or NA, drop any NA
     master_df["player_count_regex"] = master_df["details"].str.extract(r"([1-4])\s+Players?").astype(float)
@@ -136,6 +138,7 @@ def clean_data(master_raw):
 
     #add flag for invalid tee times after 8PM and before 5AM
     master_df["invalid_tee_time"] = (master_df["tee_time"].dt.hour<5)|(master_df["tee_time"].dt.hour>19)
+    qa_bad_time_of_day_count = len(master_df.loc[master_df["invalid_tee_time"]==True])
 
     #drop tee_sheet column after data extraction
     master_df.drop(columns=["tee_sheet","week_day"],inplace=True)
@@ -146,9 +149,16 @@ def clean_data(master_raw):
     master_df["time_of_week"] = master_df["time_of_week"].astype("category")
     master_df["status_text"] = master_df["status_text"].astype("category")
     master_df["time_of_day"] = pd.Categorical(master_df["time_of_day"],categories=["morning", "midday", "evening"],ordered=True)
-    return master_df
 
-def QA_summary(master_df):
+    qa_dict = {
+        "qa_bad_time_order_count" : qa_bad_time_order_count,
+        "qa_bad_time_of_day_count" : qa_bad_time_of_day_count,
+        "qa_bad_cancellation_count" : qa_bad_cancellation_count,
+    }
+
+    return master_df,qa_dict
+
+def qa_summary(master_df, qa_dict):
     print("QA Summary:")
     print(f"\tRows x Cols:{master_df.shape}")
     min_tee_time = master_df["tee_time"].min()
@@ -156,7 +166,21 @@ def QA_summary(master_df):
     print(f"\ttee_time range:{min_tee_time} to {max_tee_time}")
     print("\nSchema check:")
     print(master_df[["tee_time","booking_time","date_cancelled","time_of_day","time_of_week","status_text"]].dtypes)
-
+    print("\nInvalid data checks:")
+    print(f"\tbooking_time > tee_time: {qa_dict['QA_bad_time_order_count']} rows ({(qa_dict['QA_bad_time_order_count'] / len(master_df)):.4%})")
+    print(f"\ttee time before 5am or after 8pm: {qa_dict['QA_bad_time_of_day_count']} rows ({(qa_dict['QA_bad_time_of_day_count'] / len(master_df)):.4%})")
+    print(f"\trow listed as cancelled, but no cancellation time is listed: "
+          f"{qa_dict['QA_bad_cancellation_count']} rows ({(qa_dict['QA_bad_cancellation_count'] / len(master_df)):.4%})")
+    print("\nCategorical Variables Sanity Check:")
+    print("Status text distribution:")
+    print(master_df["status_text"].value_counts())
+    print("\nTime of day distribution:")
+    print(master_df["status_text"].value_counts())
+    print("\nNumerical bounds check:")
+    min_player_count = master_df["player_count_final"].min()
+    max_player_count = master_df["player_count_final"].max()
+    print(f"\tplayer_count range:{min_player_count} to {max_player_count}")
+    print("\n---QA checks complete---")
 
 #export cleaned data
 def export(master_df):
@@ -180,8 +204,8 @@ def export(master_df):
 
 def main():
     master_raw = get_raw_data()
-    master_df = clean_data(master_raw)
-    QA_summary(master_df)
+    master_df,qa_dict = clean_data(master_raw)
+    qa_summary(master_df, qa_dict)
     export(master_df)
 
 main()
