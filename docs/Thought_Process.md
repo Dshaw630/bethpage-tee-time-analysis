@@ -77,6 +77,12 @@
   - Exported to parquet for analysis, and a 50k row random sample to CSV for documentation and github readability
   - converted time_of_day, time_of_week, and status to categorical columns to save memory
 
+# Day 14-15 - Cleaning refactoring
+- refactored cleaning notebook to .py format 
+
+# Day 16 - cleaning documentation
+- worked on cleaning phase documentation to ensure future understanding by myself and others 
+
   
 
   
