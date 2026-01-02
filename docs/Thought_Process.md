@@ -80,7 +80,7 @@
 # Day 14-15 - Cleaning refactoring
 - refactored cleaning notebook to .py format 
 
-# Day 16 - cleaning documentation
+# Day 16-17 - cleaning documentation
 - worked on cleaning phase documentation to ensure future understanding by myself and others 
 
   
