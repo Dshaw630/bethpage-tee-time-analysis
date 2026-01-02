@@ -23,6 +23,12 @@ __pycache__/
 Thumbs.db
 
 # -----------------------
-# Large / derived files (optional)
+# Large / derived files
 # -----------------------
 *.parquet
+
+# -----------------------
+# graph images
+# -----------------------
+*.png
+*.jpg

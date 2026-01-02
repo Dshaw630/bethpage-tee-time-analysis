@@ -31,7 +31,38 @@ booking behavior across all three policy eras.
 - Establish a repeatable analysis framework to enable future analysis of the October 2025 rule change
 
 ## Current Status
-- Data cleaning in process
+- Data ingestion and normalization complete (2021–2025)
+- Data cleaning and validation complete
+- Cleaning decisions and column definitions documented
+- Detailed exploratory analysis and modeling planned, initial analysis shows a high proportion of cancellations relative to
+  played rounds for most years with a decrease in 2025. 
+  - Planned analysis:
+    - identify abnormal booking patterns shortly after release time
+    - identify abnormal cancellation patterns shortly before tee times
+    - seek to cluster booking records into behavioral groups to look for more patterns that occur with abnormal booking behavior
+
+  <img alt="status text distribution" height="356" src="\figures\status_text_dist.png" width="448"/>
+
+## Repository Structure
+- System and infrastructure files will be omitted here for clarity
+- data
+  - cleaned
+    - contains the full processed data file in parquet format, also contains a sample CSV of 50,000 randomly selected rows
+  - raw
+    - contains Excel sheets with the raw FOIL request data for each year in the review period (2021-2025)
+- docs
+  - contains useful information on booking policy changes, cleaning phase documentation and lab notes, and raw data notes
+- figures
+  - graphs, etc. to be used in final reports
+- notebooks
+  - contains jupyter notebooks used to develop and validate code structure and flow for each phase of the project
+- src
+  - contains the final source code for the project. These are typically based on the corresponding jupyter notebooks mentioned above
+  refactored to .py format
+- .gitignore
+  - lists files and folders to be excluded from git tracking
+- README.md
+  - explains project goals and summarizes results
 
 ## Data Source & Ethics
 The data for this project were sourced from a New York State Freedom of Information Law request. The data are anonymized
