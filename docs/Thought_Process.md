@@ -1,5 +1,6 @@
 # Thought Process / Lab Notebook
 
+# Data cleaning
 ## Day 1 – Setup and system learning
 - learned more about using github desktop, git repo workflow and actions
 - added Python 3.11 and created a new venv in pycharm to organize project
@@ -77,11 +78,21 @@
   - Exported to parquet for analysis, and a 50k row random sample to CSV for documentation and github readability
   - converted time_of_day, time_of_week, and status to categorical columns to save memory
 
-# Day 14-15 - Cleaning refactoring
+## Day 14-15 - Cleaning refactoring
 - refactored cleaning notebook to .py format 
 
-# Day 16-17 - cleaning documentation
+## Day 16-17 - cleaning documentation
 - worked on cleaning phase documentation to ensure future understanding by myself and others 
+
+# Exploratory Analysis
+
+## Day 18
+- Started EDA, created some graphs and heatmaps to understand when during the day and week demand exists
+- Investigated unexpectedly small number of 5-6am tee times, only about 200 across the whole dataset 
+  - Suspected they may be unavailable during parts of the year due to daylight savings time so availability is lower
+  - Heatmap of tee time vs month shows that small numbers of 5-6am tee times are present in all months. May be data errors. Plan to remove from data
+  - Also noticed very small numbers of tee times after 7pm, these seem to be more logical given distribution across month and day of week
+  
 
   
 
