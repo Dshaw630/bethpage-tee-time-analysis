@@ -95,6 +95,7 @@
 
 ## Day 19
 - started examining cancellation patterns using similar graphs to the demand analysis 
+- Started adding a time before tee time metric for cancellations 
 
   
 
