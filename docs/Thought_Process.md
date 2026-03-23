@@ -92,7 +92,9 @@
   - Suspected they may be unavailable during parts of the year due to daylight savings time so availability is lower
   - Heatmap of tee time vs month shows that small numbers of 5-6am tee times are present in all months. May be data errors. Plan to remove from data
   - Also noticed very small numbers of tee times after 7pm, these seem to be more logical given distribution across month and day of week
-  
+
+## Day 19
+- started examining cancellation patterns using similar graphs to the demand analysis 
 
   
 
