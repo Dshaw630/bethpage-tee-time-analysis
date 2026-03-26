@@ -97,6 +97,7 @@
 - started examining cancellation patterns using similar graphs to the demand analysis 
 - Started adding a time before tee time metric for cancellations 
 
-  
+## Day 20
+- continued developing cancellation lead time metric and investigating abnormally large/small values
 
   
