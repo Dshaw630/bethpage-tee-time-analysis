@@ -105,7 +105,9 @@ def clean_data(master_raw):
     master_df.loc[master_df["status_text"].isna(),"status_text"] = "unknown"
 
     #flag cancelled rows w/o a cancellation time listed
-    master_df["invalid_cancellation"] = (master_df["status_text"]=="cancelled")&(master_df["date_cancelled"].isna())
+    master_df["invalid_cancellation"] = (
+                ((master_df["status_text"] == "cancelled") & (master_df["date_cancelled"].isna())) |
+                ((master_df["status_text"] == "cancelled") & (master_df["date_cancelled"] > master_df["tee_time"])))
     qa_bad_cancellation_count = len(master_df.loc[master_df["invalid_cancellation"] == True])
 
     #extract player counts from details column and reconcile extracted player count and player_count to yield 1-4 or NA, drop any NA
@@ -167,10 +169,10 @@ def qa_summary(master_df, qa_dict):
     print("\nSchema check:")
     print(master_df[["tee_time","booking_time","date_cancelled","time_of_day","time_of_week","status_text"]].dtypes)
     print("\nInvalid data checks:")
-    print(f"\tbooking_time > tee_time: {qa_dict['QA_bad_time_order_count']} rows ({(qa_dict['QA_bad_time_order_count'] / len(master_df)):.4%})")
-    print(f"\ttee time before 5am or after 8pm: {qa_dict['QA_bad_time_of_day_count']} rows ({(qa_dict['QA_bad_time_of_day_count'] / len(master_df)):.4%})")
+    print(f"\tbooking_time > tee_time: {qa_dict['qa_bad_time_order_count']} rows ({(qa_dict['qa_bad_time_order_count'] / len(master_df)):.4%})")
+    print(f"\ttee time before 5am or after 8pm: {qa_dict['qa_bad_time_of_day_count']} rows ({(qa_dict['qa_bad_time_of_day_count'] / len(master_df)):.4%})")
     print(f"\trow listed as cancelled, but no cancellation time is listed: "
-          f"{qa_dict['QA_bad_cancellation_count']} rows ({(qa_dict['QA_bad_cancellation_count'] / len(master_df)):.4%})")
+          f"{qa_dict['qa_bad_cancellation_count']} rows ({(qa_dict['qa_bad_cancellation_count'] / len(master_df)):.4%})")
     print("\nCategorical Variables Sanity Check:")
     print("Status text distribution:")
     print(master_df["status_text"].value_counts())
