@@ -711,7 +711,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-08-03 12:03:00,2021-08-02 17:24:00,played,,weekday,midday,1,Blue,18,43.0,False,False
 2022-07-21 12:30:00,2022-07-20 18:27:00,played,,weekday,midday,1,Black,18,75.0,False,False
 2023-09-08 10:51:00,2023-09-07 06:48:00,cancelled,2023-09-07 08:39:00,weekday,morning,3,Green,18,129.0,False,False
-2023-05-20 09:12:00,2023-05-13 19:12:00,cancelled,2023-05-20 10:40:13,weekend,morning,4,Yellow,9,192.0,False,False
+2023-05-20 09:12:00,2023-05-13 19:12:00,cancelled,2023-05-20 10:40:13,weekend,morning,4,Yellow,9,192.0,True,False
 2025-02-27 10:33:00,2025-02-20 19:00:00,played,,weekday,morning,4,Blue,18,172.0,False,False
 2023-07-23 11:54:00,2023-07-22 23:11:00,cancelled,2023-07-23 00:34:00,weekend,midday,1,Yellow,9,48.0,False,False
 2024-07-07 10:42:00,2024-06-30 19:15:00,cancelled,2024-07-01 02:22:01,weekend,morning,4,Green,18,192.0,False,False
@@ -743,7 +743,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-23 11:54:00,2023-04-22 21:38:00,unknown,,weekend,midday,1,Yellow,9,48.0,False,False
 2021-08-18 09:57:00,2021-08-11 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2024-11-10 10:51:00,2024-11-03 19:00:00,cancelled,2024-11-09 11:20:00,weekend,morning,4,Green,18,192.0,False,False
-2025-06-14 16:42:00,2025-06-09 19:06:00,cancelled,2025-06-15 10:38:34,weekend,evening,1,Red,18,60.0,False,False
+2025-06-14 16:42:00,2025-06-09 19:06:00,cancelled,2025-06-15 10:38:34,weekend,evening,1,Red,18,60.0,True,False
 2022-06-16 16:15:00,2022-06-15 18:12:00,played,,weekday,evening,2,Red,18,120.0,False,False
 2024-04-20 08:18:00,2024-04-13 23:42:00,played,,weekend,morning,4,Red,18,,False,False
 2024-05-31 14:45:00,2024-05-24 19:02:00,played,,weekday,midday,4,unknown,9,80.0,False,False
@@ -1079,7 +1079,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-07-23 11:54:00,2022-07-22 15:44:00,cancelled,2022-07-22 19:12:00,weekend,midday,1,Green,18,48.0,False,False
 2022-08-27 15:30:00,2022-08-20 19:00:00,cancelled,2022-08-21 19:23:01,weekend,midday,4,Red,18,212.0,False,False
 2021-05-07 15:00:00,2021-05-05 20:38:00,played,,weekday,midday,1,Black,18,145.0,False,False
-2024-08-18 10:42:00,2024-08-18 06:48:00,cancelled,2024-08-18 12:52:57,weekend,morning,1,Green,18,,False,False
+2024-08-18 10:42:00,2024-08-18 06:48:00,cancelled,2024-08-18 12:52:57,weekend,morning,1,Green,18,,True,False
 2024-11-17 11:27:00,2024-11-16 22:09:00,cancelled,2024-11-16 22:43:00,weekend,midday,1,Red,18,53.0,False,False
 2023-05-11 15:10:00,2023-05-04 19:00:00,played,,weekday,midday,4,Black,18,300.0,False,False
 2024-05-26 16:24:00,2024-05-23 15:53:00,cancelled,2024-05-23 23:28:00,weekend,evening,1,Red,18,34.0,False,False
@@ -1493,7 +1493,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-07-14 10:06:00,2025-07-13 23:02:00,played,,weekday,morning,1,Yellow,9,,False,False
 2021-11-02 10:24:00,2021-11-01 18:55:00,played,,weekday,morning,1,Blue,18,43.0,False,False
 2022-05-28 10:24:00,2022-05-27 14:39:00,played,,weekend,morning,1,Red,18,48.0,False,False
-2023-07-02 17:09:00,2023-07-01 19:09:00,cancelled,2023-07-02 17:15:16,weekend,evening,4,Blue,18,124.0,False,False
+2023-07-02 17:09:00,2023-07-01 19:09:00,cancelled,2023-07-02 17:15:16,weekend,evening,4,Blue,18,124.0,True,False
 2024-04-13 07:33:00,2024-04-12 20:12:00,played,,weekend,morning,1,Blue,9,31.0,False,False
 2022-05-20 13:24:00,2022-05-20 04:33:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2022-04-21 16:24:00,2022-04-17 00:07:00,cancelled,2022-04-19 10:13:00,weekday,evening,4,Green,18,112.0,False,False
@@ -1659,10 +1659,10 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-02 16:51:00,2023-09-01 20:22:00,cancelled,2023-09-01 20:25:01,weekend,evening,2,Green,18,62.0,False,False
 2023-08-26 12:00:00,2023-08-25 17:45:00,cancelled,2023-08-26 10:18:58,weekend,midday,2,Black,18,170.0,False,False
 2025-05-03 09:21:00,2025-04-26 19:11:00,cancelled,2025-04-26 19:48:00,weekend,morning,4,Yellow,9,192.0,False,False
-2025-05-06 12:40:00,2025-04-29 19:22:00,cancelled,2025-05-06 16:49:43,weekday,midday,1,Black,18,75.0,False,False
+2025-05-06 12:40:00,2025-04-29 19:22:00,cancelled,2025-05-06 16:49:43,weekday,midday,1,Black,18,75.0,True,False
 2024-11-08 14:45:00,2024-11-08 11:05:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2022-09-10 15:30:00,2022-09-09 19:52:00,cancelled,2022-09-10 04:07:00,weekend,midday,4,Green,18,192.0,False,False
-2022-05-11 14:10:00,2022-05-10 11:53:00,cancelled,2022-05-24 13:22:14,weekday,midday,4,Black,18,192.0,False,False
+2022-05-11 14:10:00,2022-05-10 11:53:00,cancelled,2022-05-24 13:22:14,weekday,midday,4,Black,18,192.0,True,False
 2024-01-29 12:48:00,2024-01-22 19:00:00,cancelled,2024-01-22 21:39:01,weekday,midday,4,Yellow,9,172.0,False,False
 2022-10-31 08:18:00,2022-10-24 19:00:00,cancelled,2022-10-29 19:04:00,weekday,morning,4,Blue,18,172.0,False,False
 2025-07-31 17:00:00,2025-07-29 15:26:00,cancelled,2025-07-31 16:18:02,weekday,evening,4,Yellow,9,92.0,False,False
@@ -1832,7 +1832,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-30 09:30:00,2024-04-23 19:23:00,played,,weekday,morning,4,Blue,18,120.0,False,False
 2022-07-04 07:51:00,2022-07-02 15:19:00,played,,weekday,morning,4,Red,18,212.0,False,False
 2024-05-29 15:39:00,2024-05-27 00:05:00,cancelled,2024-05-28 11:01:01,weekday,midday,2,unknown,9,56.0,False,False
-2022-10-14 12:40:00,2022-10-13 18:56:00,cancelled,2022-10-28 10:56:59,weekday,midday,1,Black,18,75.0,False,False
+2022-10-14 12:40:00,2022-10-13 18:56:00,cancelled,2022-10-28 10:56:59,weekday,midday,1,Black,18,75.0,True,False
 2022-04-17 07:33:00,2022-04-10 19:00:00,played,,weekend,morning,4,Yellow,9,124.0,False,False
 2024-06-11 13:20:00,2024-06-04 19:07:00,cancelled,2024-06-04 19:18:01,weekday,midday,2,Black,18,150.0,False,False
 2024-06-18 12:57:00,2024-06-17 22:06:00,played,,weekday,midday,2,Blue,18,86.0,False,False
@@ -2477,7 +2477,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-07 15:21:00,2023-04-06 15:15:00,cancelled,2023-04-06 18:15:00,weekday,midday,4,Green,18,172.0,False,False
 2024-05-15 12:03:00,2024-05-13 20:09:00,cancelled,2024-05-14 18:05:01,weekday,midday,4,Red,18,132.0,False,False
 2022-09-23 14:09:00,2022-09-22 20:29:00,cancelled,2022-09-23 10:02:01,weekday,midday,1,unknown,9,28.0,False,False
-2023-08-26 16:42:00,2023-08-25 18:47:00,cancelled,2023-08-26 16:43:00,weekend,evening,1,Yellow,9,31.0,False,False
+2023-08-26 16:42:00,2023-08-25 18:47:00,cancelled,2023-08-26 16:43:00,weekend,evening,1,Yellow,9,31.0,True,False
 2024-06-08 14:50:00,2024-06-01 19:00:00,played,,weekend,midday,4,Black,18,340.0,False,False
 2024-07-29 18:30:00,2024-07-25 09:08:00,cancelled,2024-07-25 09:28:01,weekday,evening,1,unknown,9,28.0,False,False
 2023-04-12 17:45:00,2023-04-12 14:35:00,played,,weekday,evening,3,Blue,18,84.0,False,False
@@ -2541,7 +2541,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-15 10:15:00,2022-04-14 13:13:00,played,,weekday,morning,1,Blue,18,43.0,False,False
 2024-11-11 12:03:00,2024-11-04 19:00:00,played,,weekday,midday,4,Red,18,212.0,False,False
 2024-04-28 16:40:00,2024-04-25 09:51:00,played,,weekend,evening,2,Black,18,110.0,False,False
-2024-07-13 10:33:00,2024-07-06 21:45:00,cancelled,2024-07-13 12:58:18,weekend,morning,2,Red,18,106.0,False,False
+2024-07-13 10:33:00,2024-07-06 21:45:00,cancelled,2024-07-13 12:58:18,weekend,morning,2,Red,18,106.0,True,False
 2022-05-18 14:54:00,2022-05-17 16:42:00,cancelled,2022-05-17 22:27:00,weekday,midday,1,Green,18,43.0,False,False
 2023-04-30 08:36:00,2023-04-23 19:00:00,cancelled,2023-04-23 19:23:01,weekend,morning,4,Yellow,9,192.0,False,False
 2023-06-23 08:27:00,2023-06-21 23:06:00,played,,weekday,morning,4,Green,18,172.0,False,False
@@ -2705,7 +2705,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-07-04 13:42:00,2021-07-04 00:12:00,played,,weekend,midday,2,Red,18,106.0,False,False
 2023-08-06 06:57:00,2023-08-04 09:59:00,cancelled,2023-08-05 19:39:00,weekend,morning,3,Blue,9,93.0,False,False
 2023-09-07 11:27:00,2023-09-06 09:24:00,cancelled,2023-09-06 17:26:01,weekday,midday,1,Blue,18,43.0,False,False
-2025-08-01 06:30:00,2025-07-31 09:46:00,cancelled,2025-08-03 11:36:28,weekday,morning,1,Blue,18,25.0,False,False
+2025-08-01 06:30:00,2025-07-31 09:46:00,cancelled,2025-08-03 11:36:28,weekday,morning,1,Blue,18,25.0,True,False
 2022-05-12 10:33:00,2022-05-05 19:00:00,cancelled,2022-05-08 22:15:00,weekday,morning,4,Red,18,192.0,False,False
 2024-03-18 12:21:00,2024-03-17 19:46:00,played,,weekday,midday,2,Yellow,9,86.0,False,False
 2024-11-26 08:54:00,2024-11-20 11:12:00,cancelled,2024-11-25 15:19:00,weekday,morning,2,Blue,9,56.0,False,False
@@ -3010,7 +3010,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-28 13:15:00,2023-09-26 11:52:00,played,,weekday,midday,2,Blue,18,86.0,False,False
 2025-07-05 08:27:00,2025-07-04 10:20:00,played,,weekend,morning,3,Yellow,9,,False,False
 2021-06-10 15:03:00,2021-06-10 08:29:00,played,,weekday,midday,2,Blue,18,86.0,False,False
-2021-08-14 13:40:00,2021-08-13 19:29:00,cancelled,2021-09-08 15:58:00,weekend,midday,1,Black,18,53.0,False,False
+2021-08-14 13:40:00,2021-08-13 19:29:00,cancelled,2021-09-08 15:58:00,weekend,midday,1,Black,18,53.0,True,False
 2023-11-25 09:39:00,2023-11-23 16:29:00,cancelled,2023-11-25 08:37:00,weekend,morning,2,Yellow,9,96.0,False,False
 2022-05-02 08:00:00,2022-04-26 06:27:00,cancelled,2022-04-30 12:06:00,weekday,morning,4,Yellow,9,172.0,False,False
 2023-10-21 12:30:00,2023-10-20 17:45:00,cancelled,2023-10-20 19:15:00,weekend,midday,1,Black,18,85.0,False,False
@@ -3211,7 +3211,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-09-18 13:06:00,2021-09-11 19:00:00,played,,weekend,midday,4,Green,18,192.0,False,False
 2024-09-17 11:00:00,2024-09-10 19:00:00,cancelled,2024-09-12 18:59:00,weekday,midday,4,unknown,9,80.0,False,False
 2022-09-01 11:45:00,2022-08-30 13:10:00,played,,weekday,midday,2,unknown,9,56.0,False,False
-2023-08-26 07:15:00,2023-08-19 19:00:00,cancelled,2023-08-27 12:28:13,weekend,morning,4,Red,18,212.0,False,False
+2023-08-26 07:15:00,2023-08-19 19:00:00,cancelled,2023-08-27 12:28:13,weekend,morning,4,Red,18,212.0,True,False
 2022-06-27 08:27:00,2022-06-20 19:00:00,cancelled,2022-06-24 17:02:00,weekday,morning,4,Yellow,9,172.0,False,False
 2022-05-19 10:42:00,2022-05-13 19:10:00,cancelled,2022-05-18 10:54:00,weekday,morning,2,Red,18,96.0,False,False
 2022-07-22 15:39:00,2022-07-22 11:08:00,played,,weekday,midday,1,Red,18,48.0,False,False
@@ -3490,7 +3490,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-10-15 13:33:00,2023-10-14 22:38:00,cancelled,2023-10-14 23:56:00,weekend,midday,2,unknown,9,62.0,False,False
 2021-07-05 15:39:00,2021-07-04 17:43:00,played,,weekday,midday,4,Green,18,172.0,False,False
 2024-07-29 06:39:00,2024-07-22 19:03:00,played,,weekday,morning,4,Blue,18,120.0,False,False
-2025-05-06 10:20:00,2025-04-29 19:00:00,cancelled,2025-05-06 16:48:52,weekday,morning,4,Black,18,300.0,False,False
+2025-05-06 10:20:00,2025-04-29 19:00:00,cancelled,2025-05-06 16:48:52,weekday,morning,4,Black,18,300.0,True,False
 2025-04-14 12:03:00,2025-04-07 19:00:00,played,,weekday,midday,4,Yellow,9,120.0,False,False
 2023-04-28 17:36:00,2023-04-26 10:50:00,played,,weekday,evening,4,Green,18,112.0,False,False
 2023-09-02 09:10:00,2023-08-26 19:00:00,played,,weekend,morning,4,Black,18,340.0,False,False
@@ -3639,7 +3639,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-17 11:10:00,2022-04-16 22:31:00,played,,weekend,midday,3,Black,18,255.0,False,False
 2022-08-28 13:33:00,2022-08-21 19:01:00,cancelled,2022-08-26 14:44:23,weekend,midday,4,unknown,9,124.0,False,False
 2022-08-28 11:54:00,2022-08-24 13:50:00,played,,weekend,midday,4,Green,18,192.0,False,False
-2023-07-18 13:30:00,2023-07-11 19:00:00,cancelled,2023-07-20 15:54:47,weekday,midday,4,Black,18,300.0,False,False
+2023-07-18 13:30:00,2023-07-11 19:00:00,cancelled,2023-07-20 15:54:47,weekday,midday,4,Black,18,300.0,True,False
 2023-08-10 07:15:00,2023-08-07 07:14:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2022-09-17 15:03:00,2022-09-10 19:09:00,played,,weekend,midday,4,unknown,9,124.0,False,False
 2023-04-15 17:00:00,2023-04-10 21:40:00,cancelled,2023-04-10 21:44:39,weekend,evening,2,Black,18,110.0,False,False
@@ -4138,7 +4138,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-11-05 11:54:00,2022-11-04 20:49:00,cancelled,2022-11-04 23:08:00,weekend,midday,1,Blue,18,48.0,False,False
 2023-08-03 17:54:00,2023-07-28 22:16:00,cancelled,2023-07-28 22:20:01,weekday,evening,1,Blue,18,28.0,False,False
 2024-07-17 08:27:00,2024-07-10 19:01:00,played,,weekday,morning,4,Green,18,112.0,False,False
-2021-09-29 08:27:00,2021-09-28 14:14:00,cancelled,2021-09-29 08:36:00,weekday,morning,1,Yellow,9,43.0,False,False
+2021-09-29 08:27:00,2021-09-28 14:14:00,cancelled,2021-09-29 08:36:00,weekday,morning,1,Yellow,9,43.0,True,False
 2024-01-01 09:48:00,2023-12-31 22:07:00,cancelled,2023-12-31 22:48:00,weekday,morning,1,Yellow,9,48.0,False,False
 2024-08-18 10:33:00,2024-08-17 12:25:00,cancelled,2024-08-18 08:17:01,weekend,morning,1,Green,18,48.0,False,False
 2023-11-08 14:45:00,2023-11-07 16:53:00,played,,weekday,midday,2,Yellow,9,56.0,False,False
@@ -4428,7 +4428,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-08-16 15:00:00,2023-08-15 20:08:00,played,,weekday,midday,1,Black,18,,False,False
 2022-08-07 08:00:00,2022-08-06 18:48:00,played,,weekend,morning,2,Blue,18,96.0,False,False
 2023-03-19 08:27:00,2023-03-17 14:59:00,cancelled,2023-03-18 19:41:01,weekend,morning,1,Yellow,9,31.0,False,False
-2025-08-16 07:15:00,2025-08-09 19:06:00,cancelled,2025-08-16 09:53:02,weekend,morning,4,Blue,9,104.0,False,False
+2025-08-16 07:15:00,2025-08-09 19:06:00,cancelled,2025-08-16 09:53:02,weekend,morning,4,Blue,9,104.0,True,False
 2024-06-25 12:12:00,2024-06-24 22:47:00,played,,weekday,midday,1,Red,18,95.0,False,False
 2022-03-31 13:15:00,2022-03-30 10:25:00,cancelled,2022-03-31 10:56:00,weekday,midday,2,Blue,18,86.0,False,False
 2023-05-23 09:10:00,2023-05-22 20:21:00,played,,weekday,morning,1,Black,18,75.0,False,False
@@ -4556,7 +4556,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-12 12:30:00,2023-04-05 19:00:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2022-06-15 12:12:00,2022-06-11 11:28:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2024-08-29 06:48:00,2024-08-22 19:00:00,cancelled,2024-08-28 14:32:01,weekday,morning,4,Red,18,192.0,False,False
-2024-06-07 06:39:00,2024-06-06 20:27:00,cancelled,2024-06-07 08:09:18,weekday,morning,2,Green,18,,False,False
+2024-06-07 06:39:00,2024-06-06 20:27:00,cancelled,2024-06-07 08:09:18,weekday,morning,2,Green,18,,True,False
 2025-07-28 13:24:00,2025-07-21 19:02:00,played,,weekday,midday,2,Red,18,86.0,False,False
 2022-10-31 08:18:00,2022-10-26 07:11:00,cancelled,2022-10-26 07:18:00,weekday,morning,2,Yellow,9,56.0,False,False
 2023-10-20 13:42:00,2023-10-17 16:56:00,cancelled,2023-10-20 08:59:00,weekday,midday,4,Blue,18,172.0,False,False
@@ -4637,7 +4637,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-01 17:36:00,2023-08-26 00:22:00,cancelled,2023-08-26 00:27:01,weekday,evening,2,Green,18,56.0,False,False
 2023-04-30 13:42:00,2023-04-29 09:15:00,cancelled,2023-04-29 11:38:01,weekend,midday,3,Red,18,159.0,False,False
 2023-10-21 10:42:00,2023-10-21 07:17:00,unknown,,weekend,morning,4,Red,18,212.0,False,False
-2024-11-26 13:24:00,2024-11-25 15:24:00,cancelled,2024-11-26 15:01:56,weekday,midday,1,Red,18,48.0,False,False
+2024-11-26 13:24:00,2024-11-25 15:24:00,cancelled,2024-11-26 15:01:56,weekday,midday,1,Red,18,48.0,True,False
 2024-04-30 16:15:00,2024-04-23 19:01:00,played,,weekday,evening,4,Yellow,9,112.0,False,False
 2022-10-21 15:20:00,2022-10-20 19:19:00,cancelled,2022-10-20 19:29:00,weekday,midday,1,Black,18,49.0,False,False
 2022-06-26 06:12:00,2022-06-19 19:00:00,played,,weekend,morning,4,Yellow,9,124.0,False,False
@@ -4725,7 +4725,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-08-09 16:06:00,2022-08-02 19:00:00,played,,weekday,evening,4,Red,18,124.0,False,False
 2022-11-08 09:21:00,2022-11-07 17:11:00,cancelled,2022-11-07 17:15:00,weekday,morning,2,Yellow,9,86.0,False,False
 2024-08-12 16:15:00,2024-08-12 10:32:00,cancelled,2024-08-12 11:31:01,weekday,evening,1,unknown,9,28.0,False,False
-2024-07-13 07:24:00,2024-07-12 19:52:00,cancelled,2024-07-19 09:47:30,weekend,morning,1,Red,18,53.0,False,False
+2024-07-13 07:24:00,2024-07-12 19:52:00,cancelled,2024-07-19 09:47:30,weekend,morning,1,Red,18,53.0,True,False
 2022-07-13 11:18:00,2022-07-12 14:47:00,cancelled,2022-07-12 19:10:01,weekday,midday,2,Blue,18,86.0,False,False
 2022-06-26 08:27:00,2022-06-19 19:00:00,cancelled,2022-06-24 04:29:00,weekend,morning,4,Red,18,212.0,False,False
 2025-04-10 13:24:00,2025-04-10 11:10:00,played,,weekday,midday,1,Red,18,33.0,False,False
@@ -4903,7 +4903,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-13 10:15:00,2022-04-06 19:00:00,cancelled,2022-04-11 22:14:00,weekday,morning,4,Green,18,172.0,False,False
 2024-06-10 06:30:00,2024-06-09 11:17:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2022-04-17 15:21:00,2022-04-14 14:47:00,cancelled,2022-04-16 19:55:00,weekend,midday,2,Green,18,96.0,False,False
-2022-06-12 11:00:00,2022-06-11 22:50:00,cancelled,2022-06-12 14:36:19,weekend,midday,1,Black,18,165.0,False,False
+2022-06-12 11:00:00,2022-06-11 22:50:00,cancelled,2022-06-12 14:36:19,weekend,midday,1,Black,18,165.0,True,False
 2023-04-12 10:33:00,2023-04-11 15:39:00,played,,weekday,morning,2,Blue,18,86.0,False,False
 2021-04-30 12:03:00,2021-04-29 13:36:00,played,,weekday,midday,2,Red,18,96.0,False,False
 2022-07-25 07:06:00,2022-07-18 19:00:00,cancelled,2022-07-21 19:07:01,weekday,morning,4,Red,18,192.0,False,False
@@ -5115,7 +5115,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-16 12:39:00,2023-09-15 18:26:00,cancelled,2023-09-16 03:30:17,weekend,midday,4,Yellow,9,192.0,False,False
 2022-07-23 07:42:00,2022-07-22 20:30:00,cancelled,2022-07-22 20:36:00,weekend,morning,1,Red,18,105.0,False,False
 2023-07-19 10:10:00,2023-07-16 19:05:00,played,,weekday,morning,2,Black,18,150.0,False,False
-2022-03-19 14:00:00,2022-03-19 09:46:00,cancelled,2022-03-22 13:10:09,weekend,midday,1,Blue,18,48.0,False,False
+2022-03-19 14:00:00,2022-03-19 09:46:00,cancelled,2022-03-22 13:10:09,weekend,midday,1,Blue,18,48.0,True,False
 2022-11-28 09:48:00,2022-11-27 18:44:00,played,,weekday,morning,1,Blue,18,43.0,False,False
 2023-05-26 15:50:00,2023-05-24 13:23:00,played,,weekday,midday,1,Black,18,75.0,False,False
 2024-05-09 07:24:00,2024-05-07 16:11:00,cancelled,2024-05-07 16:17:01,weekday,morning,1,Yellow,9,28.0,False,False
@@ -5183,7 +5183,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-10 07:51:00,2023-05-03 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2023-06-29 14:27:00,2023-06-28 13:39:00,played,,weekday,midday,4,Green,18,172.0,False,False
 2022-11-08 09:03:00,2022-11-05 17:28:00,cancelled,2022-11-06 15:44:00,weekday,morning,4,Yellow,9,172.0,False,False
-2021-06-04 16:00:00,2021-05-28 19:00:00,cancelled,2021-06-06 12:50:00,weekday,evening,4,Black,18,196.0,False,False
+2021-06-04 16:00:00,2021-05-28 19:00:00,cancelled,2021-06-06 12:50:00,weekday,evening,4,Black,18,196.0,True,False
 2024-08-19 08:36:00,2024-08-12 19:00:00,cancelled,2024-08-18 19:03:01,weekday,morning,4,Yellow,9,120.0,False,False
 2023-10-31 11:00:00,2023-10-30 19:37:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2025-04-30 06:39:00,2025-04-29 10:19:00,played,,weekday,morning,1,Red,18,48.0,False,False
@@ -5199,7 +5199,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-30 16:24:00,2022-05-29 20:56:00,played,,weekday,evening,2,Red,18,68.0,False,False
 2024-11-11 11:00:00,2024-11-06 16:29:00,cancelled,2024-11-07 12:12:00,weekday,midday,4,Blue,18,192.0,False,False
 2022-04-24 06:57:00,2022-04-23 11:54:00,cancelled,2022-04-23 12:03:00,weekend,morning,1,Blue,18,48.0,False,False
-2024-08-18 08:00:00,2024-08-11 19:00:00,cancelled,2024-08-18 12:50:10,weekend,morning,4,Blue,18,192.0,False,False
+2024-08-18 08:00:00,2024-08-11 19:00:00,cancelled,2024-08-18 12:50:10,weekend,morning,4,Blue,18,192.0,True,False
 2022-11-10 08:54:00,2022-11-09 20:53:00,played,,weekday,morning,2,Red,18,96.0,False,False
 2023-10-26 11:54:00,2023-10-25 22:26:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2023-05-24 14:18:00,2023-05-23 15:25:00,cancelled,2023-05-24 11:34:00,weekday,midday,1,Yellow,9,43.0,False,False
@@ -5554,7 +5554,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-10-18 14:18:00,2024-10-11 20:02:00,cancelled,2024-10-18 12:25:36,weekday,midday,2,unknown,9,40.0,False,False
 2021-08-15 11:36:00,2021-08-08 19:00:00,played,,weekend,midday,4,Green,18,192.0,False,False
 2021-08-20 14:09:00,2021-08-13 19:00:00,played,,weekday,midday,4,Green,18,172.0,False,False
-2025-05-09 09:48:00,2025-05-02 19:12:00,cancelled,2025-05-09 10:23:56,weekday,morning,4,Red,18,172.0,False,False
+2025-05-09 09:48:00,2025-05-02 19:12:00,cancelled,2025-05-09 10:23:56,weekday,morning,4,Red,18,172.0,True,False
 2023-05-13 15:30:00,2023-05-12 08:51:00,played,,weekend,midday,3,Black,18,255.0,False,False
 2022-07-03 14:27:00,2022-06-26 19:00:00,played,,weekend,midday,4,Green,18,192.0,False,False
 2023-08-06 11:00:00,2023-08-06 07:15:00,played,,weekend,midday,1,Green,18,48.0,False,False
@@ -6089,7 +6089,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-30 07:24:00,2022-04-23 19:00:00,played,,weekend,morning,4,Blue,9,124.0,False,False
 2021-09-24 10:51:00,2021-09-22 20:56:00,cancelled,2021-09-23 14:02:00,weekday,morning,4,Red,18,192.0,False,False
 2021-06-26 12:57:00,2021-06-23 12:08:00,played,,weekend,midday,4,Red,18,212.0,False,False
-2023-08-18 08:27:00,2023-08-16 08:00:00,cancelled,2023-08-18 10:47:30,weekday,morning,1,Red,18,48.0,False,False
+2023-08-18 08:27:00,2023-08-16 08:00:00,cancelled,2023-08-18 10:47:30,weekday,morning,1,Red,18,48.0,True,False
 2021-08-15 12:48:00,2021-08-08 19:00:00,played,,weekend,midday,4,Yellow,9,192.0,False,False
 2025-06-16 06:12:00,2025-06-15 12:14:00,played,,weekday,morning,2,Blue,18,,False,False
 2021-06-16 08:54:00,2021-06-15 20:00:00,played,,weekday,morning,3,Yellow,9,129.0,False,False
@@ -6274,7 +6274,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-07-13 14:45:00,2022-07-13 08:39:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2024-07-17 14:45:00,2024-07-10 19:00:00,cancelled,2024-07-15 11:27:01,weekday,midday,4,Red,18,192.0,False,False
 2024-04-25 16:30:00,2024-04-24 18:49:00,cancelled,2024-04-24 19:18:01,weekday,evening,2,Black,18,98.0,False,False
-2021-07-02 06:21:00,2021-07-01 20:23:00,cancelled,2021-07-02 06:35:00,weekday,morning,1,Red,18,48.0,False,False
+2021-07-02 06:21:00,2021-07-01 20:23:00,cancelled,2021-07-02 06:35:00,weekday,morning,1,Red,18,48.0,True,False
 2024-10-01 12:48:00,2024-09-24 19:00:00,cancelled,2024-09-26 19:02:00,weekday,midday,3,Red,18,144.0,False,False
 2024-05-21 15:39:00,2024-05-14 20:33:00,cancelled,2024-05-20 11:00:01,weekday,midday,4,Red,18,192.0,False,False
 2024-07-15 10:24:00,2024-07-14 22:17:00,cancelled,2024-07-14 22:23:01,weekday,morning,2,Green,18,86.0,False,False
@@ -7045,7 +7045,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-11-12 12:30:00,2023-11-10 12:36:00,cancelled,2023-11-10 16:55:00,weekend,midday,4,Green,18,192.0,False,False
 2022-04-11 15:30:00,2022-04-04 19:00:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2023-06-20 11:54:00,2023-06-19 17:22:00,played,,weekday,midday,4,Blue,18,172.0,False,False
-2021-07-22 10:20:00,2021-07-21 21:14:00,cancelled,2021-07-28 16:03:00,weekday,morning,1,Black,18,48.0,False,False
+2021-07-22 10:20:00,2021-07-21 21:14:00,cancelled,2021-07-28 16:03:00,weekday,morning,1,Black,18,48.0,True,False
 2024-08-27 15:20:00,2024-08-26 17:12:00,cancelled,2024-08-26 17:13:44,weekday,midday,1,Black,18,145.0,False,False
 2022-04-20 12:57:00,2022-04-14 10:46:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2022-07-21 09:48:00,2022-07-19 19:53:00,cancelled,2022-07-20 18:14:02,weekday,morning,1,Green,18,43.0,False,False
@@ -7208,7 +7208,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-15 12:03:00,2023-05-08 19:00:00,cancelled,2023-05-12 21:27:00,weekday,midday,4,Green,18,172.0,False,False
 2024-06-28 15:57:00,2024-06-25 13:08:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2024-01-23 13:33:00,2024-01-17 21:19:00,cancelled,2024-01-22 19:08:01,weekday,midday,3,Yellow,9,84.0,False,False
-2024-07-13 12:30:00,2024-07-12 17:15:00,cancelled,2024-07-13 12:48:14,weekend,midday,4,Black,18,660.0,False,False
+2024-07-13 12:30:00,2024-07-12 17:15:00,cancelled,2024-07-13 12:48:14,weekend,midday,4,Black,18,660.0,True,False
 2023-08-04 14:10:00,2023-07-28 19:00:00,cancelled,2023-08-01 13:48:01,weekday,midday,2,Black,18,150.0,False,False
 2024-03-01 14:54:00,2024-02-29 07:42:00,played,,weekday,midday,2,Yellow,9,56.0,False,False
 2021-05-19 09:30:00,2021-05-12 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
@@ -7402,7 +7402,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-17 16:10:00,2023-05-17 08:44:00,played,,weekday,evening,1,Black,18,93.0,False,False
 2022-09-23 16:24:00,2022-09-18 20:42:00,cancelled,2022-09-21 18:47:50,weekday,evening,3,Red,18,93.0,False,False
 2023-10-04 10:51:00,2023-09-27 19:10:00,cancelled,2023-10-03 16:00:00,weekday,morning,4,Red,18,192.0,False,False
-2024-11-14 08:45:00,2024-11-13 12:22:00,cancelled,2024-11-14 09:02:55,weekday,morning,4,Green,18,120.0,False,False
+2024-11-14 08:45:00,2024-11-13 12:22:00,cancelled,2024-11-14 09:02:55,weekday,morning,4,Green,18,120.0,True,False
 2022-08-14 14:00:00,2022-08-13 20:56:00,cancelled,2022-08-13 21:02:00,weekend,midday,4,Black,18,340.0,False,False
 2022-09-01 12:57:00,2022-09-01 08:33:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2023-12-08 12:12:00,2023-12-07 17:23:00,played,,weekday,midday,4,Blue,18,172.0,False,False
@@ -7631,7 +7631,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-20 12:12:00,2024-11-13 19:00:00,cancelled,2024-11-19 21:00:00,weekday,midday,4,Green,18,172.0,False,False
 2023-06-08 11:00:00,2023-06-03 20:52:00,cancelled,2023-06-04 17:00:01,weekday,midday,2,Green,18,86.0,False,False
 2021-11-08 09:40:00,2021-11-07 19:37:00,played,,weekday,morning,1,Black,18,75.0,False,False
-2023-05-31 09:20:00,2023-05-29 08:04:00,cancelled,2023-05-31 09:21:24,weekday,morning,4,Black,18,300.0,False,False
+2023-05-31 09:20:00,2023-05-29 08:04:00,cancelled,2023-05-31 09:21:24,weekday,morning,4,Black,18,300.0,True,False
 2023-07-09 08:27:00,2023-07-02 19:00:00,played,,weekend,morning,4,Blue,18,192.0,False,False
 2022-09-10 09:03:00,2022-09-03 19:00:00,played,,weekend,morning,4,Yellow,9,192.0,False,False
 2023-08-02 13:06:00,2023-07-26 23:31:00,cancelled,2023-07-31 19:09:26,weekday,midday,1,unknown,9,28.0,False,False
@@ -7743,7 +7743,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-10-23 13:50:00,2021-10-22 15:56:00,played,,weekend,midday,2,Black,18,330.0,False,False
 2023-06-03 13:24:00,2023-05-27 19:10:00,cancelled,2023-05-27 19:14:01,weekend,midday,3,Blue,18,144.0,False,False
 2023-06-27 12:39:00,2023-06-27 04:54:00,cancelled,2023-06-27 08:14:00,weekday,midday,4,Red,18,192.0,False,False
-2023-04-23 12:10:00,2023-04-21 10:57:00,cancelled,2023-04-23 17:21:09,weekend,midday,2,Black,18,330.0,False,False
+2023-04-23 12:10:00,2023-04-21 10:57:00,cancelled,2023-04-23 17:21:09,weekend,midday,2,Black,18,330.0,True,False
 2022-05-27 12:48:00,2022-05-26 01:13:00,cancelled,2022-05-26 11:52:00,weekday,midday,4,Red,18,192.0,False,False
 2023-04-09 09:12:00,2023-04-04 13:54:00,played,,weekend,morning,4,Green,18,192.0,False,False
 2022-12-07 09:57:00,2022-12-06 09:13:00,cancelled,2022-12-06 18:43:00,weekday,morning,4,Blue,18,172.0,False,False
@@ -8124,7 +8124,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-20 17:45:00,2023-07-16 12:54:00,cancelled,2023-07-20 07:05:00,weekday,evening,4,Red,18,124.0,False,False
 2024-08-09 07:24:00,2024-08-08 13:28:00,cancelled,2024-08-08 23:07:00,weekday,morning,1,Blue,9,28.0,False,False
 2024-11-03 09:48:00,2024-10-27 19:01:00,played,,weekend,morning,4,Yellow,9,192.0,False,False
-2021-04-25 10:10:00,2021-04-25 01:44:00,cancelled,2021-04-25 10:17:58,weekend,morning,3,Black,18,255.0,False,False
+2021-04-25 10:10:00,2021-04-25 01:44:00,cancelled,2021-04-25 10:17:58,weekend,morning,3,Black,18,255.0,True,False
 2023-09-30 13:06:00,2023-09-29 13:19:00,unknown,,weekend,midday,2,Green,18,96.0,False,False
 2021-03-21 16:24:00,2021-03-21 11:58:00,played,,weekend,evening,2,Green,18,62.0,False,False
 2024-05-07 14:50:00,2024-04-30 19:00:00,cancelled,2024-05-01 10:06:11,weekday,midday,4,Black,18,208.0,False,False
@@ -8889,7 +8889,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-21 06:03:00,2022-05-20 16:58:00,played,,weekend,morning,1,Blue,9,31.0,False,False
 2024-06-14 16:15:00,2024-06-13 21:34:00,played,,weekday,evening,4,Green,18,112.0,False,False
 2024-06-26 09:48:00,2024-06-19 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
-2023-09-24 11:50:00,2023-09-17 19:00:00,cancelled,2023-09-24 15:59:23,weekend,midday,4,Black,18,340.0,False,False
+2023-09-24 11:50:00,2023-09-17 19:00:00,cancelled,2023-09-24 15:59:23,weekend,midday,4,Black,18,340.0,True,False
 2022-09-07 07:24:00,2022-09-06 19:59:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
 2025-04-20 11:00:00,2025-04-20 00:16:00,played,,weekend,midday,1,Black,18,85.0,False,False
 2022-09-07 12:57:00,2022-09-06 10:40:00,cancelled,2022-09-06 17:58:00,weekday,midday,4,Yellow,9,172.0,False,False
@@ -8922,7 +8922,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-10-24 09:39:00,2021-10-23 17:54:00,played,,weekend,morning,1,Green,18,48.0,False,False
 2024-04-13 09:48:00,2024-04-12 19:13:00,played,,weekend,morning,2,Red,18,106.0,False,False
 2023-08-22 10:15:00,2023-08-15 19:00:00,cancelled,2023-08-17 20:53:00,weekday,morning,4,Green,18,172.0,False,False
-2023-05-04 08:10:00,2023-05-03 20:44:00,cancelled,2023-05-08 13:45:02,weekday,morning,2,Black,18,150.0,False,False
+2023-05-04 08:10:00,2023-05-03 20:44:00,cancelled,2023-05-08 13:45:02,weekday,morning,2,Black,18,150.0,True,False
 2023-05-13 12:20:00,2023-05-06 19:00:00,played,,weekend,midday,4,Black,18,340.0,False,False
 2022-04-13 11:00:00,2022-04-06 19:00:00,cancelled,2022-04-07 09:46:00,weekday,midday,4,unknown,9,112.0,False,False
 2022-10-25 09:12:00,2022-10-18 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
@@ -9457,7 +9457,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-27 13:24:00,2022-04-24 13:20:00,cancelled,2022-04-26 12:32:00,weekday,midday,4,Red,18,192.0,False,False
 2025-04-11 10:15:00,2025-04-07 20:10:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2024-08-18 17:27:00,2024-08-14 06:09:00,cancelled,2024-08-17 07:55:01,weekend,evening,2,Green,18,62.0,False,False
-2021-09-01 08:50:00,2021-08-31 09:12:00,cancelled,2021-09-01 10:22:00,weekday,morning,1,Black,18,75.0,False,False
+2021-09-01 08:50:00,2021-08-31 09:12:00,cancelled,2021-09-01 10:22:00,weekday,morning,1,Black,18,75.0,True,False
 2022-10-04 12:03:00,2022-10-03 08:36:00,cancelled,2022-10-03 13:08:00,weekday,midday,4,Green,18,172.0,False,False
 2023-07-06 13:06:00,2023-07-03 17:05:00,cancelled,2023-07-06 08:51:41,weekday,midday,2,unknown,9,56.0,False,False
 2021-06-26 12:39:00,2021-06-26 09:09:00,played,,weekend,midday,1,Red,18,53.0,False,False
@@ -10218,7 +10218,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-17 13:24:00,2024-11-16 12:20:00,cancelled,2024-11-16 20:16:00,weekend,midday,1,Green,18,48.0,False,False
 2023-03-24 11:27:00,2023-03-23 20:14:00,played,,weekday,midday,4,Yellow,9,172.0,False,False
 2024-10-27 12:57:00,2024-10-20 19:00:00,cancelled,2024-10-22 11:07:00,weekend,midday,4,Yellow,9,192.0,False,False
-2023-08-30 10:50:00,2023-08-29 18:55:00,cancelled,2023-08-30 13:37:51,weekday,morning,2,Black,18,150.0,False,False
+2023-08-30 10:50:00,2023-08-29 18:55:00,cancelled,2023-08-30 13:37:51,weekday,morning,2,Black,18,150.0,True,False
 2021-09-24 08:00:00,2021-09-20 16:30:00,cancelled,2021-09-24 06:12:00,weekday,morning,1,Yellow,9,28.0,False,False
 2022-11-27 08:00:00,2022-11-26 20:59:00,played,,weekend,morning,1,Red,18,53.0,False,False
 2023-11-17 13:24:00,2023-11-12 23:23:00,played,,weekday,midday,2,Yellow,9,86.0,False,False
@@ -10324,7 +10324,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-29 11:18:00,2022-04-22 19:00:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2022-06-03 14:18:00,2022-05-27 19:00:00,cancelled,2022-05-27 23:16:00,weekday,midday,4,Green,18,172.0,False,False
 2022-07-30 17:09:00,2022-07-27 14:01:00,played,,weekend,evening,4,Red,18,136.0,False,False
-2023-04-23 16:00:00,2023-04-23 08:05:00,cancelled,2023-04-23 17:22:26,weekend,evening,1,Black,18,105.0,False,False
+2023-04-23 16:00:00,2023-04-23 08:05:00,cancelled,2023-04-23 17:22:26,weekend,evening,1,Black,18,105.0,True,False
 2023-07-08 06:39:00,2023-07-07 18:21:00,played,,weekend,morning,2,Red,18,106.0,False,False
 2022-06-27 06:03:00,2022-06-26 08:35:00,cancelled,2022-06-26 17:19:00,weekday,morning,1,Red,18,48.0,False,False
 2023-10-04 09:21:00,2023-09-27 19:10:00,cancelled,2023-10-01 22:34:00,weekday,morning,4,Red,18,192.0,False,False
@@ -10541,7 +10541,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-08-31 07:51:00,2023-08-24 19:00:00,cancelled,2023-08-28 07:25:21,weekday,morning,3,Red,18,144.0,False,False
 2025-06-24 08:27:00,2025-06-17 19:17:00,played,,weekday,morning,4,Blue,18,0.0,False,False
 2021-10-16 08:36:00,2021-10-09 19:00:00,played,,weekend,morning,4,Red,18,212.0,False,False
-2025-07-20 09:12:00,2025-07-17 10:01:00,cancelled,2025-07-20 09:32:21,weekend,morning,2,Blue,18,86.0,False,False
+2025-07-20 09:12:00,2025-07-17 10:01:00,cancelled,2025-07-20 09:32:21,weekend,morning,2,Blue,18,86.0,True,False
 2023-05-28 10:42:00,2023-05-21 19:00:00,played,,weekend,morning,4,Blue,18,192.0,False,False
 2022-08-05 06:57:00,2022-07-29 19:00:00,played,,weekday,morning,4,Blue,9,112.0,False,False
 2023-10-19 08:27:00,2023-10-12 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
@@ -11001,7 +11001,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-09-01 15:48:00,2024-08-31 08:44:00,cancelled,2024-08-31 09:03:00,weekend,midday,1,Red,18,53.0,False,False
 2022-04-29 14:10:00,2022-04-22 19:00:00,cancelled,2022-04-28 18:26:00,weekday,midday,4,Black,18,300.0,False,False
 2023-11-05 14:09:00,2023-11-03 09:13:00,cancelled,2023-11-03 11:09:00,weekend,midday,1,Red,18,34.0,False,False
-2021-09-11 15:20:00,2021-09-09 22:51:00,cancelled,2021-09-14 11:04:00,weekend,midday,1,Black,18,48.0,False,False
+2021-09-11 15:20:00,2021-09-09 22:51:00,cancelled,2021-09-14 11:04:00,weekend,midday,1,Black,18,48.0,True,False
 2022-05-06 12:20:00,2022-04-29 19:01:00,cancelled,2022-05-05 20:15:00,weekday,midday,2,Black,18,150.0,False,False
 2022-10-27 11:30:00,2022-10-26 21:34:00,played,,weekday,midday,1,Black,18,75.0,False,False
 2023-10-11 14:09:00,2023-10-11 08:40:00,played,,weekday,midday,1,unknown,9,28.0,False,False
@@ -11034,12 +11034,12 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-19 12:30:00,2023-04-18 22:07:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2022-05-09 09:57:00,2022-05-08 20:56:00,played,,weekday,morning,1,Green,18,43.0,False,False
 2025-06-14 06:21:00,2025-06-13 22:10:00,played,,weekend,morning,4,Yellow,9,,False,False
-2024-08-04 07:24:00,2024-08-03 19:34:00,cancelled,2024-08-05 09:16:52,weekend,morning,2,Yellow,9,,False,False
+2024-08-04 07:24:00,2024-08-03 19:34:00,cancelled,2024-08-05 09:16:52,weekend,morning,2,Yellow,9,,True,False
 2025-06-01 08:54:00,2025-05-26 11:56:00,played,,weekend,morning,4,Blue,18,,False,False
 2023-06-23 16:06:00,2023-06-22 17:23:00,cancelled,2023-06-22 17:30:00,weekday,evening,4,Blue,18,112.0,False,False
 2022-05-01 15:57:00,2022-04-25 18:43:00,cancelled,2022-04-27 07:41:39,weekend,midday,2,Red,18,106.0,False,False
 2021-06-12 12:50:00,2021-06-05 19:03:00,played,,weekend,midday,4,Black,18,340.0,False,False
-2023-03-31 07:33:00,2023-03-28 16:50:00,cancelled,2023-03-31 07:50:44,weekday,morning,2,Yellow,9,56.0,False,False
+2023-03-31 07:33:00,2023-03-28 16:50:00,cancelled,2023-03-31 07:50:44,weekday,morning,2,Yellow,9,56.0,True,False
 2022-08-30 07:24:00,2022-08-29 12:28:00,cancelled,2022-08-29 17:34:01,weekday,morning,2,Yellow,9,86.0,False,False
 2021-09-14 07:15:00,2021-09-13 15:13:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
 2023-10-08 13:15:00,2023-10-07 19:03:00,played,,weekend,midday,4,Red,18,212.0,False,False
@@ -11519,7 +11519,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-04-16 13:06:00,2025-04-15 10:18:00,played,,weekday,midday,1,Blue,18,43.0,False,False
 2023-07-23 16:51:00,2023-07-17 13:35:00,cancelled,2023-07-17 13:39:00,weekend,evening,4,unknown,9,124.0,False,False
 2023-07-20 14:09:00,2023-07-19 21:48:00,played,,weekday,midday,2,Green,18,86.0,False,False
-2024-08-07 09:03:00,2024-08-05 19:27:00,cancelled,2024-08-07 11:10:17,weekday,morning,4,Red,18,20.0,False,False
+2024-08-07 09:03:00,2024-08-05 19:27:00,cancelled,2024-08-07 11:10:17,weekday,morning,4,Red,18,20.0,True,False
 2022-07-11 15:03:00,2022-07-04 19:39:00,cancelled,2022-07-10 21:56:01,weekday,midday,4,Red,18,192.0,False,False
 2024-08-18 15:48:00,2024-08-13 19:00:00,cancelled,2024-08-16 13:30:01,weekend,midday,4,Red,18,212.0,False,False
 2023-06-10 14:09:00,2023-06-10 09:34:00,played,,weekend,midday,1,unknown,9,31.0,False,False
@@ -12059,7 +12059,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-04-13 14:00:00,2021-04-13 06:55:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2022-07-14 13:51:00,2022-07-13 19:59:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2023-05-15 06:57:00,2023-05-14 18:39:00,cancelled,2023-05-14 18:46:01,weekday,morning,1,Green,18,43.0,False,False
-2021-10-30 13:51:00,2021-10-28 20:04:00,cancelled,2021-10-30 15:14:11,weekend,midday,4,Yellow,9,192.0,False,False
+2021-10-30 13:51:00,2021-10-28 20:04:00,cancelled,2021-10-30 15:14:11,weekend,midday,4,Yellow,9,192.0,True,False
 2021-05-01 14:54:00,2021-04-26 10:25:00,played,,weekend,midday,4,Red,18,212.0,False,False
 2023-04-08 15:30:00,2023-04-07 17:37:00,cancelled,2023-04-07 22:41:00,weekend,midday,2,Red,18,106.0,False,False
 2021-10-10 08:00:00,2021-10-09 08:01:00,played,,weekend,morning,4,Red,18,212.0,False,False
@@ -12393,7 +12393,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-04 13:33:00,2024-04-01 09:30:00,cancelled,2024-04-01 22:46:00,weekday,midday,4,Blue,18,172.0,False,False
 2024-06-20 07:06:00,2024-06-19 15:25:00,played,,weekday,morning,4,Yellow,9,120.0,False,False
 2021-09-17 10:06:00,2021-09-16 13:23:00,played,,weekday,morning,1,Red,18,48.0,False,False
-2023-03-27 08:27:00,2023-03-20 19:00:00,cancelled,2023-03-27 13:08:04,weekday,morning,4,Yellow,9,172.0,False,False
+2023-03-27 08:27:00,2023-03-20 19:00:00,cancelled,2023-03-27 13:08:04,weekday,morning,4,Yellow,9,172.0,True,False
 2023-02-26 13:24:00,2023-02-25 16:43:00,cancelled,2023-02-26 00:58:01,weekend,midday,4,Blue,18,192.0,False,False
 2025-07-10 09:12:00,2025-07-07 13:17:00,played,,weekday,morning,2,Yellow,9,46.0,False,False
 2021-06-08 08:18:00,2021-06-01 19:00:00,played,,weekday,morning,4,Blue,18,172.0,False,False
@@ -12518,7 +12518,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-10 10:51:00,2024-11-09 11:21:00,cancelled,2024-11-09 14:44:00,weekend,morning,1,Green,18,48.0,False,False
 2024-09-25 11:00:00,2024-09-25 07:54:00,played,,weekday,midday,2,Blue,18,86.0,False,False
 2021-08-29 07:33:00,2021-08-28 11:12:00,played,,weekend,morning,4,Green,18,192.0,False,False
-2023-08-18 10:00:00,2023-08-17 15:18:00,cancelled,2023-08-18 10:18:24,weekday,morning,4,Black,18,300.0,False,False
+2023-08-18 10:00:00,2023-08-17 15:18:00,cancelled,2023-08-18 10:18:24,weekday,morning,4,Black,18,300.0,True,False
 2022-06-16 17:45:00,2022-06-10 18:42:00,cancelled,2022-06-10 18:45:00,weekday,evening,4,Blue,18,112.0,False,False
 2023-08-11 15:21:00,2023-08-10 17:18:00,played,,weekday,midday,3,Red,18,144.0,False,False
 2022-05-12 15:30:00,2022-05-11 10:17:00,cancelled,2022-05-11 13:01:00,weekday,midday,2,Yellow,9,86.0,False,False
@@ -12528,7 +12528,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-07-23 12:21:00,2025-07-22 11:08:00,cancelled,2025-07-22 11:17:18,weekday,midday,2,Red,18,86.0,False,False
 2024-10-06 14:54:00,2024-10-05 09:33:00,cancelled,2024-10-05 21:18:00,weekend,midday,3,Red,18,159.0,False,False
 2024-03-17 15:21:00,2024-03-16 03:28:00,cancelled,2024-03-16 19:40:01,weekend,midday,2,unknown,9,62.0,False,False
-2025-05-06 13:20:00,2025-04-30 20:15:00,cancelled,2025-05-06 16:49:58,weekday,midday,1,Black,18,49.0,False,False
+2025-05-06 13:20:00,2025-04-30 20:15:00,cancelled,2025-05-06 16:49:58,weekday,midday,1,Black,18,49.0,True,False
 2025-05-31 10:33:00,2025-05-24 19:25:00,played,,weekend,morning,4,Green,18,172.0,False,False
 2025-03-15 13:06:00,2025-03-14 10:55:00,played,,weekend,midday,3,Yellow,9,144.0,False,False
 2024-06-06 12:48:00,2024-06-05 08:47:00,cancelled,2024-06-05 09:23:01,weekday,midday,2,Red,18,96.0,False,False
@@ -12653,7 +12653,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-24 14:40:00,2022-05-22 13:37:00,cancelled,2022-05-22 12:21:16,weekday,midday,1,Black,18,75.0,False,False
 2024-08-20 10:06:00,2024-08-13 19:00:00,played,,weekday,morning,4,Yellow,9,120.0,False,False
 2023-04-26 16:30:00,2023-04-24 17:14:00,cancelled,2023-04-25 10:11:00,weekday,evening,2,Black,18,98.0,False,False
-2024-07-13 10:00:00,2024-07-06 19:00:00,cancelled,2024-07-13 12:46:23,weekend,morning,4,Black,18,340.0,False,False
+2024-07-13 10:00:00,2024-07-06 19:00:00,cancelled,2024-07-13 12:46:23,weekend,morning,4,Black,18,340.0,True,False
 2022-06-03 10:51:00,2022-05-27 19:00:00,cancelled,2022-05-31 15:11:00,weekday,morning,4,Blue,18,172.0,False,False
 2023-07-21 17:00:00,2023-07-14 21:47:00,cancelled,2023-07-16 08:32:01,weekday,evening,4,Black,18,196.0,False,False
 2025-03-20 15:57:00,2025-03-19 22:11:00,played,,weekday,midday,3,unknown,9,84.0,False,False
@@ -13282,7 +13282,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-29 14:00:00,2023-09-28 12:43:00,cancelled,2023-09-28 12:51:00,weekday,midday,3,Black,18,225.0,False,False
 2025-05-05 08:27:00,2025-05-03 20:27:00,cancelled,2025-05-04 06:41:14,weekday,morning,3,Red,18,129.0,False,False
 2024-06-18 09:21:00,2024-06-11 19:00:00,played,,weekday,morning,4,Blue,18,172.0,False,False
-2024-08-19 07:24:00,2024-08-18 14:17:00,cancelled,2024-08-19 12:42:37,weekday,morning,1,Blue,9,28.0,False,False
+2024-08-19 07:24:00,2024-08-18 14:17:00,cancelled,2024-08-19 12:42:37,weekday,morning,1,Blue,9,28.0,True,False
 2024-10-28 08:09:00,2024-10-27 19:34:00,played,,weekday,morning,2,Yellow,9,56.0,False,False
 2024-04-15 08:27:00,2024-04-08 19:32:00,cancelled,2024-04-08 19:35:01,weekday,morning,3,Yellow,9,60.0,False,False
 2023-08-27 15:21:00,2023-08-26 19:38:00,played,,weekend,midday,1,Yellow,9,48.0,False,False
@@ -14267,7 +14267,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-05-23 13:00:00,2021-05-18 08:15:00,played,,weekend,midday,4,Black,18,340.0,False,False
 2024-03-13 11:00:00,2024-03-12 10:28:00,played,,weekday,midday,4,Yellow,9,172.0,False,False
 2023-03-16 10:15:00,2023-03-09 19:00:00,cancelled,2023-03-11 20:18:00,weekday,morning,4,Blue,18,172.0,False,False
-2024-08-07 11:36:00,2024-08-03 09:02:00,cancelled,2024-08-08 09:16:21,weekday,midday,4,Red,18,132.0,False,False
+2024-08-07 11:36:00,2024-08-03 09:02:00,cancelled,2024-08-08 09:16:21,weekday,midday,4,Red,18,132.0,True,False
 2024-03-31 14:54:00,2024-03-31 11:38:00,played,,weekend,midday,1,Yellow,9,48.0,False,False
 2021-07-24 06:12:00,2021-07-23 13:38:00,played,,weekend,morning,1,Yellow,9,31.0,False,False
 2025-02-17 11:00:00,2025-02-10 19:00:00,cancelled,2025-02-14 21:57:00,weekday,midday,4,Blue,18,192.0,False,False
@@ -14757,7 +14757,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-29 11:45:00,2022-04-22 19:00:00,cancelled,2022-04-23 12:17:00,weekday,midday,4,Red,18,192.0,False,False
 2023-05-27 08:09:00,2023-05-20 19:00:00,played,,weekend,morning,4,Green,18,192.0,False,False
 2023-07-03 10:06:00,2023-07-02 19:10:00,cancelled,2023-07-02 19:24:00,weekday,morning,2,Yellow,9,86.0,False,False
-2022-05-19 13:20:00,2022-05-18 13:38:00,cancelled,2022-05-19 13:25:51,weekday,midday,2,Black,18,150.0,False,False
+2022-05-19 13:20:00,2022-05-18 13:38:00,cancelled,2022-05-19 13:25:51,weekday,midday,2,Black,18,150.0,True,False
 2023-05-10 12:03:00,2023-05-08 20:03:00,cancelled,2023-05-09 23:03:00,weekday,midday,1,Yellow,9,43.0,False,False
 2022-11-02 12:39:00,2022-10-26 19:00:00,cancelled,2022-11-01 10:55:01,weekday,midday,4,Green,18,172.0,False,False
 2024-10-14 08:36:00,2024-10-13 18:56:00,played,,weekday,morning,4,Green,18,192.0,False,False
@@ -15455,7 +15455,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-07-08 08:00:00,2024-07-07 16:44:00,played,,weekday,morning,1,Green,18,43.0,False,False
 2023-06-12 17:09:00,2023-06-10 10:31:00,played,,weekday,evening,2,Green,18,56.0,False,False
 2023-04-08 12:30:00,2023-04-07 17:04:00,played,,weekend,midday,1,Green,18,48.0,False,False
-2025-06-14 15:40:00,2025-06-07 19:29:00,cancelled,2025-06-15 11:03:35,weekend,midday,4,Black,18,320.0,False,False
+2025-06-14 15:40:00,2025-06-07 19:29:00,cancelled,2025-06-15 11:03:35,weekend,midday,4,Black,18,320.0,True,False
 2023-07-28 11:45:00,2023-07-27 22:54:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2024-08-04 18:30:00,2024-08-01 12:31:00,cancelled,2024-08-01 12:34:00,weekend,evening,2,Yellow,9,62.0,False,False
 2024-08-12 07:42:00,2024-08-10 16:45:00,played,,weekday,morning,4,Blue,18,172.0,False,False
@@ -15740,7 +15740,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-05-02 06:48:00,2024-04-30 18:48:00,played,,weekday,morning,2,Red,18,66.0,False,False
 2021-03-29 10:06:00,2021-03-24 19:50:00,played,,weekday,morning,2,Blue,18,86.0,False,False
 2024-05-27 07:15:00,2024-05-20 19:00:00,cancelled,2024-05-24 08:34:01,weekday,morning,4,Blue,18,192.0,False,False
-2025-06-14 14:54:00,2025-06-10 11:34:00,cancelled,2025-06-15 11:53:59,weekend,midday,4,Yellow,9,104.0,False,False
+2025-06-14 14:54:00,2025-06-10 11:34:00,cancelled,2025-06-15 11:53:59,weekend,midday,4,Yellow,9,104.0,True,False
 2021-10-10 08:27:00,2021-10-09 17:20:00,played,,weekend,morning,2,Green,18,96.0,False,False
 2022-08-28 07:33:00,2022-08-21 19:00:00,played,,weekend,morning,4,Red,18,212.0,False,False
 2024-06-17 09:12:00,2024-06-10 19:11:00,cancelled,2024-06-15 07:46:42,weekday,morning,4,Blue,18,172.0,False,False
@@ -16013,7 +16013,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-09-03 07:51:00,2022-08-27 19:15:00,cancelled,2022-08-31 23:12:28,weekend,morning,3,Blue,9,93.0,False,False
 2022-08-21 07:33:00,2022-08-14 19:00:00,cancelled,2022-08-20 10:17:00,weekend,morning,4,Blue,18,192.0,False,False
 2022-05-13 11:18:00,2022-05-12 17:47:00,cancelled,2022-05-12 19:31:00,weekday,midday,1,Red,18,48.0,False,False
-2023-07-16 08:40:00,2023-07-15 14:25:00,cancelled,2023-07-16 10:51:05,weekend,morning,2,Black,18,170.0,False,False
+2023-07-16 08:40:00,2023-07-15 14:25:00,cancelled,2023-07-16 10:51:05,weekend,morning,2,Black,18,170.0,True,False
 2021-06-30 09:39:00,2021-06-23 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2022-04-20 07:51:00,2022-04-13 19:00:00,cancelled,2022-04-19 14:59:00,weekday,morning,4,Yellow,9,112.0,False,False
 2022-09-02 11:40:00,2022-08-26 19:00:00,cancelled,2022-09-01 19:02:01,weekday,midday,4,Black,18,300.0,False,False
@@ -16233,7 +16233,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-01 13:24:00,2023-03-28 10:45:00,cancelled,2023-03-31 08:38:00,weekend,midday,4,Green,18,192.0,False,False
 2022-07-02 13:42:00,2022-07-01 16:00:00,cancelled,2022-07-01 16:06:00,weekend,midday,4,Red,18,212.0,False,False
 2024-08-18 15:21:00,2024-08-11 19:20:00,cancelled,2024-08-16 15:15:01,weekend,midday,4,Red,18,212.0,False,False
-2023-08-26 07:33:00,2023-08-19 19:00:00,cancelled,2023-08-27 12:30:50,weekend,morning,4,Yellow,9,192.0,False,False
+2023-08-26 07:33:00,2023-08-19 19:00:00,cancelled,2023-08-27 12:30:50,weekend,morning,4,Yellow,9,192.0,True,False
 2024-09-23 12:12:00,2024-09-22 20:55:00,cancelled,2024-09-22 22:35:00,weekday,midday,2,Blue,18,86.0,False,False
 2022-10-24 09:03:00,2022-10-17 19:00:00,cancelled,2022-10-23 14:34:00,weekday,morning,4,Yellow,9,172.0,False,False
 2024-06-11 16:00:00,2024-06-04 19:00:00,cancelled,2024-06-09 17:57:01,weekday,evening,4,Black,18,196.0,False,False
@@ -17264,7 +17264,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-11-07 08:18:00,2022-11-03 18:33:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2022-07-21 06:03:00,2022-07-20 09:16:00,cancelled,2022-07-20 09:19:00,weekday,morning,2,Blue,9,56.0,False,False
 2023-10-24 10:15:00,2023-10-23 07:26:00,played,,weekday,morning,2,Green,18,86.0,False,False
-2024-09-28 14:27:00,2024-09-28 10:33:00,cancelled,2024-10-11 08:43:38,weekend,midday,1,Red,18,53.0,False,False
+2024-09-28 14:27:00,2024-09-28 10:33:00,cancelled,2024-10-11 08:43:38,weekend,midday,1,Red,18,53.0,True,False
 2023-04-15 10:15:00,2023-04-14 19:19:00,played,,weekend,morning,1,Red,18,53.0,False,False
 2023-05-18 17:18:00,2023-05-11 19:00:00,cancelled,2023-05-16 11:31:01,weekday,evening,4,Green,18,112.0,False,False
 2023-11-08 09:40:00,2023-11-07 08:42:00,played,,weekday,morning,2,Black,18,150.0,False,False
@@ -18558,7 +18558,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-11-18 09:30:00,2023-11-17 11:01:00,played,,weekend,morning,1,Blue,9,31.0,False,False
 2022-10-03 10:51:00,2022-09-26 19:00:00,unknown,,weekday,morning,4,Green,18,172.0,False,False
 2023-06-25 13:24:00,2023-06-18 19:00:00,cancelled,2023-06-25 09:45:00,weekend,midday,4,Red,18,212.0,False,False
-2021-08-28 07:33:00,2021-08-23 21:37:00,cancelled,2021-08-28 08:02:00,weekend,morning,4,Red,18,212.0,False,False
+2021-08-28 07:33:00,2021-08-23 21:37:00,cancelled,2021-08-28 08:02:00,weekend,morning,4,Red,18,212.0,True,False
 2022-09-05 07:06:00,2022-09-04 14:19:00,played,,weekday,morning,1,Yellow,9,31.0,False,False
 2023-09-09 07:15:00,2023-09-08 18:52:00,played,,weekend,morning,1,Yellow,9,31.0,False,False
 2023-09-14 13:15:00,2023-09-07 19:00:00,cancelled,2023-09-12 07:46:08,weekday,midday,4,unknown,9,112.0,False,False
@@ -18759,7 +18759,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-02-04 13:06:00,2023-01-28 19:00:00,cancelled,2023-01-29 10:51:01,weekend,midday,4,Blue,18,192.0,False,False
 2023-08-19 14:36:00,2023-08-12 19:00:00,cancelled,2023-08-18 20:53:01,weekend,midday,4,Red,18,212.0,False,False
 2022-07-15 11:36:00,2022-07-14 12:03:00,played,,weekday,midday,4,Yellow,9,172.0,False,False
-2023-08-18 08:09:00,2023-08-17 20:38:00,cancelled,2023-08-18 08:33:25,weekday,morning,2,Red,18,96.0,False,False
+2023-08-18 08:09:00,2023-08-17 20:38:00,cancelled,2023-08-18 08:33:25,weekday,morning,2,Red,18,96.0,True,False
 2021-08-04 14:54:00,2021-08-03 21:19:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2022-11-04 09:48:00,2022-11-02 18:58:00,cancelled,2022-11-02 20:21:01,weekday,morning,4,Green,18,172.0,False,False
 2022-10-14 13:42:00,2022-10-13 19:43:00,played,,weekday,midday,2,Blue,18,86.0,False,False
@@ -19136,7 +19136,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-11 06:12:00,2022-05-07 08:17:00,cancelled,2022-05-10 16:16:00,weekday,morning,1,Red,18,95.0,False,False
 2023-11-11 08:45:00,2023-11-10 18:12:00,cancelled,2023-11-10 19:33:00,weekend,morning,1,Yellow,9,48.0,False,False
 2023-04-23 09:03:00,2023-04-21 12:35:00,cancelled,2023-04-22 21:49:01,weekend,morning,1,Yellow,9,48.0,False,False
-2025-05-09 12:50:00,2025-05-02 19:00:00,cancelled,2025-05-09 12:58:37,weekday,midday,4,Black,18,280.0,False,False
+2025-05-09 12:50:00,2025-05-02 19:00:00,cancelled,2025-05-09 12:58:37,weekday,midday,4,Black,18,280.0,True,False
 2021-09-17 13:24:00,2021-09-16 16:57:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2023-05-17 10:30:00,2023-05-10 19:13:00,played,,weekday,morning,4,Black,18,300.0,False,False
 2022-08-15 06:39:00,2022-08-08 19:21:00,cancelled,2022-08-14 11:52:00,weekday,morning,1,Yellow,9,28.0,False,False
@@ -19248,7 +19248,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-05-07 09:30:00,2021-05-07 06:57:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
 2022-11-15 09:57:00,2022-11-14 19:17:00,played,,weekday,morning,2,Yellow,9,86.0,False,False
 2022-04-24 06:39:00,2022-04-23 12:46:00,cancelled,2022-04-23 18:28:00,weekend,morning,1,Blue,18,48.0,False,False
-2022-03-28 08:36:00,2022-03-25 04:33:00,cancelled,2022-03-28 18:43:08,weekday,morning,4,Yellow,9,172.0,False,False
+2022-03-28 08:36:00,2022-03-25 04:33:00,cancelled,2022-03-28 18:43:08,weekday,morning,4,Yellow,9,172.0,True,False
 2025-03-24 11:27:00,2025-03-17 19:00:00,cancelled,2025-03-21 20:38:01,weekday,midday,4,Yellow,9,172.0,False,False
 2024-07-17 07:15:00,2024-07-16 19:24:00,played,,weekday,morning,1,Yellow,9,20.0,False,False
 2023-03-30 07:33:00,2023-03-23 19:00:00,cancelled,2023-03-28 13:30:00,weekday,morning,4,Yellow,9,172.0,False,False
@@ -20079,7 +20079,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-10-28 12:10:00,2023-10-21 19:00:00,cancelled,2023-10-21 19:11:00,weekend,midday,4,Black,18,340.0,False,False
 2024-05-06 13:24:00,2024-05-05 18:28:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2024-06-15 15:21:00,2024-06-14 15:40:00,played,,weekend,midday,2,unknown,9,62.0,False,False
-2025-06-14 14:20:00,2025-06-07 19:00:00,cancelled,2025-06-15 10:55:05,weekend,midday,3,Black,18,240.0,False,False
+2025-06-14 14:20:00,2025-06-07 19:00:00,cancelled,2025-06-15 10:55:05,weekend,midday,3,Black,18,240.0,True,False
 2023-07-08 07:42:00,2023-07-01 19:00:00,played,,weekend,morning,4,Yellow,9,192.0,False,False
 2022-09-23 12:48:00,2022-09-22 12:18:00,cancelled,2022-09-22 15:49:01,weekday,midday,1,Yellow,9,43.0,False,False
 2023-09-13 14:18:00,2023-09-06 19:00:00,cancelled,2023-09-13 06:14:00,weekday,midday,4,Blue,18,172.0,False,False
@@ -21127,7 +21127,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-05-24 11:30:00,2024-05-23 18:17:00,played,,weekday,midday,2,Black,18,290.0,False,False
 2022-10-21 14:00:00,2022-10-14 19:00:00,cancelled,2022-10-19 11:27:00,weekday,midday,4,Green,18,172.0,False,False
 2024-05-08 18:03:00,2024-05-01 23:05:00,cancelled,2024-05-01 23:33:00,weekday,evening,4,Red,18,124.0,False,False
-2022-06-22 12:40:00,2022-06-22 09:40:00,cancelled,2022-06-22 14:59:04,weekday,midday,4,Black,18,300.0,False,False
+2022-06-22 12:40:00,2022-06-22 09:40:00,cancelled,2022-06-22 14:59:04,weekday,midday,4,Black,18,300.0,True,False
 2022-07-13 14:36:00,2022-07-06 19:00:00,cancelled,2022-07-10 11:43:00,weekday,midday,4,Red,18,192.0,False,False
 2022-04-20 07:15:00,2022-04-19 18:08:00,cancelled,2022-04-19 18:13:00,weekday,morning,2,Red,18,96.0,False,False
 2025-04-03 14:18:00,2025-03-27 19:00:00,played,,weekday,midday,4,Blue,18,120.0,False,False
@@ -21135,7 +21135,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-06-08 14:00:00,2022-06-07 22:07:00,played,,weekday,midday,2,Red,18,96.0,False,False
 2022-09-23 16:15:00,2022-09-19 14:50:00,played,,weekday,evening,2,Red,18,62.0,False,False
 2023-06-13 08:45:00,2023-06-12 19:36:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
-2024-08-19 08:54:00,2024-08-17 10:53:00,cancelled,2024-08-19 10:00:25,weekday,morning,2,Yellow,9,86.0,False,False
+2024-08-19 08:54:00,2024-08-17 10:53:00,cancelled,2024-08-19 10:00:25,weekday,morning,2,Yellow,9,86.0,True,False
 2022-11-18 13:24:00,2022-11-14 13:32:00,cancelled,2022-11-17 14:59:00,weekday,midday,1,unknown,9,28.0,False,False
 2024-09-04 09:57:00,2024-08-28 19:21:00,played,,weekday,morning,3,Yellow,9,90.0,False,False
 2022-06-03 10:30:00,2022-05-27 19:03:00,cancelled,2022-05-30 22:47:00,weekday,morning,4,Black,18,300.0,False,False
@@ -21282,7 +21282,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-25 12:48:00,2024-11-18 19:01:00,cancelled,2024-11-18 19:17:00,weekday,midday,4,Red,18,192.0,False,False
 2024-08-16 18:03:00,2024-08-16 10:23:00,played,,weekday,evening,2,Red,18,62.0,False,False
 2021-06-09 08:18:00,2021-06-06 11:05:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
-2023-04-23 11:30:00,2023-04-21 15:55:00,cancelled,2023-04-23 17:20:48,weekend,midday,4,Black,18,340.0,False,False
+2023-04-23 11:30:00,2023-04-21 15:55:00,cancelled,2023-04-23 17:20:48,weekend,midday,4,Black,18,340.0,True,False
 2023-10-20 10:15:00,2023-10-19 10:35:00,cancelled,2023-10-19 18:36:00,weekday,morning,2,Blue,18,86.0,False,False
 2023-04-17 06:57:00,2023-04-10 19:00:00,cancelled,2023-04-12 07:02:01,weekday,morning,4,Green,18,172.0,False,False
 2024-05-09 14:00:00,2024-05-07 19:31:00,cancelled,2024-05-09 08:44:01,weekday,midday,4,unknown,9,112.0,False,False
@@ -21327,7 +21327,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-07-02 12:00:00,2021-07-01 19:55:00,played,,weekday,midday,2,Black,18,150.0,False,False
 2023-11-23 13:24:00,2023-11-17 06:57:00,cancelled,2023-11-18 10:51:00,weekday,midday,4,Red,18,212.0,False,False
 2023-05-31 07:33:00,2023-05-24 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
-2022-03-27 12:48:00,2022-03-25 14:36:00,cancelled,2022-03-28 18:42:58,weekend,midday,3,Yellow,9,144.0,False,False
+2022-03-27 12:48:00,2022-03-25 14:36:00,cancelled,2022-03-28 18:42:58,weekend,midday,3,Yellow,9,144.0,True,False
 2023-04-28 14:54:00,2023-04-28 09:37:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2022-07-22 06:12:00,2022-07-20 11:30:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2025-04-15 08:09:00,2025-04-08 19:00:00,cancelled,2025-04-11 18:59:00,weekday,morning,4,Yellow,9,172.0,False,False
@@ -21351,7 +21351,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-05-21 10:24:00,2025-05-14 19:01:00,played,,weekday,morning,4,Green,18,152.0,False,False
 2022-05-29 12:48:00,2022-05-27 17:30:00,played,,weekend,midday,1,Red,18,53.0,False,False
 2022-07-10 12:12:00,2022-07-03 19:00:00,cancelled,2022-07-09 21:00:00,weekend,midday,4,Red,18,124.0,False,False
-2022-03-27 12:48:00,2022-03-24 08:27:00,cancelled,2022-03-28 18:42:52,weekend,midday,4,Blue,18,192.0,False,False
+2022-03-27 12:48:00,2022-03-24 08:27:00,cancelled,2022-03-28 18:42:52,weekend,midday,4,Blue,18,192.0,True,False
 2023-07-13 13:51:00,2023-07-12 22:42:00,played,,weekday,midday,1,Red,18,95.0,False,False
 2021-07-29 06:30:00,2021-07-22 19:00:00,played,,weekday,morning,4,Blue,18,172.0,False,False
 2022-07-16 08:18:00,2022-07-09 19:05:00,cancelled,2022-07-15 21:47:00,weekend,morning,4,Green,18,192.0,False,False
@@ -21418,7 +21418,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-08-12 10:40:00,2021-08-11 23:09:00,played,,weekday,morning,1,Black,18,75.0,False,False
 2022-10-23 14:40:00,2022-10-20 09:42:00,cancelled,2022-10-22 11:37:01,weekend,midday,1,Black,18,85.0,False,False
 2022-11-05 09:21:00,2022-11-04 21:04:00,played,,weekend,morning,1,Red,18,53.0,False,False
-2025-06-14 14:00:00,2025-06-07 19:01:00,cancelled,2025-06-15 09:22:39,weekend,midday,4,Red,18,192.0,False,False
+2025-06-14 14:00:00,2025-06-07 19:01:00,cancelled,2025-06-15 09:22:39,weekend,midday,4,Red,18,192.0,True,False
 2025-05-25 09:39:00,2025-05-18 19:17:00,cancelled,2025-05-21 11:16:01,weekend,morning,4,Green,18,172.0,False,False
 2021-06-12 08:27:00,2021-06-10 14:32:00,played,,weekend,morning,3,Blue,18,144.0,False,False
 2022-11-15 09:57:00,2022-11-13 17:23:00,cancelled,2022-11-14 15:47:00,weekday,morning,4,Blue,18,172.0,False,False
@@ -21884,7 +21884,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-05 07:33:00,2023-04-04 18:28:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2024-04-13 11:18:00,2024-04-10 19:11:00,cancelled,2024-04-10 19:15:01,weekend,midday,3,Red,18,159.0,False,False
 2024-04-27 16:42:00,2024-04-21 17:26:00,cancelled,2024-04-21 17:59:01,weekend,evening,4,Red,18,136.0,False,False
-2023-10-30 08:09:00,2023-10-29 18:56:00,cancelled,2023-10-30 11:51:00,weekday,morning,1,Green,18,43.0,False,False
+2023-10-30 08:09:00,2023-10-29 18:56:00,cancelled,2023-10-30 11:51:00,weekday,morning,1,Green,18,43.0,True,False
 2025-06-02 09:57:00,2025-06-01 08:50:00,played,,weekday,morning,1,Yellow,9,23.0,False,False
 2024-06-05 09:48:00,2024-05-29 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2021-10-03 11:30:00,2021-10-01 13:05:00,played,,weekend,midday,4,Black,18,340.0,False,False
@@ -21946,7 +21946,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-07-02 06:57:00,2024-06-27 19:00:00,cancelled,2024-06-27 19:08:01,weekday,morning,1,Blue,9,28.0,False,False
 2025-04-14 17:27:00,2025-04-14 11:26:00,played,,weekday,evening,3,unknown,9,,False,False
 2022-07-15 12:48:00,2022-07-14 16:55:00,played,,weekday,midday,2,Red,18,96.0,False,False
-2021-08-08 11:30:00,2021-08-08 05:49:00,cancelled,2021-08-09 15:52:00,weekend,midday,3,Black,18,255.0,False,False
+2021-08-08 11:30:00,2021-08-08 05:49:00,cancelled,2021-08-09 15:52:00,weekend,midday,3,Black,18,255.0,True,False
 2024-03-28 08:36:00,2024-03-21 19:00:00,cancelled,2024-03-26 14:46:01,weekday,morning,4,Yellow,9,172.0,False,False
 2025-04-26 17:00:00,2025-04-26 14:09:00,played,,weekend,evening,2,Black,18,130.0,False,False
 2022-10-10 14:18:00,2022-10-03 21:42:00,cancelled,2022-10-09 22:05:01,weekday,midday,1,Red,18,53.0,False,False
@@ -21954,7 +21954,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-06-09 13:24:00,2024-06-07 07:08:00,played,,weekend,midday,4,Blue,18,192.0,False,False
 2022-07-19 12:03:00,2022-07-17 15:46:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2022-09-26 15:48:00,2022-09-23 19:48:00,cancelled,2022-09-23 19:53:00,weekday,midday,1,Blue,18,43.0,False,False
-2025-05-06 09:50:00,2025-05-04 09:28:00,cancelled,2025-05-06 11:57:08,weekday,morning,4,Black,18,560.0,False,False
+2025-05-06 09:50:00,2025-05-04 09:28:00,cancelled,2025-05-06 11:57:08,weekday,morning,4,Black,18,560.0,True,False
 2024-09-23 07:33:00,2024-09-22 15:23:00,played,,weekday,morning,1,Yellow,9,,False,False
 2025-08-12 16:06:00,2025-08-10 13:15:00,played,,weekday,evening,2,Yellow,9,0.0,False,False
 2025-04-01 11:36:00,2025-03-31 01:17:00,cancelled,2025-03-31 11:48:01,weekday,midday,4,Green,18,172.0,False,False
@@ -22034,7 +22034,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-21 09:12:00,2023-04-20 22:27:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2024-11-03 12:03:00,2024-11-02 16:24:00,played,,weekend,midday,1,Red,18,53.0,False,False
 2023-10-27 08:45:00,2023-10-26 22:33:00,played,,weekday,morning,1,Yellow,9,28.0,False,False
-2025-09-07 07:51:00,2025-08-31 19:00:00,cancelled,2025-09-07 08:32:48,weekend,morning,4,Red,18,192.0,False,False
+2025-09-07 07:51:00,2025-08-31 19:00:00,cancelled,2025-09-07 08:32:48,weekend,morning,4,Red,18,192.0,True,False
 2024-08-06 18:30:00,2024-07-31 15:04:00,cancelled,2024-07-31 15:12:01,weekday,evening,2,Yellow,9,56.0,False,False
 2023-05-11 06:21:00,2023-05-10 10:57:00,cancelled,2023-05-10 16:08:01,weekday,morning,1,Red,18,48.0,False,False
 2024-04-06 09:21:00,2024-03-30 19:12:00,played,,weekend,morning,4,Yellow,9,192.0,False,False
@@ -22221,7 +22221,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-08 14:27:00,2024-04-01 21:59:00,played,,weekday,midday,4,Green,18,192.0,False,False
 2023-06-22 07:06:00,2023-06-15 19:02:00,cancelled,2023-06-15 19:18:00,weekday,morning,1,Blue,9,28.0,False,False
 2024-05-08 10:06:00,2024-05-01 19:00:00,played,,weekday,morning,4,Red,18,192.0,False,False
-2023-09-10 13:33:00,2023-09-10 01:02:00,cancelled,2023-09-10 14:22:17,weekend,midday,1,unknown,9,31.0,False,False
+2023-09-10 13:33:00,2023-09-10 01:02:00,cancelled,2023-09-10 14:22:17,weekend,midday,1,unknown,9,31.0,True,False
 2022-10-08 15:20:00,2022-10-01 20:47:00,played,,weekend,midday,4,Black,18,220.0,False,False
 2024-05-08 10:33:00,2024-05-08 06:52:00,played,,weekday,morning,1,Green,18,,False,False
 2025-05-24 12:21:00,2025-05-21 10:16:00,played,,weekend,midday,2,Blue,18,,False,False
@@ -22338,7 +22338,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-08-21 10:33:00,2023-08-14 19:00:00,played,,weekday,morning,4,Green,18,172.0,False,False
 2022-07-04 16:50:00,2022-07-04 12:36:00,played,,weekday,evening,2,Black,18,110.0,False,False
 2024-05-27 12:03:00,2024-05-26 22:17:00,cancelled,2024-05-26 22:56:00,weekday,midday,2,Red,18,106.0,False,False
-2022-03-28 08:27:00,2022-03-24 10:58:00,cancelled,2022-03-28 18:43:08,weekday,morning,2,Yellow,9,86.0,False,False
+2022-03-28 08:27:00,2022-03-24 10:58:00,cancelled,2022-03-28 18:43:08,weekday,morning,2,Yellow,9,86.0,True,False
 2024-06-19 09:12:00,2024-06-12 19:01:00,cancelled,2024-06-14 19:58:00,weekday,morning,4,Yellow,9,192.0,False,False
 2025-05-13 11:09:00,2025-05-12 17:21:00,played,,weekday,midday,2,unknown,9,,False,False
 2024-08-15 12:21:00,2024-08-14 23:12:00,played,,weekday,midday,1,Yellow,9,43.0,False,False
@@ -22705,7 +22705,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-01 13:42:00,2023-03-31 18:51:00,played,,weekend,midday,1,Green,18,48.0,False,False
 2023-08-30 13:42:00,2023-08-30 09:31:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2021-05-10 15:39:00,2021-05-10 10:25:00,played,,weekday,midday,2,unknown,9,56.0,False,False
-2024-08-30 08:09:00,2024-08-23 19:15:00,cancelled,2024-08-31 08:58:02,weekday,morning,2,Red,18,96.0,False,False
+2024-08-30 08:09:00,2024-08-23 19:15:00,cancelled,2024-08-31 08:58:02,weekday,morning,2,Red,18,96.0,True,False
 2024-07-14 10:33:00,2024-07-13 19:09:00,cancelled,2024-07-13 19:21:01,weekend,morning,4,Blue,18,192.0,False,False
 2021-06-10 06:48:00,2021-06-09 12:12:00,played,,weekday,morning,1,Blue,9,28.0,False,False
 2025-10-10 12:57:00,2025-10-08 08:54:00,played,,weekday,midday,2,Red,18,86.0,False,False
@@ -22988,7 +22988,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-24 13:51:00,2022-05-23 22:36:00,played,,weekday,midday,4,Green,18,172.0,False,False
 2023-03-31 08:00:00,2023-03-29 07:01:00,cancelled,2023-03-31 07:22:01,weekday,morning,4,Yellow,9,172.0,False,False
 2022-05-10 07:33:00,2022-05-07 16:20:00,cancelled,2022-05-09 06:32:00,weekday,morning,1,Green,18,43.0,False,False
-2023-09-11 07:06:00,2023-09-04 19:00:00,cancelled,2023-09-11 18:02:01,weekday,morning,4,Yellow,9,112.0,False,False
+2023-09-11 07:06:00,2023-09-04 19:00:00,cancelled,2023-09-11 18:02:01,weekday,morning,4,Yellow,9,112.0,True,False
 2024-05-29 08:36:00,2024-05-22 19:00:00,played,,weekday,morning,4,Red,18,132.0,False,False
 2024-07-04 12:48:00,2024-06-28 07:10:00,played,,weekday,midday,4,Red,18,212.0,False,False
 2022-06-17 17:45:00,2022-06-15 15:21:00,cancelled,2022-06-16 12:12:00,weekday,evening,3,Green,18,84.0,False,False
@@ -23331,7 +23331,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-11-26 14:09:00,2023-11-23 11:13:00,cancelled,2023-11-25 17:07:00,weekend,midday,4,Red,18,136.0,False,False
 2024-06-07 07:06:00,2024-05-31 19:11:00,cancelled,2024-06-03 20:33:35,weekday,morning,4,Green,18,172.0,False,False
 2022-05-10 09:39:00,2022-05-09 22:42:00,cancelled,2022-05-09 22:46:00,weekday,morning,1,Yellow,9,43.0,False,False
-2021-08-08 14:20:00,2021-08-07 14:52:00,cancelled,2021-08-09 15:52:00,weekend,midday,4,Black,18,340.0,False,False
+2021-08-08 14:20:00,2021-08-07 14:52:00,cancelled,2021-08-09 15:52:00,weekend,midday,4,Black,18,340.0,True,False
 2023-08-13 08:54:00,2023-08-06 19:00:00,cancelled,2023-08-12 18:34:00,weekend,morning,4,Yellow,9,172.0,False,False
 2024-04-23 10:51:00,2024-04-19 11:33:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2024-08-04 12:57:00,2024-08-04 08:39:00,played,,weekend,midday,1,Green,18,48.0,False,False
@@ -23685,7 +23685,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-06-11 14:10:00,2023-06-04 19:00:00,played,,weekend,midday,4,Black,18,340.0,False,False
 2024-09-18 15:48:00,2024-09-12 07:56:00,cancelled,2024-09-15 09:00:00,weekday,midday,4,Red,18,192.0,False,False
 2023-03-30 07:24:00,2023-03-28 19:58:00,cancelled,2023-03-29 14:58:01,weekday,morning,1,Yellow,9,43.0,False,False
-2023-09-24 09:30:00,2023-09-22 20:36:00,cancelled,2023-09-24 16:00:16,weekend,morning,2,Black,18,170.0,False,False
+2023-09-24 09:30:00,2023-09-22 20:36:00,cancelled,2023-09-24 16:00:16,weekend,morning,2,Black,18,170.0,True,False
 2024-07-10 15:48:00,2024-07-03 20:53:00,cancelled,2024-07-07 11:16:00,weekday,midday,4,Red,18,192.0,False,False
 2025-04-18 15:30:00,2025-04-17 11:46:00,played,,weekday,midday,2,Black,18,290.0,False,False
 2025-07-12 13:24:00,2025-07-12 07:33:00,played,,weekend,midday,1,Blue,18,,False,False
@@ -23877,7 +23877,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-05-05 11:54:00,2024-05-04 15:43:00,cancelled,2024-05-04 15:51:00,weekend,midday,2,Blue,18,96.0,False,False
 2022-05-10 13:06:00,2022-05-06 09:38:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2023-10-17 15:12:00,2023-10-12 10:06:00,cancelled,2023-10-13 06:55:00,weekday,midday,2,Blue,18,56.0,False,False
-2022-12-30 14:54:00,2022-12-29 13:06:00,cancelled,2022-12-30 14:56:18,weekday,midday,4,Blue,18,112.0,False,False
+2022-12-30 14:54:00,2022-12-29 13:06:00,cancelled,2022-12-30 14:56:18,weekday,midday,4,Blue,18,112.0,True,False
 2022-07-01 06:39:00,2022-06-30 09:57:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
 2023-08-19 11:18:00,2023-08-18 15:52:00,cancelled,2023-08-18 17:23:00,weekend,midday,1,Red,18,53.0,False,False
 2024-08-21 09:03:00,2024-08-14 19:00:00,cancelled,2024-08-19 13:14:01,weekday,morning,4,Yellow,9,120.0,False,False
@@ -24174,7 +24174,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-05-30 16:10:00,2024-05-28 18:38:00,cancelled,2024-05-29 18:28:00,weekday,evening,1,Black,18,49.0,False,False
 2024-05-01 06:39:00,2024-04-28 20:28:00,cancelled,2024-04-30 17:38:00,weekday,morning,4,Yellow,9,120.0,False,False
 2025-06-05 18:21:00,2025-06-05 14:47:00,played,,weekday,evening,1,Blue,18,23.0,False,False
-2023-09-10 15:40:00,2023-09-08 02:05:00,cancelled,2023-09-10 16:29:18,weekend,midday,2,Black,18,330.0,False,False
+2023-09-10 15:40:00,2023-09-08 02:05:00,cancelled,2023-09-10 16:29:18,weekend,midday,2,Black,18,330.0,True,False
 2023-08-02 08:40:00,2023-08-01 21:24:00,played,,weekday,morning,1,Black,18,75.0,False,False
 2022-09-11 07:24:00,2022-09-04 19:00:00,cancelled,2022-09-10 18:59:00,weekend,morning,4,Blue,9,124.0,False,False
 2023-10-26 12:48:00,2023-10-19 19:00:00,cancelled,2023-10-21 03:24:00,weekday,midday,4,Green,18,172.0,False,False
@@ -24290,7 +24290,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-11-08 12:57:00,2023-11-01 19:00:00,cancelled,2023-11-01 19:12:00,weekday,midday,4,Red,18,192.0,False,False
 2023-11-18 11:27:00,2023-11-15 09:14:00,cancelled,2023-11-17 18:08:00,weekend,midday,4,Yellow,9,192.0,False,False
 2024-04-08 14:00:00,2024-04-07 08:53:00,cancelled,2024-04-07 17:26:00,weekday,midday,1,unknown,9,28.0,False,False
-2025-07-20 09:21:00,2025-07-13 19:00:00,cancelled,2025-07-20 10:57:18,weekend,morning,4,Blue,18,172.0,False,False
+2025-07-20 09:21:00,2025-07-13 19:00:00,cancelled,2025-07-20 10:57:18,weekend,morning,4,Blue,18,172.0,True,False
 2024-11-18 11:18:00,2024-11-17 14:55:00,played,,weekday,midday,1,Red,18,48.0,False,False
 2023-07-18 14:45:00,2023-07-18 10:32:00,cancelled,2023-07-18 12:14:01,weekday,midday,2,unknown,9,56.0,False,False
 2024-06-08 16:42:00,2024-06-07 11:47:00,played,,weekend,evening,2,Green,18,62.0,False,False
@@ -24413,7 +24413,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-26 11:54:00,2024-04-25 11:30:00,played,,weekday,midday,1,Yellow,9,43.0,False,False
 2021-08-12 11:20:00,2021-08-11 13:04:00,played,,weekday,midday,2,Black,18,150.0,False,False
 2025-06-22 09:03:00,2025-06-22 00:51:00,played,,weekend,morning,4,Blue,18,,False,False
-2023-09-24 14:00:00,2023-09-23 19:00:00,cancelled,2023-09-24 15:58:44,weekend,midday,4,Black,18,340.0,False,False
+2023-09-24 14:00:00,2023-09-23 19:00:00,cancelled,2023-09-24 15:58:44,weekend,midday,4,Black,18,340.0,True,False
 2021-04-08 14:09:00,2021-04-07 18:48:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2022-04-13 09:03:00,2022-04-08 04:34:00,played,,weekday,morning,4,Red,18,192.0,False,False
 2023-07-11 12:39:00,2023-07-04 20:59:00,cancelled,2023-07-07 10:25:00,weekday,midday,4,unknown,9,112.0,False,False
@@ -24471,7 +24471,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-20 16:10:00,2022-04-14 08:26:00,cancelled,2022-04-19 11:46:00,weekday,evening,1,Black,18,49.0,False,False
 2023-10-01 15:03:00,2023-09-29 19:12:00,played,,weekend,midday,3,Red,18,195.0,False,False
 2022-10-31 11:00:00,2022-10-29 19:07:00,cancelled,2022-10-29 19:46:00,weekday,midday,2,Green,18,86.0,False,False
-2023-08-26 08:18:00,2023-08-19 19:00:00,cancelled,2023-08-27 13:27:52,weekend,morning,4,Green,18,192.0,False,False
+2023-08-26 08:18:00,2023-08-19 19:00:00,cancelled,2023-08-27 13:27:52,weekend,morning,4,Green,18,192.0,True,False
 2021-05-03 06:48:00,2021-05-02 19:39:00,played,,weekday,morning,2,Blue,18,86.0,False,False
 2022-04-15 16:10:00,2022-04-13 21:29:00,cancelled,2022-04-13 21:34:00,weekday,evening,1,Black,18,93.0,False,False
 2022-06-25 11:27:00,2022-06-18 19:00:00,cancelled,2022-06-24 21:12:00,weekend,midday,4,Blue,18,192.0,False,False
@@ -24851,7 +24851,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-11 08:45:00,2024-04-06 17:17:00,cancelled,2024-04-10 15:10:01,weekday,morning,4,Yellow,9,172.0,False,False
 2022-08-18 13:51:00,2022-08-16 12:01:00,cancelled,2022-08-16 21:52:00,weekday,midday,4,Red,18,192.0,False,False
 2022-08-27 11:40:00,2022-08-20 19:00:00,cancelled,2022-08-25 13:42:00,weekend,midday,4,Black,18,340.0,False,False
-2022-05-23 12:12:00,2022-05-16 19:06:00,cancelled,2022-05-23 18:45:00,weekday,midday,2,Blue,18,86.0,False,False
+2022-05-23 12:12:00,2022-05-16 19:06:00,cancelled,2022-05-23 18:45:00,weekday,midday,2,Blue,18,86.0,True,False
 2025-01-25 11:00:00,2025-01-18 19:00:00,cancelled,2025-01-24 20:38:00,weekend,midday,4,Blue,18,192.0,False,False
 2023-04-06 12:21:00,2023-03-30 19:00:00,cancelled,2023-04-05 17:29:00,weekday,midday,4,Red,18,192.0,False,False
 2023-06-03 16:42:00,2023-06-03 12:03:00,played,,weekend,evening,2,unknown,9,62.0,False,False
@@ -24888,7 +24888,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-06-06 16:06:00,2023-06-05 06:56:00,cancelled,2023-06-06 04:15:00,weekday,evening,4,Blue,18,112.0,False,False
 2025-07-05 17:09:00,2025-07-04 21:25:00,played,,weekend,evening,1,Blue,18,26.0,False,False
 2025-05-02 14:10:00,2025-04-27 19:11:00,unknown,,weekday,midday,4,Black,18,580.0,False,False
-2025-06-14 15:39:00,2025-06-12 15:58:00,cancelled,2025-06-15 07:47:15,weekend,midday,1,Blue,18,43.0,False,False
+2025-06-14 15:39:00,2025-06-12 15:58:00,cancelled,2025-06-15 07:47:15,weekend,midday,1,Blue,18,43.0,True,False
 2022-08-05 15:30:00,2022-07-29 19:00:00,played,,weekday,midday,4,Black,18,300.0,False,False
 2023-09-15 14:09:00,2023-09-14 15:54:00,cancelled,2023-09-14 16:14:01,weekday,midday,2,Green,18,86.0,False,False
 2022-08-14 18:12:00,2022-08-07 19:50:00,cancelled,2022-08-07 19:56:00,weekend,evening,4,Green,18,124.0,False,False
@@ -25635,7 +25635,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-24 11:27:00,2023-07-17 22:36:00,played,,weekday,midday,1,Red,18,48.0,False,False
 2024-06-09 14:00:00,2024-06-06 20:33:00,played,,weekend,midday,4,Red,18,212.0,False,False
 2023-01-31 10:33:00,2023-01-27 22:32:00,cancelled,2023-01-30 01:45:00,weekday,morning,4,Yellow,9,172.0,False,False
-2024-06-27 06:12:00,2024-06-26 17:51:00,cancelled,2024-06-27 09:19:30,weekday,morning,2,Yellow,9,,False,False
+2024-06-27 06:12:00,2024-06-26 17:51:00,cancelled,2024-06-27 09:19:30,weekday,morning,2,Yellow,9,,True,False
 2021-08-27 12:39:00,2021-08-26 20:44:00,played,,weekday,midday,1,Yellow,9,43.0,False,False
 2023-07-26 11:54:00,2023-07-19 19:00:00,cancelled,2023-07-19 19:03:01,weekday,midday,4,unknown,9,112.0,False,False
 2022-04-26 08:50:00,2022-04-19 19:10:00,cancelled,2022-04-24 07:54:00,weekday,morning,4,Black,18,300.0,False,False
@@ -25657,7 +25657,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-08-10 17:27:00,2023-08-03 19:59:00,cancelled,2023-08-10 08:10:01,weekday,evening,4,Blue,18,112.0,False,False
 2024-06-23 06:57:00,2024-06-16 19:00:00,cancelled,2024-06-22 05:52:01,weekend,morning,4,Yellow,9,192.0,False,False
 2024-10-07 14:45:00,2024-09-30 21:02:00,cancelled,2024-10-06 09:45:00,weekday,midday,4,unknown,9,112.0,False,False
-2024-07-29 16:06:00,2024-07-22 19:00:00,cancelled,2024-07-30 09:22:23,weekday,evening,4,Blue,18,80.0,False,False
+2024-07-29 16:06:00,2024-07-22 19:00:00,cancelled,2024-07-30 09:22:23,weekday,evening,4,Blue,18,80.0,True,False
 2022-08-07 07:33:00,2022-07-31 19:00:00,played,,weekend,morning,4,Green,18,192.0,False,False
 2024-06-18 09:00:00,2024-06-17 22:34:00,played,,weekday,morning,2,Black,18,150.0,False,False
 2023-10-14 16:24:00,2023-10-09 19:00:00,cancelled,2023-10-12 16:59:00,weekend,evening,2,Red,18,130.0,False,False
@@ -25942,7 +25942,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-04-13 12:39:00,2021-04-10 15:21:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2023-06-04 16:06:00,2023-06-02 11:01:00,played,,weekend,evening,1,unknown,9,31.0,False,False
 2024-11-05 09:03:00,2024-11-04 21:25:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
-2022-03-20 12:03:00,2022-03-18 20:10:00,cancelled,2022-03-22 13:16:07,weekend,midday,1,Yellow,9,48.0,False,False
+2022-03-20 12:03:00,2022-03-18 20:10:00,cancelled,2022-03-22 13:16:07,weekend,midday,1,Yellow,9,48.0,True,False
 2023-07-16 09:21:00,2023-07-14 13:59:00,cancelled,2023-07-14 16:52:59,weekend,morning,4,Blue,18,192.0,False,False
 2024-09-07 12:03:00,2024-08-31 19:07:00,cancelled,2024-09-06 16:19:01,weekend,midday,4,Blue,18,192.0,False,False
 2024-07-08 13:50:00,2024-07-01 19:00:00,cancelled,2024-07-06 06:57:01,weekday,midday,4,Black,18,300.0,False,False
@@ -26029,7 +26029,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-03 07:06:00,2023-07-02 17:01:00,cancelled,2023-07-02 17:06:01,weekday,morning,2,Yellow,9,86.0,False,False
 2024-06-19 17:36:00,2024-06-17 16:30:00,cancelled,2024-06-18 19:17:01,weekday,evening,4,Red,18,136.0,False,False
 2024-03-02 13:42:00,2024-02-24 19:00:00,cancelled,2024-02-25 07:26:31,weekend,midday,4,Yellow,9,192.0,False,False
-2022-06-09 10:10:00,2022-06-09 06:59:00,cancelled,2022-06-12 16:22:10,weekday,morning,1,Black,18,75.0,False,False
+2022-06-09 10:10:00,2022-06-09 06:59:00,cancelled,2022-06-12 16:22:10,weekday,morning,1,Black,18,75.0,True,False
 2024-11-09 14:00:00,2024-11-02 19:35:00,cancelled,2024-11-06 12:19:00,weekend,midday,4,Yellow,9,124.0,False,False
 2024-12-22 10:42:00,2024-12-19 12:18:00,cancelled,2024-12-20 12:36:00,weekend,morning,3,Blue,18,144.0,False,False
 2024-04-10 08:00:00,2024-04-09 14:10:00,played,,weekday,morning,2,Yellow,9,60.0,False,False
@@ -26047,7 +26047,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-04 08:36:00,2023-08-28 19:00:00,played,,weekday,morning,4,Red,18,212.0,False,False
 2022-04-15 12:03:00,2022-04-08 19:00:00,cancelled,2022-04-14 17:34:00,weekday,midday,4,Yellow,9,172.0,False,False
 2022-07-13 09:30:00,2022-07-12 21:37:00,played,,weekday,morning,1,Red,18,48.0,False,False
-2021-10-21 12:40:00,2021-10-14 19:00:00,cancelled,2021-10-29 08:30:51,weekday,midday,4,Black,18,192.0,False,False
+2021-10-21 12:40:00,2021-10-14 19:00:00,cancelled,2021-10-29 08:30:51,weekday,midday,4,Black,18,192.0,True,False
 2022-06-19 09:57:00,2022-06-12 19:00:00,played,,weekend,morning,4,Blue,18,192.0,False,False
 2022-08-20 11:20:00,2022-08-13 19:00:00,played,,weekend,midday,4,Black,18,340.0,False,False
 2023-12-06 10:15:00,2023-11-29 19:00:00,cancelled,2023-12-06 03:28:00,weekday,morning,4,Blue,18,172.0,False,False
@@ -26913,7 +26913,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-03-09 10:51:00,2024-03-05 15:43:00,cancelled,2024-03-08 17:51:00,weekend,morning,2,Yellow,9,96.0,False,False
 2025-07-23 10:42:00,2025-07-16 19:03:00,played,,weekday,morning,4,Blue,18,100.0,False,False
 2024-06-23 06:48:00,2024-06-16 19:00:00,cancelled,2024-06-20 19:06:01,weekend,morning,4,Yellow,9,192.0,False,False
-2025-09-07 07:42:00,2025-08-31 19:00:00,cancelled,2025-09-07 10:18:04,weekend,morning,4,Blue,9,104.0,False,False
+2025-09-07 07:42:00,2025-08-31 19:00:00,cancelled,2025-09-07 10:18:04,weekend,morning,4,Blue,9,104.0,True,False
 2024-04-25 13:40:00,2024-04-18 19:01:00,cancelled,2024-04-18 19:09:01,weekday,midday,4,Black,18,300.0,False,False
 2022-11-06 14:36:00,2022-11-05 09:29:00,cancelled,2022-11-06 02:52:00,weekend,midday,1,unknown,9,31.0,False,False
 2025-10-06 13:42:00,2025-09-29 19:02:00,cancelled,2025-10-04 12:34:01,weekday,midday,2,Red,18,86.0,False,False
@@ -27230,7 +27230,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-09-15 17:00:00,2024-09-11 14:22:00,cancelled,2024-09-11 14:53:00,weekend,evening,2,Black,18,210.0,False,False
 2025-04-16 12:57:00,2025-04-09 19:00:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2024-02-26 12:12:00,2024-02-26 08:57:00,played,,weekday,midday,1,Blue,18,28.0,False,False
-2022-07-20 10:51:00,2022-07-20 00:52:00,cancelled,2022-07-20 10:53:57,weekday,morning,3,Red,18,144.0,False,False
+2022-07-20 10:51:00,2022-07-20 00:52:00,cancelled,2022-07-20 10:53:57,weekday,morning,3,Red,18,144.0,True,False
 2023-04-17 08:09:00,2023-04-10 19:00:00,cancelled,2023-04-12 06:15:01,weekday,morning,4,Red,18,,False,False
 2024-04-30 11:09:00,2024-04-29 15:23:00,cancelled,2024-04-29 17:11:02,weekday,midday,1,unknown,9,20.0,False,False
 2023-05-10 08:27:00,2023-05-08 17:50:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
@@ -27393,7 +27393,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-07-22 15:57:00,2021-07-21 13:03:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2022-07-01 11:45:00,2022-06-24 19:00:00,cancelled,2022-06-27 11:24:00,weekday,midday,4,Yellow,9,172.0,False,False
 2022-06-07 16:50:00,2022-06-02 19:00:00,cancelled,2022-06-05 20:10:00,weekday,evening,4,Black,18,372.0,False,False
-2023-05-20 13:20:00,2023-05-13 19:00:00,cancelled,2023-05-29 14:58:18,weekend,midday,4,Black,18,340.0,False,False
+2023-05-20 13:20:00,2023-05-13 19:00:00,cancelled,2023-05-29 14:58:18,weekend,midday,4,Black,18,340.0,True,False
 2023-08-16 13:06:00,2023-08-09 19:03:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2022-07-08 07:33:00,2022-07-07 14:15:00,cancelled,2022-07-07 14:18:00,weekday,morning,1,Yellow,9,43.0,False,False
 2023-05-23 16:06:00,2023-05-22 18:37:00,played,,weekday,evening,2,Red,18,62.0,False,False
@@ -27402,7 +27402,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-04 08:18:00,2023-06-27 19:00:00,played,,weekday,morning,4,Yellow,9,192.0,False,False
 2025-04-25 07:06:00,2025-04-24 17:41:00,cancelled,2025-04-24 21:25:00,weekday,morning,1,Red,18,33.0,False,False
 2024-07-08 11:10:00,2024-07-07 15:59:00,played,,weekday,midday,1,Black,18,75.0,False,False
-2025-08-01 06:39:00,2025-07-25 19:01:00,cancelled,2025-08-01 07:33:32,weekday,morning,4,Blue,18,0.0,False,False
+2025-08-01 06:39:00,2025-07-25 19:01:00,cancelled,2025-08-01 07:33:32,weekday,morning,4,Blue,18,0.0,True,False
 2024-12-01 11:18:00,2024-11-27 18:46:00,cancelled,2024-11-28 22:46:00,weekend,midday,1,Green,18,48.0,False,False
 2023-10-10 08:54:00,2023-10-09 16:23:00,played,,weekday,morning,1,Yellow,9,43.0,False,False
 2022-09-02 09:48:00,2022-09-01 08:27:00,cancelled,2022-09-01 15:32:01,weekday,morning,4,Green,18,172.0,False,False
@@ -27488,7 +27488,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-11 13:51:00,2023-05-04 19:02:00,cancelled,2023-05-10 22:07:00,weekday,midday,4,unknown,9,112.0,False,False
 2023-07-05 10:33:00,2023-06-28 19:40:00,played,,weekday,morning,4,unknown,9,112.0,False,False
 2021-07-30 08:54:00,2021-07-29 15:07:00,played,,weekday,morning,4,Red,18,192.0,False,False
-2024-08-07 13:51:00,2024-08-07 07:01:00,cancelled,2024-08-08 09:15:50,weekday,midday,4,Red,18,192.0,False,False
+2024-08-07 13:51:00,2024-08-07 07:01:00,cancelled,2024-08-08 09:15:50,weekday,midday,4,Red,18,192.0,True,False
 2024-06-16 08:09:00,2024-06-09 20:46:00,unknown,,weekend,morning,4,Green,18,112.0,False,False
 2022-10-10 11:27:00,2022-10-09 23:53:00,played,,weekday,midday,1,Red,18,53.0,False,False
 2022-05-23 12:48:00,2022-05-23 09:14:00,played,,weekday,midday,1,Red,18,48.0,False,False
@@ -27926,7 +27926,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-08-05 11:09:00,2022-08-03 16:23:00,played,,weekday,midday,2,Red,18,96.0,False,False
 2023-08-26 15:40:00,2023-08-21 10:08:00,cancelled,2023-08-23 06:33:00,weekend,midday,4,Black,18,340.0,False,False
 2025-06-26 15:48:00,2025-06-19 20:20:00,cancelled,2025-06-23 11:39:01,weekday,midday,2,Blue,18,76.0,False,False
-2025-01-01 12:39:00,2025-01-01 08:44:00,cancelled,2025-01-02 13:16:55,weekday,midday,1,Blue,18,48.0,False,False
+2025-01-01 12:39:00,2025-01-01 08:44:00,cancelled,2025-01-02 13:16:55,weekday,midday,1,Blue,18,48.0,True,False
 2022-06-07 15:03:00,2022-06-06 09:22:00,cancelled,2022-06-06 15:04:00,weekday,midday,2,Green,18,86.0,False,False
 2025-03-12 16:06:00,2025-03-05 20:08:00,cancelled,2025-03-05 20:27:00,weekday,evening,3,Blue,18,84.0,False,False
 2021-11-03 13:51:00,2021-10-28 12:11:00,played,,weekday,midday,3,unknown,9,84.0,False,False
@@ -28115,7 +28115,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-09-12 11:54:00,2021-09-11 07:06:00,played,,weekend,midday,1,Blue,18,48.0,False,False
 2022-06-15 18:21:00,2022-06-14 12:13:00,played,,weekday,evening,3,Green,18,84.0,False,False
 2022-04-10 09:03:00,2022-04-09 20:55:00,played,,weekend,morning,1,Red,18,53.0,False,False
-2023-08-26 09:10:00,2023-08-19 19:01:00,cancelled,2023-08-27 14:52:03,weekend,morning,4,Black,18,340.0,False,False
+2023-08-26 09:10:00,2023-08-19 19:01:00,cancelled,2023-08-27 14:52:03,weekend,morning,4,Black,18,340.0,True,False
 2024-08-25 16:15:00,2024-08-24 21:10:00,played,,weekend,evening,3,Yellow,9,93.0,False,False
 2025-04-24 07:15:00,2025-04-23 17:13:00,cancelled,2025-04-23 19:31:00,weekday,morning,2,Yellow,9,86.0,False,False
 2024-04-29 09:57:00,2024-04-23 12:28:00,cancelled,2024-04-23 12:34:01,weekday,morning,4,Yellow,9,172.0,False,False
@@ -28281,7 +28281,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-14 13:00:00,2023-05-14 05:57:00,played,,weekend,midday,1,Black,18,85.0,False,False
 2021-09-06 10:30:00,2021-09-05 20:12:00,played,,weekday,morning,1,Black,18,85.0,False,False
 2023-11-03 14:18:00,2023-10-31 12:02:00,cancelled,2023-11-02 10:29:00,weekday,midday,4,Red,18,192.0,False,False
-2021-07-03 07:30:00,2021-07-02 14:50:00,cancelled,2021-07-03 11:38:00,weekend,morning,1,Black,18,165.0,False,False
+2021-07-03 07:30:00,2021-07-02 14:50:00,cancelled,2021-07-03 11:38:00,weekend,morning,1,Black,18,165.0,True,False
 2024-06-26 16:51:00,2024-06-19 19:00:00,played,,weekday,evening,4,unknown,9,112.0,False,False
 2023-05-04 14:27:00,2023-04-27 19:03:00,cancelled,2023-04-28 17:02:01,weekday,midday,4,unknown,9,112.0,False,False
 2023-04-29 07:42:00,2023-04-28 19:05:00,cancelled,2023-04-28 19:08:02,weekend,morning,1,Red,18,53.0,False,False
@@ -28715,7 +28715,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-05-02 08:54:00,2022-04-25 19:00:00,cancelled,2022-05-01 16:39:11,weekday,morning,4,Red,18,192.0,False,False
 2023-08-21 17:54:00,2023-08-19 08:44:00,cancelled,2023-08-20 10:17:01,weekday,evening,1,Green,18,28.0,False,False
 2022-06-15 13:24:00,2022-06-14 20:39:00,cancelled,2022-06-14 22:05:00,weekday,midday,2,Red,18,96.0,False,False
-2024-06-06 18:30:00,2024-06-06 10:02:00,cancelled,2024-06-07 06:47:47,weekday,evening,2,Blue,18,,False,False
+2024-06-06 18:30:00,2024-06-06 10:02:00,cancelled,2024-06-07 06:47:47,weekday,evening,2,Blue,18,,True,False
 2021-10-25 10:06:00,2021-10-23 05:53:00,cancelled,2021-10-23 09:21:19,weekday,morning,1,Green,18,43.0,False,False
 2025-05-04 15:48:00,2025-04-27 20:04:00,cancelled,2025-05-02 09:00:00,weekend,midday,4,Red,18,212.0,False,False
 2023-04-04 14:18:00,2023-03-29 07:23:00,cancelled,2023-04-03 09:04:00,weekday,midday,1,unknown,9,28.0,False,False
@@ -28858,7 +28858,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-19 09:00:00,2023-04-18 18:28:00,cancelled,2023-04-18 19:41:00,weekday,morning,2,Black,18,150.0,False,False
 2023-06-12 09:03:00,2023-06-05 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
 2022-06-26 09:12:00,2022-06-23 08:48:00,played,,weekend,morning,4,Blue,18,192.0,False,False
-2025-06-14 16:51:00,2025-06-11 13:03:00,cancelled,2025-06-15 08:48:00,weekend,evening,4,Yellow,9,104.0,False,False
+2025-06-14 16:51:00,2025-06-11 13:03:00,cancelled,2025-06-15 08:48:00,weekend,evening,4,Yellow,9,104.0,True,False
 2024-02-07 13:06:00,2024-02-06 11:49:00,cancelled,2024-02-06 20:21:01,weekday,midday,2,Blue,18,86.0,False,False
 2023-10-15 09:21:00,2023-10-14 20:41:00,cancelled,2023-10-14 20:51:00,weekend,morning,1,Red,18,53.0,False,False
 2023-04-13 11:27:00,2023-04-12 21:25:00,played,,weekday,midday,4,Red,18,192.0,False,False
@@ -29827,7 +29827,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-01-29 11:00:00,2024-01-28 16:35:00,unknown,,weekday,midday,1,Yellow,9,43.0,False,False
 2023-08-22 18:03:00,2023-08-22 10:48:00,cancelled,2023-08-22 17:11:00,weekday,evening,1,Blue,18,28.0,False,False
 2022-08-27 06:48:00,2022-08-26 18:22:00,cancelled,2022-08-26 18:26:01,weekend,morning,4,Yellow,9,124.0,False,False
-2022-04-19 07:42:00,2022-04-18 06:20:00,cancelled,2022-04-19 08:27:35,weekday,morning,4,Green,18,172.0,False,False
+2022-04-19 07:42:00,2022-04-18 06:20:00,cancelled,2022-04-19 08:27:35,weekday,morning,4,Green,18,172.0,True,False
 2024-03-29 15:57:00,2024-03-29 10:45:00,cancelled,2024-03-29 13:28:00,weekday,midday,1,unknown,9,28.0,False,False
 2023-09-03 13:24:00,2023-09-02 19:17:00,cancelled,2023-09-03 01:21:00,weekend,midday,4,Blue,18,192.0,False,False
 2022-08-19 13:15:00,2022-08-18 18:50:00,played,,weekday,midday,4,Red,18,192.0,False,False
@@ -30231,7 +30231,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-08-14 17:00:00,2024-08-08 08:15:00,played,,weekday,evening,4,unknown,9,80.0,False,False
 2022-07-16 06:12:00,2022-07-15 11:14:00,played,,weekend,morning,1,Blue,9,31.0,False,False
 2024-10-09 11:36:00,2024-10-07 04:57:00,cancelled,2024-10-07 19:54:00,weekday,midday,4,Blue,18,172.0,False,False
-2024-08-07 17:27:00,2024-08-07 08:45:00,cancelled,2024-08-08 09:38:59,weekday,evening,4,unknown,9,,False,False
+2024-08-07 17:27:00,2024-08-07 08:45:00,cancelled,2024-08-08 09:38:59,weekday,evening,4,unknown,9,,True,False
 2023-07-27 13:51:00,2023-07-21 07:23:00,played,,weekday,midday,3,unknown,9,84.0,False,False
 2025-05-14 11:40:00,2025-05-13 18:39:00,played,,weekday,midday,3,Black,18,420.0,False,False
 2024-05-12 10:40:00,2024-05-11 20:26:00,played,,weekend,morning,2,Black,18,330.0,False,False
@@ -30325,7 +30325,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-06-28 10:42:00,2023-06-21 19:00:00,cancelled,2023-06-27 18:58:00,weekday,morning,4,Green,18,172.0,False,False
 2024-11-24 08:18:00,2024-11-23 19:17:00,played,,weekend,morning,1,Blue,9,31.0,False,False
 2023-06-23 16:15:00,2023-06-16 19:00:00,cancelled,2023-06-23 06:42:00,weekday,evening,4,Blue,18,112.0,False,False
-2023-08-31 12:12:00,2023-08-24 19:00:00,cancelled,2023-08-31 13:24:21,weekday,midday,4,Yellow,9,172.0,False,False
+2023-08-31 12:12:00,2023-08-24 19:00:00,cancelled,2023-08-31 13:24:21,weekday,midday,4,Yellow,9,172.0,True,False
 2023-08-27 15:39:00,2023-08-26 19:15:00,cancelled,2023-08-26 22:59:00,weekend,midday,3,unknown,9,93.0,False,False
 2022-06-10 17:27:00,2022-06-07 11:23:00,cancelled,2022-06-07 11:28:00,weekday,evening,2,Red,18,62.0,False,False
 2022-10-25 15:30:00,2022-10-21 17:44:00,cancelled,2022-10-21 17:50:00,weekday,midday,4,Green,18,112.0,False,False
@@ -31176,7 +31176,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-10-11 13:42:00,2024-10-10 16:28:00,cancelled,2024-10-10 23:58:00,weekday,midday,1,Red,18,48.0,False,False
 2023-05-28 12:50:00,2023-05-21 19:00:00,cancelled,2023-05-27 12:39:00,weekend,midday,4,Black,18,340.0,False,False
 2023-05-01 07:24:00,2023-04-28 17:00:00,cancelled,2023-04-29 06:41:00,weekday,morning,4,Red,18,192.0,False,False
-2024-05-23 11:54:00,2024-05-16 19:00:00,cancelled,2024-05-23 12:22:29,weekday,midday,4,Red,18,192.0,False,False
+2024-05-23 11:54:00,2024-05-16 19:00:00,cancelled,2024-05-23 12:22:29,weekday,midday,4,Red,18,192.0,True,False
 2022-05-16 14:54:00,2022-05-16 09:04:00,played,,weekday,midday,2,Red,18,190.0,False,False
 2023-04-25 10:20:00,2023-04-24 16:28:00,played,,weekday,morning,1,Black,18,75.0,False,False
 2025-04-23 18:12:00,2025-04-23 14:52:00,played,,weekday,evening,3,unknown,9,,False,False
@@ -31213,7 +31213,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-07 16:10:00,2023-09-07 08:31:00,cancelled,2023-09-07 13:13:01,weekday,evening,3,Black,18,147.0,False,False
 2022-07-06 08:18:00,2022-07-05 13:53:00,cancelled,2022-07-05 17:04:01,weekday,morning,1,Green,18,43.0,False,False
 2023-08-20 17:18:00,2023-08-13 22:13:00,cancelled,2023-08-16 16:13:01,weekend,evening,4,Red,18,136.0,False,False
-2024-07-13 08:54:00,2024-07-06 19:00:00,cancelled,2024-07-13 12:57:18,weekend,morning,4,Red,18,212.0,False,False
+2024-07-13 08:54:00,2024-07-06 19:00:00,cancelled,2024-07-13 12:57:18,weekend,morning,4,Red,18,212.0,True,False
 2022-06-07 15:12:00,2022-06-03 20:16:00,cancelled,2022-06-03 20:31:00,weekday,midday,3,Blue,18,129.0,False,False
 2023-04-19 16:06:00,2023-04-17 14:45:00,played,,weekday,evening,2,Red,18,62.0,False,False
 2022-05-21 06:57:00,2022-05-20 08:11:00,cancelled,2022-05-20 11:26:00,weekend,morning,2,Blue,18,96.0,False,False
@@ -31656,7 +31656,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-11-26 12:12:00,2022-11-20 07:40:00,cancelled,2022-11-20 07:46:00,weekend,midday,2,Red,18,106.0,False,False
 2021-12-16 09:30:00,2021-12-14 19:02:00,played,,weekday,morning,4,Blue,18,172.0,False,False
 2024-04-02 14:09:00,2024-03-27 20:24:00,cancelled,2024-03-29 08:56:00,weekday,midday,4,Green,18,172.0,False,False
-2024-08-18 09:03:00,2024-08-11 19:00:00,cancelled,2024-08-18 10:48:34,weekend,morning,4,Red,18,212.0,False,False
+2024-08-18 09:03:00,2024-08-11 19:00:00,cancelled,2024-08-18 10:48:34,weekend,morning,4,Red,18,212.0,True,False
 2023-04-02 13:33:00,2023-03-31 12:35:00,played,,weekend,midday,2,Red,18,106.0,False,False
 2025-08-07 14:18:00,2025-08-03 09:24:00,played,,weekday,midday,4,Yellow,9,92.0,False,False
 2024-06-04 06:12:00,2024-06-03 11:21:00,cancelled,2024-06-03 11:49:42,weekday,morning,4,Green,18,172.0,False,False
@@ -32139,7 +32139,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-06-12 06:48:00,2025-06-05 19:05:00,cancelled,2025-06-09 20:13:01,weekday,morning,1,Red,18,43.0,False,False
 2025-04-15 17:00:00,2025-04-15 14:25:00,played,,weekday,evening,2,Red,18,62.0,False,False
 2023-05-26 10:42:00,2023-05-19 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
-2021-07-02 06:03:00,2021-07-01 16:54:00,cancelled,2021-07-02 06:33:00,weekday,morning,2,Red,18,96.0,False,False
+2021-07-02 06:03:00,2021-07-01 16:54:00,cancelled,2021-07-02 06:33:00,weekday,morning,2,Red,18,96.0,True,False
 2022-09-29 14:00:00,2022-09-22 19:01:00,cancelled,2022-09-26 16:00:00,weekday,midday,4,Blue,18,172.0,False,False
 2022-07-29 12:57:00,2022-07-28 22:44:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2024-09-15 07:51:00,2024-09-08 19:52:00,cancelled,2024-09-13 04:49:00,weekend,morning,4,Blue,18,192.0,False,False
@@ -32182,7 +32182,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-07-14 06:48:00,2024-07-10 11:28:00,played,,weekend,morning,3,Blue,18,144.0,False,False
 2022-10-10 11:45:00,2022-10-03 19:00:00,played,,weekday,midday,4,Red,18,212.0,False,False
 2024-07-09 13:15:00,2024-07-08 16:46:00,cancelled,2024-07-08 16:56:01,weekday,midday,2,unknown,9,56.0,False,False
-2021-09-28 12:10:00,2021-09-22 09:46:00,cancelled,2021-09-29 10:32:00,weekday,midday,4,Black,18,300.0,False,False
+2021-09-28 12:10:00,2021-09-22 09:46:00,cancelled,2021-09-29 10:32:00,weekday,midday,4,Black,18,300.0,True,False
 2024-08-10 17:00:00,2024-08-07 21:41:00,cancelled,2024-08-09 10:06:01,weekend,evening,1,Black,18,55.0,False,False
 2024-07-09 15:57:00,2024-07-02 19:13:00,cancelled,2024-07-08 20:55:01,weekday,midday,4,Red,18,192.0,False,False
 2023-04-10 12:39:00,2023-04-06 11:06:00,played,,weekday,midday,4,Green,18,172.0,False,False
@@ -32296,7 +32296,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-09 11:00:00,2023-07-08 20:08:00,cancelled,2023-07-08 21:16:01,weekend,midday,1,Blue,18,48.0,False,False
 2024-02-19 12:21:00,2024-02-12 19:00:00,cancelled,2024-02-18 14:29:00,weekday,midday,4,Blue,18,192.0,False,False
 2023-09-25 12:03:00,2023-09-18 20:04:00,cancelled,2023-09-20 21:00:42,weekday,midday,4,Blue,18,172.0,False,False
-2023-08-31 07:33:00,2023-08-30 18:01:00,cancelled,2023-08-31 13:24:06,weekday,morning,1,Red,18,48.0,False,False
+2023-08-31 07:33:00,2023-08-30 18:01:00,cancelled,2023-08-31 13:24:06,weekday,morning,1,Red,18,48.0,True,False
 2021-09-03 10:06:00,2021-09-02 19:37:00,played,,weekday,morning,2,Blue,18,86.0,False,False
 2022-07-15 16:00:00,2022-07-14 16:36:00,played,,weekday,evening,4,Black,18,196.0,False,False
 2022-08-30 17:00:00,2022-08-26 07:18:00,cancelled,2022-08-26 07:22:00,weekday,evening,1,Black,18,49.0,False,False
@@ -32773,7 +32773,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-20 13:06:00,2024-04-20 12:11:00,played,,weekend,midday,1,Green,18,31.0,False,False
 2025-07-06 17:00:00,2025-06-29 19:01:00,cancelled,2025-06-29 21:04:01,weekend,evening,4,Black,18,200.0,False,False
 2024-07-11 16:20:00,2024-07-11 11:34:00,played,,weekday,evening,2,Black,18,98.0,False,False
-2024-08-18 09:39:00,2024-08-17 20:40:00,cancelled,2024-08-18 12:51:00,weekend,morning,4,Green,18,,False,False
+2024-08-18 09:39:00,2024-08-17 20:40:00,cancelled,2024-08-18 12:51:00,weekend,morning,4,Green,18,,True,False
 2021-05-13 16:33:00,2021-05-06 22:10:00,played,,weekday,evening,2,Red,18,62.0,False,False
 2023-05-15 09:21:00,2023-05-14 11:21:00,played,,weekday,morning,2,Yellow,9,86.0,False,False
 2023-09-06 15:30:00,2023-09-01 12:24:00,played,,weekday,midday,4,unknown,9,112.0,False,False
@@ -33734,7 +33734,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-03-05 10:15:00,2025-03-04 10:51:00,cancelled,2025-03-04 19:00:00,weekday,morning,2,Blue,18,60.0,False,False
 2023-05-01 13:42:00,2023-04-30 06:05:00,cancelled,2023-04-30 09:33:02,weekday,midday,4,Green,18,172.0,False,False
 2024-08-01 06:30:00,2024-07-31 19:00:00,cancelled,2024-07-31 19:02:30,weekday,morning,1,Yellow,9,28.0,False,False
-2023-10-20 10:50:00,2023-10-13 19:00:00,cancelled,2023-10-31 10:04:00,weekday,morning,4,Black,18,300.0,False,False
+2023-10-20 10:50:00,2023-10-13 19:00:00,cancelled,2023-10-31 10:04:00,weekday,morning,4,Black,18,300.0,True,False
 2022-05-16 10:33:00,2022-05-14 23:09:00,cancelled,2022-05-15 10:14:00,weekday,morning,1,Blue,18,43.0,False,False
 2023-10-10 12:30:00,2023-10-03 19:00:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2024-01-23 13:15:00,2024-01-18 10:51:00,cancelled,2024-01-21 06:13:00,weekday,midday,2,Yellow,9,56.0,False,False
@@ -33805,7 +33805,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-09-28 13:20:00,2024-09-21 19:00:00,cancelled,2024-09-27 09:56:00,weekend,midday,4,Black,18,340.0,False,False
 2023-09-14 16:24:00,2023-09-13 17:32:00,cancelled,2023-09-14 07:43:03,weekday,evening,1,Green,18,28.0,False,False
 2023-06-18 07:51:00,2023-06-11 19:00:00,played,,weekend,morning,4,Blue,18,192.0,False,False
-2025-05-06 09:48:00,2025-05-02 23:48:00,cancelled,2025-05-06 16:44:32,weekday,morning,2,Green,18,76.0,False,False
+2025-05-06 09:48:00,2025-05-02 23:48:00,cancelled,2025-05-06 16:44:32,weekday,morning,2,Green,18,76.0,True,False
 2023-04-11 16:24:00,2023-04-10 20:34:00,unknown,,weekday,evening,2,Green,18,56.0,False,False
 2024-04-10 11:09:00,2024-04-08 16:56:00,cancelled,2024-04-09 03:48:00,weekday,midday,1,unknown,9,28.0,False,False
 2022-04-08 11:00:00,2022-04-07 21:35:00,cancelled,2022-04-08 06:53:00,weekday,midday,1,Red,18,48.0,False,False
@@ -34123,7 +34123,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-10-27 12:39:00,2023-10-20 19:00:00,played,,weekday,midday,4,Blue,18,172.0,False,False
 2021-09-10 13:33:00,2021-09-07 14:59:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2024-08-06 10:06:00,2024-08-06 04:55:00,played,,weekday,morning,1,Yellow,9,,False,False
-2021-04-25 08:40:00,2021-04-24 14:57:00,cancelled,2021-04-25 10:16:46,weekend,morning,1,Black,18,85.0,False,False
+2021-04-25 08:40:00,2021-04-24 14:57:00,cancelled,2021-04-25 10:16:46,weekend,morning,1,Black,18,85.0,True,False
 2023-03-15 11:09:00,2023-03-08 19:00:00,unknown,,weekday,midday,4,Blue,18,172.0,False,False
 2022-06-06 06:48:00,2022-06-05 05:39:00,played,,weekday,morning,1,Yellow,9,28.0,False,False
 2023-05-02 13:20:00,2023-05-01 17:29:00,cancelled,2023-05-01 19:10:00,weekday,midday,2,Black,18,150.0,False,False
@@ -34359,7 +34359,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-07-21 06:48:00,2024-07-20 21:36:00,played,,weekend,morning,4,Blue,18,,False,False
 2022-06-22 12:48:00,2022-06-15 19:00:00,cancelled,2022-06-21 09:17:00,weekday,midday,4,Red,18,192.0,False,False
 2022-04-24 06:30:00,2022-04-23 12:05:00,cancelled,2022-04-23 22:53:00,weekend,morning,1,Blue,9,31.0,False,False
-2024-07-13 10:30:00,2024-07-12 21:35:00,cancelled,2024-07-13 12:46:27,weekend,morning,3,Black,18,495.0,False,False
+2024-07-13 10:30:00,2024-07-12 21:35:00,cancelled,2024-07-13 12:46:27,weekend,morning,3,Black,18,495.0,True,False
 2021-11-18 08:36:00,2021-11-17 17:52:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2023-02-07 13:51:00,2023-02-01 19:03:00,cancelled,2023-02-03 14:29:00,weekday,midday,2,Blue,18,56.0,False,False
 2023-10-24 08:00:00,2023-10-17 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
@@ -34506,7 +34506,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-05-04 13:06:00,2025-05-01 18:15:00,played,,weekend,midday,4,Green,18,172.0,False,False
 2023-05-31 07:06:00,2023-05-24 19:00:00,cancelled,2023-05-27 19:36:01,weekday,morning,4,Yellow,9,112.0,False,False
 2024-07-03 18:30:00,2024-06-28 09:43:00,cancelled,2024-06-28 09:45:01,weekday,evening,3,unknown,9,84.0,False,False
-2021-05-30 07:24:00,2021-05-23 19:00:00,cancelled,2021-05-30 11:56:10,weekend,morning,4,Red,18,212.0,False,False
+2021-05-30 07:24:00,2021-05-23 19:00:00,cancelled,2021-05-30 11:56:10,weekend,morning,4,Red,18,212.0,True,False
 2023-07-12 15:30:00,2023-07-05 21:13:00,cancelled,2023-07-11 14:12:01,weekday,midday,4,unknown,9,112.0,False,False
 2022-06-18 06:03:00,2022-06-11 19:00:00,cancelled,2022-06-17 11:11:00,weekend,morning,4,Yellow,9,124.0,False,False
 2024-11-16 11:09:00,2024-11-16 06:29:00,played,,weekend,midday,1,Blue,18,48.0,False,False
@@ -35295,7 +35295,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-04-14 13:33:00,2025-04-08 19:56:00,cancelled,2025-04-10 00:28:00,weekday,midday,2,Red,18,96.0,False,False
 2022-10-05 15:30:00,2022-10-02 23:57:00,cancelled,2022-10-03 19:59:00,weekday,midday,4,Blue,18,112.0,False,False
 2023-07-26 11:20:00,2023-07-25 08:07:00,cancelled,2023-07-25 20:22:00,weekday,midday,1,Black,18,75.0,False,False
-2024-07-13 09:57:00,2024-07-06 19:05:00,cancelled,2024-07-13 17:08:03,weekend,morning,4,Yellow,9,192.0,False,False
+2024-07-13 09:57:00,2024-07-06 19:05:00,cancelled,2024-07-13 17:08:03,weekend,morning,4,Yellow,9,192.0,True,False
 2022-10-27 11:18:00,2022-10-26 11:29:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2024-07-12 13:24:00,2024-07-12 06:52:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2022-09-25 15:48:00,2022-09-19 02:38:00,cancelled,2022-09-20 05:02:00,weekend,midday,2,Red,18,106.0,False,False
@@ -35522,7 +35522,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-07 13:33:00,2024-10-31 22:48:00,cancelled,2024-11-06 08:21:00,weekday,midday,4,Red,18,192.0,False,False
 2023-12-01 12:39:00,2023-12-01 08:42:00,played,,weekday,midday,2,Blue,18,56.0,False,False
 2022-05-27 14:18:00,2022-05-24 18:10:00,cancelled,2022-05-26 01:15:00,weekday,midday,2,Red,18,96.0,False,False
-2024-07-06 08:09:00,2024-07-05 17:51:00,cancelled,2024-07-06 09:31:52,weekend,morning,1,Green,18,48.0,False,False
+2024-07-06 08:09:00,2024-07-05 17:51:00,cancelled,2024-07-06 09:31:52,weekend,morning,1,Green,18,48.0,True,False
 2023-10-27 12:12:00,2023-10-27 04:56:00,played,,weekday,midday,2,Yellow,9,86.0,False,False
 2023-09-06 16:24:00,2023-08-30 19:03:00,played,,weekday,evening,4,unknown,9,112.0,False,False
 2022-08-06 07:15:00,2022-08-05 19:28:00,played,,weekend,morning,1,Yellow,9,31.0,False,False
@@ -36504,14 +36504,14 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-29 11:54:00,2024-11-22 19:00:00,cancelled,2024-11-27 10:47:00,weekday,midday,4,Green,18,172.0,False,False
 2023-07-31 07:15:00,2023-07-28 16:08:00,cancelled,2023-07-29 11:38:01,weekday,morning,1,Yellow,9,28.0,False,False
 2024-06-15 11:00:00,2024-06-08 19:00:00,played,,weekend,midday,4,Black,18,340.0,False,False
-2025-05-09 13:15:00,2025-05-02 19:09:00,cancelled,2025-05-09 14:02:15,weekday,midday,2,Yellow,9,76.0,False,False
+2025-05-09 13:15:00,2025-05-02 19:09:00,cancelled,2025-05-09 14:02:15,weekday,midday,2,Yellow,9,76.0,True,False
 2023-09-01 12:30:00,2023-08-31 17:36:00,played,,weekday,midday,2,Yellow,9,86.0,False,False
 2023-10-27 14:10:00,2023-10-26 11:47:00,cancelled,2023-10-26 11:55:00,weekday,midday,4,Black,18,300.0,False,False
 2022-11-24 11:18:00,2022-11-17 19:07:00,played,,weekday,midday,4,Red,18,212.0,False,False
 2024-11-17 09:03:00,2024-11-10 19:02:00,played,,weekend,morning,4,Yellow,9,124.0,False,False
 2022-08-05 06:57:00,2022-08-04 16:22:00,cancelled,2022-08-04 18:50:00,weekday,morning,1,Yellow,9,28.0,False,False
 2022-05-27 08:18:00,2022-05-20 19:00:00,played,,weekday,morning,4,Blue,18,172.0,False,False
-2024-06-05 11:40:00,2024-06-04 17:22:00,cancelled,2024-06-05 12:21:55,weekday,midday,1,Black,18,75.0,False,False
+2024-06-05 11:40:00,2024-06-04 17:22:00,cancelled,2024-06-05 12:21:55,weekday,midday,1,Black,18,75.0,True,False
 2021-04-22 16:33:00,2021-04-21 09:35:00,unknown,,weekday,evening,2,unknown,9,56.0,False,False
 2024-12-01 10:24:00,2024-11-30 15:04:00,cancelled,2024-11-30 15:52:00,weekend,morning,1,Blue,18,48.0,False,False
 2023-06-30 14:09:00,2023-06-24 18:04:00,cancelled,2023-06-24 18:07:00,weekday,midday,1,unknown,9,28.0,False,False
@@ -36925,7 +36925,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-06-15 11:45:00,2021-06-15 08:17:00,played,,weekday,midday,1,Red,18,48.0,False,False
 2022-04-27 13:42:00,2022-04-27 10:29:00,played,,weekday,midday,2,Red,18,190.0,False,False
 2025-05-26 16:15:00,2025-05-26 12:48:00,played,,weekday,evening,4,Blue,18,,False,False
-2022-05-20 06:03:00,2022-05-19 16:29:00,cancelled,2022-05-20 09:31:49,weekday,morning,1,Blue,9,28.0,False,False
+2022-05-20 06:03:00,2022-05-19 16:29:00,cancelled,2022-05-20 09:31:49,weekday,morning,1,Blue,9,28.0,True,False
 2023-07-03 13:24:00,2023-07-03 04:22:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2024-08-30 15:03:00,2024-08-23 19:00:00,played,,weekday,midday,4,Green,18,172.0,False,False
 2023-09-17 14:45:00,2023-09-16 20:03:00,cancelled,2023-09-16 20:15:00,weekend,midday,1,Red,18,105.0,False,False
@@ -37166,7 +37166,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-06-12 09:10:00,2024-06-12 03:45:00,cancelled,2024-06-12 03:58:01,weekday,morning,1,Black,18,75.0,False,False
 2021-09-15 15:21:00,2021-09-15 11:58:00,played,,weekday,midday,3,Blue,18,129.0,False,False
 2024-06-25 10:33:00,2024-06-23 18:25:00,played,,weekday,morning,4,Green,18,120.0,False,False
-2024-07-13 11:18:00,2024-07-06 19:05:00,cancelled,2024-07-14 13:00:02,weekend,midday,4,Yellow,9,192.0,False,False
+2024-07-13 11:18:00,2024-07-06 19:05:00,cancelled,2024-07-14 13:00:02,weekend,midday,4,Yellow,9,192.0,True,False
 2023-11-11 08:45:00,2023-11-10 20:23:00,cancelled,2023-11-11 06:39:00,weekend,morning,1,Yellow,9,48.0,False,False
 2024-10-25 11:10:00,2024-10-18 19:00:00,played,,weekday,midday,4,Black,18,300.0,False,False
 2025-06-21 14:54:00,2025-06-21 10:54:00,played,,weekend,midday,4,Blue,18,,False,False
@@ -37249,7 +37249,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-09-28 13:33:00,2023-09-21 19:00:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2023-06-06 14:40:00,2023-06-01 08:19:00,played,,weekday,midday,4,Black,18,300.0,False,False
 2024-06-18 12:57:00,2024-06-16 06:09:00,played,,weekday,midday,1,unknown,9,20.0,False,False
-2023-08-31 07:33:00,2023-08-24 19:00:00,cancelled,2023-08-31 13:24:05,weekday,morning,4,Blue,9,112.0,False,False
+2023-08-31 07:33:00,2023-08-24 19:00:00,cancelled,2023-08-31 13:24:05,weekday,morning,4,Blue,9,112.0,True,False
 2024-04-29 12:12:00,2024-04-27 21:32:00,played,,weekday,midday,4,Blue,18,172.0,False,False
 2023-10-05 14:00:00,2023-09-28 19:00:00,played,,weekday,midday,4,Black,18,300.0,False,False
 2022-07-01 06:48:00,2022-06-24 19:00:00,cancelled,2022-06-30 20:55:00,weekday,morning,4,Yellow,9,112.0,False,False
@@ -37285,7 +37285,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-05-28 14:54:00,2023-05-27 19:59:00,cancelled,2023-05-28 12:54:00,weekend,midday,2,Red,18,106.0,False,False
 2022-10-26 14:00:00,2022-10-21 10:37:00,played,,weekday,midday,3,unknown,9,84.0,False,False
 2025-08-11 14:09:00,2025-08-09 14:22:00,played,,weekday,midday,2,Red,18,56.0,False,False
-2024-07-13 08:00:00,2024-07-13 00:19:00,cancelled,2024-07-13 12:45:19,weekend,morning,2,Black,18,170.0,False,False
+2024-07-13 08:00:00,2024-07-13 00:19:00,cancelled,2024-07-13 12:45:19,weekend,morning,2,Black,18,170.0,True,False
 2024-07-31 16:00:00,2024-07-24 19:00:00,cancelled,2024-07-30 18:15:38,weekday,evening,4,Black,18,196.0,False,False
 2022-04-21 08:18:00,2022-04-14 19:00:00,cancelled,2022-04-20 19:07:00,weekday,morning,4,Red,18,192.0,False,False
 2022-08-12 11:54:00,2022-08-11 22:32:00,played,,weekday,midday,2,Blue,18,86.0,False,False
@@ -37582,7 +37582,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-06-12 13:10:00,2022-06-12 10:09:00,cancelled,2022-06-12 10:16:00,weekend,midday,3,Black,18,255.0,False,False
 2024-08-24 16:30:00,2024-08-23 23:09:00,cancelled,2024-08-23 23:23:01,weekend,evening,1,Black,18,55.0,False,False
 2025-06-13 07:42:00,2025-06-12 21:16:00,played,,weekday,morning,4,Blue,18,,False,False
-2024-06-11 14:10:00,2024-06-10 22:15:00,cancelled,2024-06-11 14:28:15,weekday,midday,4,Black,18,300.0,False,False
+2024-06-11 14:10:00,2024-06-10 22:15:00,cancelled,2024-06-11 14:28:15,weekday,midday,4,Black,18,300.0,True,False
 2023-06-24 14:20:00,2023-06-23 23:45:00,played,,weekend,midday,1,Black,18,85.0,False,False
 2023-10-06 13:51:00,2023-10-06 10:26:00,cancelled,2023-10-06 10:47:00,weekday,midday,2,Blue,18,86.0,False,False
 2022-06-15 08:20:00,2022-06-08 19:00:00,cancelled,2022-06-10 18:12:00,weekday,morning,4,Black,18,300.0,False,False
@@ -37699,7 +37699,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-04-19 13:33:00,2024-04-18 09:53:00,cancelled,2024-04-18 10:44:00,weekday,midday,1,Blue,18,43.0,False,False
 2022-10-26 07:51:00,2022-10-25 17:47:00,played,,weekday,morning,3,Green,18,129.0,False,False
 2023-09-04 10:24:00,2023-08-28 19:00:00,played,,weekday,morning,4,Blue,18,192.0,False,False
-2024-08-07 12:12:00,2024-08-07 06:23:00,cancelled,2024-08-08 09:16:09,weekday,midday,1,Red,18,33.0,False,False
+2024-08-07 12:12:00,2024-08-07 06:23:00,cancelled,2024-08-08 09:16:09,weekday,midday,1,Red,18,33.0,True,False
 2023-08-30 16:40:00,2023-08-29 22:12:00,cancelled,2023-08-29 22:19:01,weekday,evening,1,Black,18,49.0,False,False
 2021-05-27 10:51:00,2021-05-25 14:22:00,played,,weekday,morning,1,Green,18,43.0,False,False
 2024-05-24 12:57:00,2024-05-23 18:03:00,played,,weekday,midday,2,Yellow,9,60.0,False,False
@@ -37837,7 +37837,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-04-04 11:36:00,2023-04-03 12:13:00,cancelled,2023-04-03 14:48:01,weekday,midday,2,Blue,18,86.0,False,False
 2023-06-24 08:09:00,2023-06-23 21:39:00,played,,weekend,morning,4,Blue,18,192.0,False,False
 2023-03-02 13:42:00,2023-02-23 19:16:00,cancelled,2023-02-28 20:07:01,weekday,midday,2,Yellow,9,86.0,False,False
-2024-08-07 14:54:00,2024-08-06 14:06:00,cancelled,2024-08-07 15:46:21,weekday,midday,4,Red,18,192.0,False,False
+2024-08-07 14:54:00,2024-08-06 14:06:00,cancelled,2024-08-07 15:46:21,weekday,midday,4,Red,18,192.0,True,False
 2022-10-15 10:51:00,2022-10-08 19:00:00,played,,weekend,morning,4,Green,18,192.0,False,False
 2022-07-08 13:50:00,2022-07-08 10:32:00,cancelled,2022-07-08 10:47:00,weekday,midday,1,Black,18,75.0,False,False
 2023-09-17 12:57:00,2023-09-10 19:00:00,played,,weekend,midday,4,Green,18,192.0,False,False
@@ -38491,7 +38491,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-08-10 07:06:00,2022-08-03 19:00:00,cancelled,2022-08-08 18:38:00,weekday,morning,2,Yellow,9,56.0,False,False
 2025-04-06 12:12:00,2025-03-30 19:00:00,cancelled,2025-04-02 13:12:01,weekend,midday,4,Red,18,212.0,False,False
 2024-06-28 14:09:00,2024-06-21 19:00:00,cancelled,2024-06-22 16:06:01,weekday,midday,4,Red,18,192.0,False,False
-2022-09-10 11:40:00,2022-09-09 11:26:00,cancelled,2022-09-10 11:42:07,weekend,midday,4,Black,18,340.0,False,False
+2022-09-10 11:40:00,2022-09-09 11:26:00,cancelled,2022-09-10 11:42:07,weekend,midday,4,Black,18,340.0,True,False
 2024-11-17 12:57:00,2024-11-10 19:11:00,cancelled,2024-11-10 19:27:00,weekend,midday,4,Red,18,212.0,False,False
 2022-11-20 11:27:00,2022-11-17 09:02:00,cancelled,2022-11-17 12:10:00,weekend,midday,4,Yellow,9,192.0,False,False
 2023-11-03 11:45:00,2023-10-27 19:54:00,cancelled,2023-11-01 09:13:00,weekday,midday,4,unknown,9,112.0,False,False
@@ -38745,7 +38745,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-11-18 12:48:00,2022-11-11 19:00:00,cancelled,2022-11-17 12:04:00,weekday,midday,4,Red,18,192.0,False,False
 2024-04-10 13:42:00,2024-04-08 21:53:00,cancelled,2024-04-09 15:21:16,weekday,midday,4,Green,18,172.0,False,False
 2021-05-01 08:45:00,2021-04-24 19:00:00,played,,weekend,morning,4,Yellow,9,192.0,False,False
-2021-10-27 09:50:00,2021-10-26 10:03:00,cancelled,2021-10-27 11:17:14,weekday,morning,3,Black,18,435.0,False,False
+2021-10-27 09:50:00,2021-10-26 10:03:00,cancelled,2021-10-27 11:17:14,weekday,morning,3,Black,18,435.0,True,False
 2022-09-16 07:33:00,2022-09-15 18:26:00,cancelled,2022-09-15 18:38:00,weekday,morning,1,Yellow,9,43.0,False,False
 2021-08-16 15:39:00,2021-08-11 12:11:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2023-09-17 12:48:00,2023-09-16 23:26:00,cancelled,2023-09-16 23:35:01,weekend,midday,1,Yellow,9,48.0,False,False
@@ -41620,7 +41620,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2021-06-17 15:21:00,2021-06-10 19:00:00,played,,weekday,midday,4,unknown,9,112.0,False,False
 2021-06-21 17:54:00,2021-06-21 11:02:00,played,,weekday,evening,3,Red,18,93.0,False,False
 2021-04-28 10:33:00,2021-04-26 15:28:00,played,,weekday,morning,1,unknown,9,28.0,False,False
-2023-05-22 06:39:00,2023-05-15 19:08:00,cancelled,2023-05-22 06:41:01,weekday,morning,1,Blue,9,28.0,False,False
+2023-05-22 06:39:00,2023-05-15 19:08:00,cancelled,2023-05-22 06:41:01,weekday,morning,1,Blue,9,28.0,True,False
 2024-09-05 10:24:00,2024-08-29 19:00:00,played,,weekday,morning,4,Green,18,172.0,False,False
 2024-09-14 14:45:00,2024-09-07 19:02:00,cancelled,2024-09-08 21:26:00,weekend,midday,4,Blue,18,192.0,False,False
 2025-04-13 13:06:00,2025-04-06 19:00:00,cancelled,2025-04-12 21:01:00,weekend,midday,4,Green,18,192.0,False,False
@@ -43025,7 +43025,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-08-09 13:06:00,2025-08-02 19:00:00,played,,weekend,midday,4,Blue,18,172.0,False,False
 2022-06-04 14:54:00,2022-06-03 11:38:00,cancelled,2022-06-03 19:47:00,weekend,midday,1,Red,18,53.0,False,False
 2022-08-21 09:57:00,2022-08-20 06:59:00,played,,weekend,morning,1,Green,18,48.0,False,False
-2025-06-14 14:45:00,2025-06-12 16:11:00,cancelled,2025-06-15 11:51:13,weekend,midday,2,Yellow,9,52.0,False,False
+2025-06-14 14:45:00,2025-06-12 16:11:00,cancelled,2025-06-15 11:51:13,weekend,midday,2,Yellow,9,52.0,True,False
 2024-07-11 15:12:00,2024-07-11 04:29:00,cancelled,2024-07-11 05:04:01,weekday,midday,4,Red,18,192.0,False,False
 2022-09-02 09:30:00,2022-08-30 18:53:00,cancelled,2022-08-30 19:00:00,weekday,morning,1,Black,18,75.0,False,False
 2023-07-19 16:42:00,2023-07-18 23:33:00,cancelled,2023-07-19 13:18:01,weekday,evening,2,Green,18,56.0,False,False
@@ -43182,7 +43182,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-04-01 13:06:00,2022-03-31 17:20:00,cancelled,2022-03-31 18:10:00,weekday,midday,2,Green,18,86.0,False,False
 2025-06-14 14:54:00,2025-06-07 19:00:00,cancelled,2025-06-09 09:09:01,weekend,midday,4,Blue,18,172.0,False,False
 2022-07-18 14:18:00,2022-07-11 20:38:00,cancelled,2022-07-13 20:28:00,weekday,midday,2,Red,18,96.0,False,False
-2024-08-07 07:06:00,2024-07-31 19:03:00,cancelled,2024-08-07 10:40:36,weekday,morning,4,Red,18,132.0,False,False
+2024-08-07 07:06:00,2024-07-31 19:03:00,cancelled,2024-08-07 10:40:36,weekday,morning,4,Red,18,132.0,True,False
 2024-04-28 07:15:00,2024-04-21 19:00:00,played,,weekend,morning,4,Blue,9,124.0,False,False
 2023-07-09 08:00:00,2023-07-08 18:13:00,played,,weekend,morning,4,Green,18,192.0,False,False
 2024-02-02 09:48:00,2024-01-31 19:12:00,cancelled,2024-02-02 05:34:01,weekday,morning,1,Blue,18,43.0,False,False
@@ -44070,7 +44070,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-08-01 09:30:00,2022-07-31 11:40:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
 2024-05-21 13:00:00,2024-05-14 19:08:00,cancelled,2024-05-15 19:38:01,weekday,midday,4,Black,18,300.0,False,False
 2024-02-26 12:57:00,2024-02-24 18:30:00,played,,weekday,midday,2,Yellow,9,56.0,False,False
-2022-06-11 11:10:00,2022-06-10 21:29:00,cancelled,2022-06-21 13:54:48,weekend,midday,1,Black,18,48.0,False,False
+2022-06-11 11:10:00,2022-06-10 21:29:00,cancelled,2022-06-21 13:54:48,weekend,midday,1,Black,18,48.0,True,False
 2023-08-31 13:06:00,2023-08-24 23:19:00,cancelled,2023-08-30 14:27:01,weekday,midday,1,unknown,9,28.0,False,False
 2023-07-16 17:00:00,2023-07-09 21:21:00,cancelled,2023-07-12 17:30:03,weekend,evening,1,Black,18,55.0,False,False
 2022-08-27 10:15:00,2022-08-24 10:05:00,cancelled,2022-08-24 10:11:00,weekend,morning,1,Yellow,9,,False,False
@@ -44214,7 +44214,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-31 07:33:00,2023-07-26 07:20:00,played,,weekday,morning,4,Green,18,172.0,False,False
 2023-07-29 07:06:00,2023-07-22 19:11:00,cancelled,2023-07-28 23:06:00,weekend,morning,4,Yellow,9,124.0,False,False
 2021-03-25 13:33:00,2021-03-18 19:00:00,played,,weekday,midday,4,Green,18,172.0,False,False
-2025-06-14 16:20:00,2025-06-14 06:14:00,cancelled,2025-06-15 11:13:11,weekend,evening,2,Black,18,200.0,False,False
+2025-06-14 16:20:00,2025-06-14 06:14:00,cancelled,2025-06-15 11:13:11,weekend,evening,2,Black,18,200.0,True,False
 2023-08-14 16:06:00,2023-08-07 19:00:00,cancelled,2023-08-13 12:35:01,weekday,evening,4,Red,18,124.0,False,False
 2022-07-28 12:40:00,2022-07-21 19:08:00,cancelled,2022-07-27 12:27:00,weekday,midday,1,Black,18,75.0,False,False
 2021-11-10 11:18:00,2021-11-10 10:03:00,played,,weekday,midday,1,unknown,9,28.0,False,False
@@ -44520,7 +44520,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-08-28 17:18:00,2024-08-28 10:23:00,played,,weekday,evening,3,Green,18,,False,False
 2023-08-15 16:33:00,2023-08-14 10:32:00,played,,weekday,evening,4,Yellow,9,112.0,False,False
 2023-04-10 12:39:00,2023-04-10 08:20:00,played,,weekday,midday,2,Blue,18,86.0,False,False
-2024-06-11 06:03:00,2024-06-10 21:22:00,cancelled,2024-06-11 08:15:10,weekday,morning,1,Yellow,9,,False,False
+2024-06-11 06:03:00,2024-06-10 21:22:00,cancelled,2024-06-11 08:15:10,weekday,morning,1,Yellow,9,,True,False
 2022-01-02 15:39:00,2021-12-28 20:49:00,cancelled,,weekend,midday,3,Blue,18,93.0,True,False
 2024-05-10 11:27:00,2024-05-09 20:02:00,unknown,,weekday,midday,4,Red,18,192.0,False,False
 2022-03-19 10:51:00,2022-03-17 08:51:00,cancelled,2022-03-18 09:27:00,weekend,morning,4,Blue,18,192.0,False,False
@@ -44663,7 +44663,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-03-16 14:36:00,2025-03-14 20:01:00,played,,weekend,midday,3,unknown,9,93.0,False,False
 2021-09-15 15:30:00,2021-09-08 19:02:00,played,,weekday,midday,3,Black,18,225.0,False,False
 2022-08-24 17:00:00,2022-08-22 09:37:00,cancelled,2022-08-22 09:43:01,weekday,evening,1,Red,18,31.0,False,False
-2024-10-12 08:00:00,2024-10-05 19:01:00,cancelled,2024-10-12 08:01:45,weekend,morning,1,Yellow,9,31.0,False,False
+2024-10-12 08:00:00,2024-10-05 19:01:00,cancelled,2024-10-12 08:01:45,weekend,morning,1,Yellow,9,31.0,True,False
 2023-07-06 11:09:00,2023-06-29 20:42:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2021-05-21 17:45:00,2021-05-21 13:15:00,played,,weekday,evening,1,Blue,18,28.0,False,False
 2023-10-10 09:03:00,2023-10-09 22:09:00,played,,weekday,morning,2,Yellow,9,86.0,False,False
@@ -44818,7 +44818,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-01-22 11:09:00,2023-01-21 06:13:00,played,,weekend,midday,1,Yellow,9,48.0,False,False
 2023-06-15 08:54:00,2023-06-14 10:16:00,cancelled,2023-06-14 10:41:01,weekday,morning,2,Red,18,96.0,False,False
 2022-11-12 14:10:00,2022-11-05 19:00:00,cancelled,2022-11-11 08:17:01,weekend,midday,4,Black,18,340.0,False,False
-2021-05-30 09:57:00,2021-05-28 08:35:00,cancelled,2021-05-30 11:56:21,weekend,morning,4,Red,18,212.0,False,False
+2021-05-30 09:57:00,2021-05-28 08:35:00,cancelled,2021-05-30 11:56:21,weekend,morning,4,Red,18,212.0,True,False
 2025-07-04 15:12:00,2025-06-27 19:10:00,played,,weekday,midday,2,Red,18,96.0,False,False
 2025-06-15 14:27:00,2025-06-09 09:47:00,played,,weekend,midday,2,Red,18,96.0,False,False
 2021-07-16 17:36:00,2021-07-12 09:01:00,played,,weekday,evening,2,Red,18,62.0,False,False
@@ -44964,7 +44964,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-07-17 06:03:00,2022-07-10 19:00:00,cancelled,2022-07-16 17:26:00,weekend,morning,4,Yellow,9,124.0,False,False
 2023-04-29 08:18:00,2023-04-22 19:00:00,cancelled,2023-04-24 10:34:01,weekend,morning,4,Blue,18,192.0,False,False
 2023-10-02 13:33:00,2023-09-30 21:41:00,played,,weekday,midday,2,unknown,9,56.0,False,False
-2024-07-12 16:00:00,2024-07-05 21:58:00,cancelled,2024-07-15 11:09:27,weekday,evening,2,Black,18,70.0,False,False
+2024-07-12 16:00:00,2024-07-05 21:58:00,cancelled,2024-07-15 11:09:27,weekday,evening,2,Black,18,70.0,True,False
 2023-12-22 11:09:00,2023-12-15 19:00:00,played,,weekday,midday,4,Blue,18,172.0,False,False
 2024-07-14 16:24:00,2024-07-07 20:42:00,cancelled,2024-07-08 23:30:01,weekend,evening,4,Blue,18,124.0,False,False
 2024-05-20 06:12:00,2024-05-19 19:05:00,cancelled,2024-05-19 19:37:01,weekday,morning,1,Red,18,48.0,False,False
@@ -45413,7 +45413,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-08-03 16:42:00,2022-07-27 19:06:00,cancelled,2022-07-30 07:42:38,weekday,evening,4,unknown,9,112.0,False,False
 2023-02-25 12:48:00,2023-02-22 08:50:00,cancelled,2023-02-23 08:37:01,weekend,midday,1,Blue,18,48.0,False,False
 2022-06-02 14:27:00,2022-05-26 19:00:00,cancelled,2022-06-01 21:49:00,weekday,midday,4,Red,18,192.0,False,False
-2023-08-30 08:54:00,2023-08-29 20:48:00,cancelled,2023-08-31 10:50:39,weekday,morning,2,Yellow,9,86.0,False,False
+2023-08-30 08:54:00,2023-08-29 20:48:00,cancelled,2023-08-31 10:50:39,weekday,morning,2,Yellow,9,86.0,True,False
 2024-07-24 14:36:00,2024-07-23 15:27:00,played,,weekday,midday,2,Green,18,86.0,False,False
 2023-10-27 14:09:00,2023-10-20 19:01:00,cancelled,2023-10-20 20:35:00,weekday,midday,4,Red,18,192.0,False,False
 2024-09-27 14:18:00,2024-09-26 15:53:00,played,,weekday,midday,2,Green,18,86.0,False,False
@@ -45549,7 +45549,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-07-17 15:57:00,2022-07-10 19:00:00,cancelled,2022-07-15 08:52:00,weekend,midday,4,Red,18,212.0,False,False
 2025-03-20 13:06:00,2025-03-18 11:02:00,played,,weekday,midday,1,Green,18,43.0,False,False
 2023-11-17 10:33:00,2023-11-10 22:49:00,cancelled,2023-11-16 17:10:00,weekday,morning,4,Red,18,192.0,False,False
-2024-08-24 17:00:00,2024-08-24 07:33:00,cancelled,2024-08-25 14:28:34,weekend,evening,2,Red,18,68.0,False,False
+2024-08-24 17:00:00,2024-08-24 07:33:00,cancelled,2024-08-25 14:28:34,weekend,evening,2,Red,18,68.0,True,False
 2022-09-24 10:20:00,2022-09-17 19:10:00,played,,weekend,morning,3,Black,18,255.0,False,False
 2022-06-16 15:48:00,2022-06-15 11:09:00,played,,weekday,midday,2,Blue,18,86.0,False,False
 2024-04-17 08:36:00,2024-04-15 06:26:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
@@ -45624,7 +45624,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-03-14 14:36:00,2024-03-07 19:09:00,played,,weekday,midday,3,Yellow,9,129.0,False,False
 2023-09-23 08:18:00,2023-09-22 11:44:00,cancelled,2023-09-22 17:47:00,weekend,morning,2,Blue,18,96.0,False,False
 2023-05-14 12:21:00,2023-05-07 19:00:00,played,,weekend,midday,4,Yellow,9,192.0,False,False
-2024-11-22 08:18:00,2024-11-21 19:12:00,cancelled,2024-11-22 08:45:42,weekday,morning,3,Yellow,9,,False,False
+2024-11-22 08:18:00,2024-11-21 19:12:00,cancelled,2024-11-22 08:45:42,weekday,morning,3,Yellow,9,,True,False
 2024-04-28 12:21:00,2024-04-21 19:00:00,played,,weekend,midday,4,Yellow,9,192.0,False,False
 2022-07-02 08:09:00,2022-06-29 14:34:00,cancelled,2022-07-01 12:46:01,weekend,morning,1,Yellow,9,48.0,False,False
 2024-09-09 11:09:00,2024-09-08 11:38:00,played,,weekday,midday,1,Yellow,9,43.0,False,False
@@ -45863,7 +45863,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-09-19 12:20:00,2022-09-12 22:10:00,cancelled,2022-09-15 06:53:00,weekday,midday,4,Black,18,300.0,False,False
 2021-09-25 13:24:00,2021-09-24 18:53:00,played,,weekend,midday,1,Red,18,53.0,False,False
 2022-06-16 06:21:00,2022-06-15 08:45:00,played,,weekday,morning,1,Red,18,48.0,False,False
-2024-07-12 16:20:00,2024-07-11 10:21:00,cancelled,2024-07-15 11:09:19,weekday,evening,1,Black,18,93.0,False,False
+2024-07-12 16:20:00,2024-07-11 10:21:00,cancelled,2024-07-15 11:09:19,weekday,evening,1,Black,18,93.0,True,False
 2023-09-01 13:30:00,2023-08-26 15:04:00,cancelled,2023-08-29 14:56:12,weekday,midday,2,Black,18,150.0,False,False
 2023-10-26 14:50:00,2023-10-25 11:37:00,cancelled,2023-10-25 11:41:00,weekday,midday,2,Black,18,290.0,False,False
 2023-10-04 14:45:00,2023-10-04 09:07:00,played,,weekday,midday,3,Red,18,144.0,False,False
@@ -46504,7 +46504,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-06-02 09:03:00,2023-05-26 19:00:00,cancelled,2023-05-31 14:17:01,weekday,morning,4,Yellow,9,172.0,False,False
 2023-07-29 14:54:00,2023-07-22 19:00:00,cancelled,2023-07-29 09:53:01,weekend,midday,4,Green,18,192.0,False,False
 2024-10-10 08:36:00,2024-10-09 22:48:00,played,,weekday,morning,1,Blue,18,43.0,False,False
-2025-06-14 09:21:00,2025-06-07 19:11:00,cancelled,2025-06-14 10:27:31,weekend,morning,4,Blue,18,172.0,False,False
+2025-06-14 09:21:00,2025-06-07 19:11:00,cancelled,2025-06-14 10:27:31,weekend,morning,4,Blue,18,172.0,True,False
 2023-02-10 12:21:00,2023-02-09 16:19:00,played,,weekday,midday,1,Yellow,9,43.0,False,False
 2023-04-23 12:57:00,2023-04-16 19:01:00,unknown,,weekend,midday,3,Green,18,144.0,False,False
 2023-03-31 13:33:00,2023-03-27 12:52:00,cancelled,2023-03-28 10:55:01,weekday,midday,2,unknown,9,56.0,False,False
@@ -46929,7 +46929,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2022-07-22 11:09:00,2022-07-21 12:57:00,played,,weekday,midday,4,Red,18,192.0,False,False
 2022-04-26 12:12:00,2022-04-25 10:44:00,cancelled,2022-04-25 10:53:00,weekday,midday,4,Blue,18,172.0,False,False
 2023-11-21 09:57:00,2023-11-14 19:00:00,cancelled,2023-11-18 20:16:00,weekday,morning,4,Yellow,9,172.0,False,False
-2023-04-29 11:00:00,2023-04-22 19:01:00,cancelled,2023-05-15 14:26:58,weekend,midday,4,Black,18,340.0,False,False
+2023-04-29 11:00:00,2023-04-22 19:01:00,cancelled,2023-05-15 14:26:58,weekend,midday,4,Black,18,340.0,True,False
 2023-06-18 10:40:00,2023-06-16 18:17:00,played,,weekend,morning,1,Black,18,85.0,False,False
 2022-04-20 10:15:00,2022-04-17 19:29:00,cancelled,2022-04-17 19:30:35,weekday,morning,4,Green,18,172.0,False,False
 2022-08-17 07:51:00,2022-08-10 19:00:00,played,,weekday,morning,4,Green,18,172.0,False,False
@@ -47427,7 +47427,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-06-14 15:30:00,2024-06-13 16:11:00,cancelled,2024-06-13 21:40:01,weekday,midday,1,Green,18,43.0,False,False
 2022-07-28 10:51:00,2022-07-27 12:16:00,cancelled,2022-07-27 14:56:01,weekday,morning,1,Red,18,48.0,False,False
 2022-05-19 07:33:00,2022-05-17 22:17:00,cancelled,2022-05-18 17:12:00,weekday,morning,4,Red,18,192.0,False,False
-2024-07-12 14:50:00,2024-07-12 08:05:00,cancelled,2024-07-12 16:36:58,weekday,midday,1,Black,18,145.0,False,False
+2024-07-12 14:50:00,2024-07-12 08:05:00,cancelled,2024-07-12 16:36:58,weekday,midday,1,Black,18,145.0,True,False
 2021-08-11 15:21:00,2021-08-08 07:02:00,played,,weekday,midday,2,unknown,9,56.0,False,False
 2024-07-11 17:54:00,2024-07-11 11:06:00,played,,weekday,evening,1,Red,18,31.0,False,False
 2025-06-28 08:54:00,2025-06-21 19:01:00,played,,weekend,morning,4,Red,18,192.0,False,False
@@ -47724,7 +47724,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-07-18 07:24:00,2023-07-12 13:49:00,cancelled,2023-07-12 13:55:01,weekday,morning,4,Blue,9,112.0,False,False
 2025-05-09 14:18:00,2025-05-02 19:11:00,cancelled,2025-05-06 19:17:00,weekday,midday,2,Red,18,86.0,False,False
 2023-06-21 16:51:00,2023-06-17 18:59:00,cancelled,2023-06-17 19:03:01,weekday,evening,2,Blue,18,56.0,False,False
-2025-02-23 13:33:00,2025-02-17 06:29:00,cancelled,2025-02-25 08:38:19,weekend,midday,4,Blue,18,124.0,False,False
+2025-02-23 13:33:00,2025-02-17 06:29:00,cancelled,2025-02-25 08:38:19,weekend,midday,4,Blue,18,124.0,True,False
 2022-03-26 07:51:00,2022-03-25 19:57:00,played,,weekend,morning,1,Yellow,9,31.0,False,False
 2023-10-20 10:24:00,2023-10-19 06:03:00,cancelled,2023-10-20 09:00:00,weekday,morning,3,Green,18,129.0,False,False
 2022-08-06 09:21:00,2022-07-30 19:00:00,cancelled,2022-08-05 16:42:00,weekend,morning,4,Green,18,192.0,False,False
@@ -48144,7 +48144,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-11-02 11:54:00,2024-11-01 20:58:00,played,,weekend,midday,4,Blue,18,192.0,False,False
 2024-10-04 15:21:00,2024-09-28 19:15:00,played,,weekday,midday,2,Red,18,96.0,False,False
 2024-10-01 11:36:00,2024-09-26 07:52:00,played,,weekday,midday,1,unknown,9,28.0,False,False
-2022-05-29 10:20:00,2022-05-22 19:00:00,cancelled,2022-05-29 10:24:51,weekend,morning,4,Black,18,340.0,False,False
+2022-05-29 10:20:00,2022-05-22 19:00:00,cancelled,2022-05-29 10:24:51,weekend,morning,4,Black,18,340.0,True,False
 2024-09-21 11:54:00,2024-09-14 19:00:00,cancelled,2024-09-16 16:05:01,weekend,midday,4,Blue,18,192.0,False,False
 2023-06-23 13:51:00,2023-06-23 00:57:00,cancelled,2023-06-23 12:07:01,weekday,midday,1,Red,18,48.0,False,False
 2024-10-19 13:33:00,2024-10-13 13:17:00,cancelled,2024-10-19 11:28:50,weekend,midday,2,unknown,9,62.0,False,False
@@ -49205,7 +49205,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2024-06-05 08:30:00,2024-06-04 23:52:00,played,,weekday,morning,1,Black,18,75.0,False,False
 2024-05-16 12:12:00,2024-05-15 10:08:00,cancelled,2024-05-15 13:18:01,weekday,midday,2,Red,18,96.0,False,False
 2022-05-27 08:50:00,2022-05-20 19:01:00,played,,weekday,morning,1,Black,18,75.0,False,False
-2022-03-21 11:54:00,2022-03-14 19:00:00,cancelled,2022-03-22 07:15:51,weekday,midday,4,Blue,18,172.0,False,False
+2022-03-21 11:54:00,2022-03-14 19:00:00,cancelled,2022-03-22 07:15:51,weekday,midday,4,Blue,18,172.0,True,False
 2021-07-17 09:03:00,2021-07-10 19:00:00,played,,weekend,morning,4,Blue,18,192.0,False,False
 2025-08-24 11:54:00,2025-08-23 14:59:00,played,,weekend,midday,4,Red,18,192.0,False,False
 2024-08-04 17:18:00,2024-08-04 09:24:00,cancelled,2024-08-04 09:41:01,weekend,evening,1,Red,18,34.0,False,False
@@ -49400,7 +49400,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-11-04 11:27:00,2023-11-03 23:50:00,played,,weekend,midday,1,Red,18,53.0,False,False
 2024-07-02 07:15:00,2024-06-30 09:12:00,played,,weekday,morning,1,Blue,9,28.0,False,False
 2021-07-24 06:57:00,2021-07-23 23:18:00,played,,weekend,morning,1,Green,18,48.0,False,False
-2022-03-26 12:21:00,2022-03-26 08:59:00,cancelled,2022-03-28 18:42:36,weekend,midday,2,Yellow,9,96.0,False,False
+2022-03-26 12:21:00,2022-03-26 08:59:00,cancelled,2022-03-28 18:42:36,weekend,midday,2,Yellow,9,96.0,True,False
 2023-02-18 11:27:00,2023-02-11 19:00:00,cancelled,2023-02-17 07:14:00,weekend,midday,4,Blue,18,192.0,False,False
 2022-10-14 07:51:00,2022-10-13 17:21:00,unknown,,weekday,morning,1,Yellow,9,43.0,False,False
 2024-03-14 15:39:00,2024-03-07 19:00:00,cancelled,2024-03-07 19:21:01,weekday,midday,4,Yellow,9,112.0,False,False
@@ -49409,7 +49409,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-08-02 16:15:00,2023-08-01 11:03:00,played,,weekday,evening,2,unknown,9,56.0,False,False
 2023-09-24 10:24:00,2023-09-23 13:12:00,cancelled,2023-09-23 13:17:01,weekend,morning,4,Red,18,212.0,False,False
 2023-10-08 16:06:00,2023-10-05 19:29:00,cancelled,2023-10-08 12:32:00,weekend,evening,2,Blue,18,62.0,False,False
-2024-06-11 06:03:00,2024-06-10 16:06:00,cancelled,2024-06-11 06:04:44,weekday,morning,1,Yellow,9,20.0,False,False
+2024-06-11 06:03:00,2024-06-10 16:06:00,cancelled,2024-06-11 06:04:44,weekday,morning,1,Yellow,9,20.0,True,False
 2023-11-03 13:51:00,2023-11-02 13:30:00,cancelled,2023-11-02 18:06:00,weekday,midday,1,Yellow,9,43.0,False,False
 2022-06-04 15:40:00,2022-06-04 09:01:00,played,,weekend,midday,1,Black,18,165.0,False,False
 2021-10-04 08:18:00,2021-09-27 19:00:00,played,,weekday,morning,4,Green,18,172.0,False,False
@@ -49544,7 +49544,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2025-06-29 10:50:00,2025-06-22 19:32:00,played,,weekend,morning,4,Black,18,320.0,False,False
 2022-07-29 11:18:00,2022-07-28 07:35:00,cancelled,2022-07-28 08:09:00,weekday,midday,4,Yellow,9,172.0,False,False
 2024-06-24 16:33:00,2024-06-19 17:31:00,cancelled,2024-06-23 12:13:01,weekday,evening,2,unknown,9,56.0,False,False
-2024-07-12 16:30:00,2024-07-11 23:34:00,cancelled,2024-07-15 11:09:13,weekday,evening,2,Black,18,98.0,False,False
+2024-07-12 16:30:00,2024-07-11 23:34:00,cancelled,2024-07-15 11:09:13,weekday,evening,2,Black,18,98.0,True,False
 2021-11-09 10:33:00,2021-11-08 17:12:00,played,,weekday,morning,1,Blue,18,43.0,False,False
 2021-09-29 13:24:00,2021-09-28 22:26:00,played,,weekday,midday,1,unknown,9,28.0,False,False
 2023-04-20 12:57:00,2023-04-13 19:00:00,cancelled,2023-04-16 15:21:00,weekday,midday,4,Blue,18,172.0,False,False
@@ -49707,7 +49707,7 @@ tee_time,booking_time,status_text,date_cancelled,time_of_week,time_of_day,player
 2023-10-21 08:45:00,2023-10-20 19:44:00,cancelled,2023-10-20 19:53:00,weekend,morning,1,Yellow,9,48.0,False,False
 2023-11-15 08:18:00,2023-11-14 15:53:00,unknown,,weekday,morning,1,Yellow,9,28.0,False,False
 2023-08-08 13:33:00,2023-08-02 19:01:00,cancelled,2023-08-02 19:06:00,weekday,midday,3,unknown,9,84.0,False,False
-2023-08-26 09:40:00,2023-08-19 19:20:00,cancelled,2023-08-27 12:12:09,weekend,morning,4,Black,18,340.0,False,False
+2023-08-26 09:40:00,2023-08-19 19:20:00,cancelled,2023-08-27 12:12:09,weekend,morning,4,Black,18,340.0,True,False
 2021-08-10 10:33:00,2021-08-09 18:33:00,played,,weekday,morning,1,Red,18,48.0,False,False
 2022-07-29 07:42:00,2022-07-22 19:00:00,played,,weekday,morning,4,Yellow,9,172.0,False,False
 2025-07-26 06:21:00,2025-07-24 21:06:00,played,,weekend,morning,1,Yellow,9,26.0,False,False

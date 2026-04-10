@@ -100,4 +100,7 @@
 ## Day 20
 - continued developing cancellation lead time metric and investigating abnormally large/small values
 
+## Day 21
+- Added check for cancellation time after tee time in invalid_cancellation column to call out negative cancellation lead time
+- continued investigating patterns and distribution in cancellation lead time
   
