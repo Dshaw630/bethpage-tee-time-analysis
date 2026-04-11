@@ -32,3 +32,8 @@ data/intermediate/
 # Large / derived files (optional)
 # -----------------------
 *.parquet
+
+# -----------------------
+# Scratch notes and planning docs
+# -----------------------
+project_guide.md
