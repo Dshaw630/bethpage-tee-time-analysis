@@ -30,18 +30,51 @@ booking behavior across all three policy eras.
 - Evaluate the impact of these rule changes on user behavior
 - Establish a repeatable analysis framework to enable future analysis of the October 2025 rule change
 
-## Current Status
-- Data ingestion and normalization complete (2021–2025)
-- Data cleaning and validation complete
-- Cleaning decisions and column definitions documented
-- Detailed exploratory analysis and modeling planned, initial analysis shows a high proportion of cancellations relative to
-  played rounds for most years with a decrease in 2025. 
-  - Planned analysis:
-    - identify abnormal booking patterns shortly after release time
-    - identify abnormal cancellation patterns shortly before tee times
-    - seek to cluster booking records into behavioral groups to look for more patterns that occur with abnormal booking behavior
+## Exploratory Data Analysis
 
-  <img alt="status text distribution" height="356" src="\figures\status_text_dist.png" width="448"/>
+Initial exploratory analysis focused on establishing baseline demand patterns and identifying behavioral signals potentially
+consistent with speculative or automated booking activity.
+
+### System Baseline Findings
+<img src="figures/demand_heatmap.png" width="800">
+
+- Tee time demand is heavily concentrated between approximately 11:00 AM and 3:00 PM, with peak demand centered around noon on weekdays and slightly later on weekends
+- Weekend demand is substantially higher than weekday demand, particularly during the identified high-demand booking window
+- Approximately 49.7% of all bookings in the dataset ultimately resulted in cancellation
+
+These analyses establish the primary "high-value inventory" window used throughout the remainder of the project.
+
+### Cancellation Behavior Findings
+Analysis of cancellation behavior identified several patterns inconsistent with simple single-intent booking behavior:
+
+<img src="figures/cancel_rate_hour.png" width="800">
+<br>
+<br>
+<img src="figures/clt_dist.png" width="800">
+
+- Cancellation rates increase during high-demand tee time windows, exceeding 50% during many afternoon hours
+- Nearly half of all cancellations occur within 24 hours of the scheduled tee time
+- The distribution of cancellation lead time is heavily skewed toward short-notice cancellations
+- High-demand tee times (11:00 AM–3:00 PM) exhibit an even stronger concentration of short lead-time cancellations relative to the overall population
+
+While these findings alone do not prove the presence of automated booking systems, they are consistent with speculative inventory holding behavior and establish a foundation for deeper timing-based analysis.
+
+### Notes on Year-over-Year Comparisons
+Year-over-year comparisons were considered but are not currently a primary focus of the analysis due to major external supply-side distortions within the dataset:
+
+<img src="figures/status_text_dist.png" width="800">
+
+- 2021 demand patterns were likely affected by COVID-era restrictions
+- 2025 data represents a partial year and includes substantial course availability reductions related to Ryder Cup preparation
+
+Because these conditions materially affect tee time supply, year-over-year totals alone are not considered reliable indicators of booking behavior changes.
+
+## Planned Work
+- Analyze booking timestamps relative to official tee time release windows to identify abnormal booking concentration immediately after release
+- Compare booking and cancellation behavior before and after the April 2025 policy changes
+- Quantify instability within high-demand inventory windows
+- Seek to cluster booking records into behavioral groups to identify repeatable abnormal usage patterns
+- Develop a repeatable analytical framework for future comparison against the October 2025 two-factor authentication rule changes
 
 ## Repository Structure
 - System and infrastructure files will be omitted here for clarity
