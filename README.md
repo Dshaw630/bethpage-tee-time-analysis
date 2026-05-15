@@ -36,7 +36,7 @@ Initial exploratory analysis focused on establishing baseline demand patterns an
 consistent with speculative or automated booking activity.
 
 ### System Baseline Findings
-<img src="figures/demand_heatmap.png" width="800">
+<img src="figures/demand_heatmap.png" width="600">
 
 - Tee time demand is heavily concentrated between approximately 11:00 AM and 3:00 PM, with peak demand centered around noon on weekdays and slightly later on weekends
 - Weekend demand is substantially higher than weekday demand, particularly during the identified high-demand booking window
@@ -47,10 +47,9 @@ These analyses establish the primary "high-value inventory" window used througho
 ### Cancellation Behavior Findings
 Analysis of cancellation behavior identified several patterns inconsistent with simple single-intent booking behavior:
 
-<img src="figures/cancel_rate_hour.png" width="800">
+<img src="figures/cancel_rate_hour.png" width="600">
 <br>
-<br>
-<img src="figures/clt_dist.png" width="800">
+<img src="figures/clt_dist.png" width="600">
 
 - Cancellation rates increase during high-demand tee time windows, exceeding 50% during many afternoon hours
 - Nearly half of all cancellations occur within 24 hours of the scheduled tee time
@@ -62,7 +61,7 @@ While these findings alone do not prove the presence of automated booking system
 ### Notes on Year-over-Year Comparisons
 Year-over-year comparisons were considered but are not currently a primary focus of the analysis due to major external supply-side distortions within the dataset:
 
-<img src="figures/status_text_dist.png" width="800">
+<img src="figures/status_text_dist.png" width="600">
 
 - 2021 demand patterns were likely affected by COVID-era restrictions
 - 2025 data represents a partial year and includes substantial course availability reductions related to Ryder Cup preparation
